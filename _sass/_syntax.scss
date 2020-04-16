@@ -66,12 +66,12 @@ $code-fg:             #bdbdb3;
 .highlight .s { color: $code-green } /* Literal.String */
 .highlight .na { color: $code-yellow } /* Name.Attribute */
 .highlight .nb { color: $code-purple } /* Name.Builtin */
-.highlight .nc { color: $code-dark-green } /* Name.Class */
+.highlight .nc { color: $code-light-green } /* Name.Class */
 .highlight .no { color: $code-purple } /* Name.Constant */
 .highlight .nd { color: $code-blue } /* Name.Decorator */
 .highlight .ni { color: $code-orange } /* Name.Entity */
 .highlight .ne { color: $code-purple } /* Name.Exception */
-.highlight .nf { color: $code-dark-green } /* Name.Function */
+.highlight .nf { color: $code-light-green } /* Name.Function */
 .highlight .nl { color: $code-yellow } /* Name.Label */
 .highlight .nn { color: $code-fg } /* Name.Namespace */
 .highlight .nx { color: $code-fg } /* Name.Other */
