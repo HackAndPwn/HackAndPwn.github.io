@@ -4,7 +4,7 @@ layout: null
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for post in site.posts %}
-    {% unless post.published == false %}    
+    {% unless post.tags contains 'draft' %}   
     <url>
       <loc>{{ site.url }}{{ post.url }}</loc>
       <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
@@ -14,16 +14,16 @@ layout: null
     {% endunless %}
   {% endfor %}
   
-    {% for page in site.pages %}
-  <url>
-    <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
-    {% if page.date %}
-      <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
-    {% else %}
-      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-    {% endif %}
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
+  {% for page in site.pages %}
+	<url>
+	  <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
+	  {% if page.date %}
+	    <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+	  {% else %}
+	    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+	  {% endif %}
+	  <changefreq>weekly</changefreq>
+	  <priority>0.3</priority>
+	</url>
   {% endfor %}
 </urlset>
