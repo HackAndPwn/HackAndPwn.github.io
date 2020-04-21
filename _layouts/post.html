@@ -45,12 +45,12 @@ layout: default
 
 <div class="PageNavigation">
   {% if page.previous.url %}
-    {% unless post.tags contains 'draft' %}
+    {% unless page.tags contains 'draft' %}
       <a class="prev" href="{{page.previous.url}}">← Previous</a>
 	{% endunless %}
   {% endif %}
   {% if page.next.url %}
-    {% unless post.tags contains 'draft' %}
+    {% unless page.tags contains 'draft' %}
       <a class="next" href="{{page.next.url}}">Next →</a>
 	{% endunless %}
   {% endif %}
