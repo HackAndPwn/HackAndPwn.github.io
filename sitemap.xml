@@ -16,7 +16,7 @@ layout: null
   
   {% for page in site.pages %}
 	<url>
-	  <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
+	  <loc>{{ site.url }}{{ page.url | remove: "index.html" | remove: "style.css" | remove: "assets/css/style.css" | remove: "page2" | remove: "page3" | remove: "page4" }}</loc>
 	  {% if page.date %}
 	    <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
 	  {% else %}
