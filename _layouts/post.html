@@ -45,10 +45,14 @@ layout: default
 
 <div class="PageNavigation">
   {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}">← Previous</a>
+    {% unless post.tags contains 'draft' %}
+      <a class="prev" href="{{page.previous.url}}">← Previous</a>
+	{% endunless %}
   {% endif %}
   {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">Next →</a>
+    {% unless post.tags contains 'draft' %}
+      <a class="next" href="{{page.next.url}}">Next →</a>
+	{% endunless %}
   {% endif %}
 </div>
 
@@ -57,12 +61,14 @@ layout: default
   <h3>Related Posts</h3>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
-      <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title | smartify }}
-          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string: "ordinal", "US" }}</time></small>
-        </a>
-      </li>
+	  {% unless post.tags contains 'draft' %}
+        <li>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title | smartify }}
+            <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string: "ordinal", "US" }}</time></small>
+          </a>
+        </li>
+      {% endunless %}
     {% endfor %}
   </ul>
 </aside>
