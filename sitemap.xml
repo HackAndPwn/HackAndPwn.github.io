@@ -19,16 +19,20 @@ layout: null
       {% unless page.url == "/page2/" %}
 	    {% unless page.url == "/page3/" %}
 	      {% unless page.url == "/page4/" %}
-			<url>
-			  <loc>{{ site.url }}{{ page.url | remove: "/index.html" }}</loc>
-			  {% if page.date %}
-				<lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
-			  {% else %}
-				<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-			  {% endif %}
-			  <changefreq>weekly</changefreq>
-			  <priority>0.3</priority>
-			</url>
+		    {% unless page.url == "/styles.css" %}
+		      {% unless page.url == "/404.html" %}
+		 	    <url>
+			      <loc>{{ site.url }}{{ page.url | remove: "//index.html" }}</loc>
+			      {% if page.date %}
+				    <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+			      {% else %}
+				    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+			      {% endif %}
+			      <changefreq>weekly</changefreq>
+			      <priority>0.3</priority>
+			    </url>
+			  {% endunless %}
+			{% endunless %}
 		  {% endunless %}
 		{% endunless %}
 	  {% endunless %}
