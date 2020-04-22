@@ -5,3 +5,6 @@ url: https://hackandpwn.com
 paginate: 1
 baseurl: ""
 permalink: :title/
+
+# Google services
+google_analytics: UA—164255062-1
