@@ -15,12 +15,12 @@ layout: null
   {% endfor %}
   
   {% for page in site.pages %}
-    {% unless page.url == "assets/css/style.css" %}
-      {% unless page.url == "page2/" %}
-	    {% unless page.url == "page3/" %}
-	      {% unless page.url == "page4/" %}
+    {% unless page.url == "/assets/css/style.css" %}
+      {% unless page.url == "/page2/" %}
+	    {% unless page.url == "/page3/" %}
+	      {% unless page.url == "/page4/" %}
 			<url>
-			  <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
+			  <loc>{{ site.url }}{{ page.url | remove: "/index.html" }}</loc>
 			  {% if page.date %}
 				<lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
 			  {% else %}
