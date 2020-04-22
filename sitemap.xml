@@ -22,7 +22,7 @@ layout: null
 		    {% unless page.url == "/styles.css" %}
 		      {% unless page.url == "/404.html" %}
 		 	    <url>
-			      <loc>{{ site.url }}{{ page.url | remove: "//index.html" }}</loc>
+			      <loc>{{ site.url }}{{ page.url | remove: "/index.html" }}</loc>
 			      {% if page.date %}
 				    <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
 			      {% else %}
