@@ -17,11 +17,11 @@ The Windows 7 free security update window closed to consumers in January of 2020
 
 To start, I deployed a brand new VM of 64-Bit Windows 7 SP1, resulting in a build from November 19th, 2010 (101119).
 
-<img src="/assets/2020-04-28-windows-7-esu-analysis/01.jpg">
+<img align="middle" src="/assets/2020-04-28-windows-7-esu-analysis/01.jpg">
 
 Next, I started checking for updates.  This resulted in 181 updates on the first scan.
 
-<img src="/assets/2020-04-28-windows-7-esu-analysis/02.jpg">
+<img align="middle" src="/assets/2020-04-28-windows-7-esu-analysis/02.jpg">
 
 Some of the updates would not install without manually installing KB4474419 first (the SHA2 update).
 
@@ -29,11 +29,11 @@ After many update cycles and reboots, 10 years of updates have been applied.
 
 Finally, no more updates are available, bringing the build to January 2nd, 2020 (200102).
 
-<img src="/assets/2020-04-28-windows-7-esu-analysis/03.jpg">
+<img align="middle" src="/assets/2020-04-28-windows-7-esu-analysis/03.jpg">
 
 For good measure I also ran disk cleanup to remove 8 GB of excess files.
 
-<img src="/assets/2020-04-28-windows-7-esu-analysis/04.jpg">
+<img align="middle" src="/assets/2020-04-28-windows-7-esu-analysis/04.jpg">
 
 <br>
 
@@ -41,7 +41,7 @@ For good measure I also ran disk cleanup to remove 8 GB of excess files.
 
 Next, I downloaded and tried to install KB4528069 (Verify Computer Is Ready To Receive Extended Updates).  But this fails.
 
-<img src="/assets/2020-04-28-windows-7-esu-analysis/05.jpg">
+<img align="middle" src="/assets/2020-04-28-windows-7-esu-analysis/05.jpg">
 
 So, I reverted the VM, started up ProcMon, and traced the installation of this update.
 
@@ -53,11 +53,11 @@ The first thing that I discovered within the trace was a manifest file that was 
 
 > C:\Windows\WinSXS\Manifests\amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.20587_none_c8993b883659a816.manifest
 
-<img src="/assets/2020-04-28-windows-7-esu-analysis/06.jpg">
+<img align="middle" src="/assets/2020-04-28-windows-7-esu-analysis/06.jpg">
 
 The content of this file shows that it is an important file to keep on the system.
 
-<img src="/assets/2020-04-28-windows-7-esu-analysis/07.jpg">
+<img align="middle" src="/assets/2020-04-28-windows-7-esu-analysis/07.jpg">
 
 A final note on this file.  If you re-examine the ProcMon capture, this file is added but NOT DELETED when the update failed.  This will be important later.
 
@@ -72,15 +72,15 @@ The next thing that I noticed was a couple of registry keys being created, speci
 > "S256H"=hex:e8,4b,2d,35,da,c9,da,c4,7c,70,94,05,e4,e6,4b,00,7d,3e,9d,93,f6,b9,c4,e2,ee,79,bf,b4,cd,c0,7f,f8
 > "c!1208dabb65a..2207abac32f_31bf3856ad364e35_6.1.7602.20587_85098b546dfae448"=hex:
 
-<img src="/assets/2020-04-28-windows-7-esu-analysis/08.jpg">
+<img align="middle" src="/assets/2020-04-28-windows-7-esu-analysis/08.jpg">
 
 The COMPONENTS registry hive is hidden by default, so I manually mounted it to view the referenced registry key.
 
-<img src="/assets/2020-04-28-windows-7-esu-analysis/09.jpg">
+<img align="middle" src="/assets/2020-04-28-windows-7-esu-analysis/09.jpg">
 
 Navigating to the registry key shows that again, the installation step is not reverted, and the registry keys persist.  Checking the ProcMon trace again reconfirms this discovery that the registry key is created, but not removed when the update fails.
 
-<img src="/assets/2020-04-28-windows-7-esu-analysis/10.jpg">
+<img align="middle" src="/assets/2020-04-28-windows-7-esu-analysis/10.jpg">
 
 This will also be important later.
 
@@ -92,22 +92,22 @@ Finally, the last important activity I noticed was the modification of registry 
 
 > [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\SideBySide\Winners\amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_none_0e8b36cfce2fb332\6.1]
 
-<img src="/assets/2020-04-28-windows-7-esu-analysis/11.jpg">
+<img align="middle" src="/assets/2020-04-28-windows-7-esu-analysis/11.jpg">
 
 Checking the registry again after the failed update, there is something different about this registry entry.  It is missing.
 
-<img src="/assets/2020-04-28-windows-7-esu-analysis/12.jpg">
+<img align="middle" src="/assets/2020-04-28-windows-7-esu-analysis/12.jpg">
 
 Re-examining the ProcMon trace, we see that this key is created, and then deleted as part of the failed update.
 
 > [ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\SideBySide\Winners\amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_none_0e8b36cfce2fb332\6.1]
 > "6.1.7602.20587"=hex:01
 
-<img src="/assets/2020-04-28-windows-7-esu-analysis/13.jpg">
+<img align="middle" src="/assets/2020-04-28-windows-7-esu-analysis/13.jpg">
 
 The other key that is being set during the patch installation is the Default @ value, which temporarily switches to the new build number and then reverts to the old value.
 
-<img src="/assets/2020-04-28-windows-7-esu-analysis/14.jpg">
+<img align="middle" src="/assets/2020-04-28-windows-7-esu-analysis/14.jpg">
 
 <br>
 
@@ -119,11 +119,11 @@ So now that we know the SideBySide registry key switch gets reverted, I manually
 > @="6.1.7602.20587"
 > "6.1.7602.20587"=hex:01
 
-<img src="/assets/2020-04-28-windows-7-esu-analysis/15.jpg">
+<img align="middle" src="/assets/2020-04-28-windows-7-esu-analysis/15.jpg">
 
 And now if I try to install KB4528069 again...
 
-<img src="/assets/2020-04-28-windows-7-esu-analysis/16.jpg">
+<img align="middle" src="/assets/2020-04-28-windows-7-esu-analysis/16.jpg">
 
 The update completes successfully!
 
@@ -133,11 +133,11 @@ The update completes successfully!
 
 It is one thing to install a silly update that verifies eligibility.  It is another to get additional updates to install.  First, I grab the latest SSU from April and try to install it.
 
-<img src="/assets/2020-04-28-windows-7-esu-analysis/17.jpg">
+<img align="middle" src="/assets/2020-04-28-windows-7-esu-analysis/17.jpg">
 
 This installs successfully.   Next, I to install the latest cumulative update from April.  
 
-<img src="/assets/2020-04-28-windows-7-esu-analysis/18.jpg">
+<img align="middle" src="/assets/2020-04-28-windows-7-esu-analysis/18.jpg">
 
 This appears to install successfully.  However, we will not know if it works until after the reboot.  From Microsoft's Known Issues section in the [February Cumulative Update](https://support.microsoft.com/en-us/help/4537820/windows-7-update-kb4537820):
 
@@ -145,7 +145,7 @@ This appears to install successfully.  However, we will not know if it works unt
 
 This is a sign that there are issues with the current ESU configuration.  However, when we reboot, there are no errors, and the OS build date has successfully increased to March 30th, 2020
 
-<img src="/assets/2020-04-28-windows-7-esu-analysis/19.jpg">
+<img align="middle" src="/assets/2020-04-28-windows-7-esu-analysis/19.jpg">
 
 <br>
 
