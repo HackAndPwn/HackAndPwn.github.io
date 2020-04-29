@@ -165,7 +165,7 @@ What I learned from dissecting this update was that there are 3 important parts 
 
 After this, the latest servicing stack update and the latest cumulative update can be installed without issue.
 
-Windows Update will still not detect updates though, as the machine has not been properly licensed.  But once a valid key has been activated, the Windows Update client will begin detecting updates again.
+Note: Windows Update will not detect available updates unless a valid key has been activated, regardless if the latest servicing stack and cumulative updates have been installed.
 
 <br>
 
