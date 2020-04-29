@@ -19,7 +19,7 @@ To start, I deployed a brand new VM of 64-Bit Windows 7 SP1, resulting in a buil
 
 <center><img src="/assets/2020-04-28-windows-7-esu-analysis/01.jpg"></center>
 
-Next, I started checking for updates.  This resulted in 181 updates on the first scan.
+Next, I started checking for updates.  This resulted in 182 updates on the first scan.
 
 <center><img src="/assets/2020-04-28-windows-7-esu-analysis/02.jpg"></center>
 
