@@ -169,7 +169,7 @@ The various files and registry keys used as part of this analysis have been uplo
 
 > [KB4528069 X64](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/windows6.1-kb4528069-x64_b00bef3c3a13b8bc65bfaea63426386dbb54c336.msu)
 >
-> [Manifest File X64] (https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.20587_none_c8993b883659a816.manifest)
+> [Manifest File X64](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.20587_none_c8993b883659a816.manifest)
 >
 > [Components Registry Key](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/ComponentsRegistryKey.reg)
 >
