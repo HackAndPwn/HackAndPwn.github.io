@@ -167,6 +167,10 @@ Windows Update will still not detect updates though, as the machine has not been
 
 The various files and registry keys used as part of this analysis have been uploaded to GitHub [here](https://github.com/HackAndPwn/Windows-7-ESU-Analysis).  See below for specific files and links referenced.
 
-> FILES
+> [KB4528069 X64](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/windows6.1-kb4528069-x64_b00bef3c3a13b8bc65bfaea63426386dbb54c336.msu)
 >
-> FILES
+> [Manifest File X64] (https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.20587_none_c8993b883659a816.manifest)
+>
+> [Components Registry Key](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/ComponentsRegistryKey.reg)
+>
+> [SideBySide Registry Key](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/SideBySideRegistryKey.reg)
