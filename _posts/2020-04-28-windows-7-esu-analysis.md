@@ -2,7 +2,6 @@
 layout: post
 title: Windows 7 ESU Analysis
 date: 2020-04-28 00:00:00
-tags: draft
 ---
 
 The Windows 7 free security update window closed to consumers in January of 2020.  However, due to the overwhelming popularity of the OS, Microsoft began offering Extended Security Updates (ESU) for the Operating System.  The first update preparing a Windows 7 system for this next phase of patches is [KB4528069](https://support.microsoft.com/en-us/help/4528069).  This post dissects the KB4528069 update to understand how ESUs differ from standard Windows 7 updates.
