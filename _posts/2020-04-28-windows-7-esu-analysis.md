@@ -141,7 +141,7 @@ It is one thing to install a silly update that verifies eligibility.  It is anot
 
 <center><img src="/assets/2020-04-28-windows-7-esu-analysis/17.jpg"></center>
 
-This installs successfully.   Next, I to install the latest cumulative update from April.  
+This installs successfully.   Next, I try to install the latest cumulative update from April.  
 
 <center><img src="/assets/2020-04-28-windows-7-esu-analysis/18.jpg"></center>
 
@@ -157,7 +157,7 @@ This is a sign that there are issues with the current ESU configuration.  Howeve
 
 ### Summary
 
-What I learned from dissecting this update was that there are 3 important parts to the install: The manifest file, the Components registry keys, and the SideBySide registry keys.  However, 2 of the 3 required parts do not revert upon a failed update.  Therefore, to get the update to install properly:
+What I learned from dissecting this update was that there are 3 important parts to the installation of KB4528069: The manifest file, the Components registry keys, and the SideBySide registry keys.  However, 2 of the 3 required parts do not revert upon a failed update.  Therefore, to get the update to install properly:
 
 1. Attempt to install KB4528069 and let it fail.
 2. Flip the SideBySide registry key to use the newer SideBySide version.
