@@ -19,7 +19,7 @@ This first section only contains a single update required for ESU updates.  A de
 
 | KB Number | Description                | Notes                                                      | Download |
 |:---------:|----------------------------|------------------------------------------------------------|----------|
-| KB4528069 |Windows 7 SP1 Verification  | Update is no longer available through Microsoft's website. | [KB4528069](https://github.com/HackAndPwn/Windows-7-Patching/blob/master/01_Enable_ESU/01_Windows6.1-KB4528069-x64.msu)
+| KB4528069 |Windows 7 SP1 Verification  | Update is no longer available through Microsoft's website. | [KB4528069](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/01_Enable_ESU/01_Windows6.1-KB4528069-x64.msu)
 
 <br>
 
@@ -29,9 +29,9 @@ The next section of updates enables all optional features not available through 
 
 | KB Number | Description                                  | Notes      | Download |
 |:---------:|----------------------------------------------|------------|------------|
-| KB917607  | Windows Help 32-bit Compatability Update     |            | [KB917607](https://github.com/HackAndPwn/Windows-7-Patching/blob/master/02_Features/01_Windows6.1-KB917607-x64.msu)
-| KB943790  | File Management API extensions for BitLocker | Install this update to extend the File Management APIs to not only enable the discovery and restoration of deleted files from volumes that are not encrypted but also enable the recovery of files from Bitlocker encrypted volumes.           | [KB943790](https://github.com/HackAndPwn/Windows-7-Patching/blob/master/02_Features/02_Windows6.1-KB943790-x64.msu)
-| KB958559  | d                          | d          | link |
+| KB917607  | Windows Help 32-bit Compatability Update     | WinHlp32.exe is required to display 32-bit Help files that have the ".hlp" file name extension. To view .hlp files on Windows 7, you need to install this application. | [KB917607](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/01_Windows6.1-KB917607-x64.msu)
+| KB943790  | File Management API extensions for BitLocker | Install this update to extend the File Management APIs to not only enable the discovery and restoration of deleted files from volumes that are not encrypted but also enable the recovery of files from Bitlocker encrypted volumes. | [KB943790](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/02_Windows6.1-KB943790-x64.msu)
+| KB958559  | Windows Virtual PC                           | Windows Virtual PC is the latest Microsoft virtualization technology. You can use it to run more than one operating system at the same time on one computer, and to run many productivity applications on a virtual Windows environment, with a single click, directly from a computer running Windows 7. | link [KB958559](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/03_Windows6.1-KB958559-x64.msu)
 | KB958830  | d                          | d          | link |
 | KB969168  | d                          | d          | link |
 | KB970985  | d                          | d          | link |
