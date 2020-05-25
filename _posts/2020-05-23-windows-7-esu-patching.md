@@ -39,22 +39,34 @@ The next section of updates enables all optional features not available through 
 | KB974405  | Windows Identity Foundation                  | The Windows Identity Foundation helps simplify user access for developers by externalizing user access from applications via claims and reducing development effort with pre-built security logic and integrated .NET tools. | [Windows6.1-KB974405-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/08_Windows6.1-KB974405-x64.msu) |
 | KB974674  | Windows NTBackup Restore Utility             | The Windows NTBackup Restore Utility for Windows 7 and for Windows Server 2008 R2 restores backups that are made on Windows XP and on Windows Server 2003 to computers that are running Windows 7 and Windows Server 2008 R2. | [Windows6.1-KB974674-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/09_Windows6.1-KB974674-x64.msu) |
 | KB2666914 | DirectAccess Connectivity Assistant 2.0      | The Microsoft DirectAccess Connectivity Assistant (DCA) version 2.0 is used by DirectAccess client computers running Windows 7, to connect to Windows Server 2012 servers running DirectAccess. | [Windows6.1-KB2666914-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/10_Windows6.1-KB2666914-x64.msu) |
-| KB2790621 | d                          | d          | link |
-| KB2891638 | d                          | d          | link |
-| KB2959936 | d                          | d          | link |
-| KB2990999 | d                          | d          | link |
-| KB3191566 | d                          | d          | link |
+| KB2790621 | Windows Server Essentials Connector          | Windows Server Essentials Connector is software that helps you connect your PC or Mac client to Windows Server 2012 R2 with the Windows Server Essentials Experience server role enabled. It also enables and manages key client-side functionality of Windows Server Essentials Experience. | [Windows6.1-KB2790621-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/11_Windows6.1-KB2790621-x64.msu) |
+| KB2891638 | Work Folders For Windows                     | Work Folders is a place to store your work files so that you can open them from all computers and devices, even when you are offline. | [Windows6.1-KB2891638-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/12_Windows6.1-KB2891638-x64.msu) |
+| KB2932354 | Embedded Lockdown Manager Feature Set Update | Embedded Lockdown Manager uses Windows Management Instrumentation (WMI) providers to detect and change configuration settings, and can export the settings to PowerShell scripts. | [Windows6.1-KB2959936-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/13_Windows6.1-KB2959936-x64.msu) |
+| KB2990999 | Internet Explorer 11 Web Driver Tool         | The IE WebDriver Tool enables developers to create automated tests that simulate users interacting with webpages and report back results in Internet Explorer 11. It can also manage testing across multiple windows, tabs, and webpages in a single session. | [Windows6.1-KB2990999-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/14_Windows6.1-KB2990999-x64.msu) |
+| KB3191566 | Windows Management Framework 5.1             | Windows Management Framework 5.1 includes updates to Windows PowerShell, Windows PowerShell Desired State Configuration (DSC), Windows Remote Management (WinRM), Windows Management Instrumentation (WMI). | [Windows6.1-KB2990999-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/14_Windows6.1-KB2990999-x64.msu) |
+ 
+
+<br>
+
+### Installing AD LDS Optional Feature
+
+The next table describes the updates required to enable and patch AD LDS.
+
+There is an issue if the AD LDS feature is installed after Windows 7 SP1.  Essentially, if this situation occurs, updates included with the Convenince rollup do not apply correctly.  Therefore, these updates need to be installed manually in order to fully update the feature.  More details can be found [here](http://windows-update-checker.com/FAQ/ConvenienceRollupKB3125574-Issues.htm).
+
+There are a dozen different updates related to AD LDS.  However, after careful analysis, only half of the have components not succeeded by later updates.  The required updates are listed in the table below.
+
+The unnecessary updates related to AD LDS are: KB2898997, KB2922852, KB3042816, KB3160352 , KB3184471, and KB3198591.
 
 
-
-
-
-
-
-
-
-
-
+| KB Number | Name                                         | Description | Download |
+|:---------:|----------------------------------------------|-------------|----------|
+| KB975541  | AD LDS Feature                               | Active Directory Lightweight Directory Services (AD LDS) provides directory services for directory-enabled application. | [Windows6.1-KB975541-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/03_Feature_AD_LDS/01_Windows6.1-KB975541-x64.msu) |
+| KB2462137 | AD MMC & ADAC Country Update                 | The Active Directory Users and Computers MMC snap-in and Active Directory Administrative Center display Serbia and Montenegro as one country instead of as two countries in Windows Server 2008 R2 and in Windows 7. | [Windows6.1-KB2462137-v2-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/03_Feature_AD_LDS/02_Windows6.1-KB2462137-v2-x64.msu) |
+| KB2539513 | Repadmin Indefinate Query                    | The repadmin command keeps running when you try to look up the users who have their passwords stored on the RODC. | [Windows6.1-KB2539513-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/03_Feature_AD_LDS/03_Windows6.1-KB2539513-x64.msu) |
+| KB2589154 | AD MMC RODC Update                           | Active Directory Users and Computers MMC snap-in crashes when you try to delete an RODC in Windows 7 or in Windows Server 2008 R2. | [Windows6.1-KB2589154-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/03_Feature_AD_LDS/04_Windows6.1-KB2589154-x64.msu) |
+| KB2647644 | AD Certificate Use Issuer Update             | You cannot clear the "Use Issuer for alternate security identity" check box in Windows 7 or in Windows Server 2008 R2. | [Windows6.1-KB2647644-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/03_Feature_AD_LDS/04_Windows6.1-KB2647644-x64.msu) |
+| KB3012660 | Unable to install Security Update KB2853587  | "The update is not applicable to your computer" error when you install update 2853587 in Windows 7 SP1 with AD LDS. | [Windows6.1-KB3012660-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/03_Feature_AD_LDS/06_Windows6.1-KB3012660-x64.msu) |
 
 
 
