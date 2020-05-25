@@ -32,7 +32,7 @@ The next section of updates enables all optional features not available through 
 | KB917607  | Windows Help 32-bit Compatability Update     | WinHlp32.exe is required to display 32-bit Help files that have the ".hlp" file name extension. To view .hlp files on Windows 7, you need to install this application. | [Windows6.1-KB917607-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/01_Windows6.1-KB917607-x64.msu) |
 | KB943790  | File Management API extensions for BitLocker | Install this update to extend the File Management APIs to not only enable the discovery and restoration of deleted files from volumes that are not encrypted but also enable the recovery of files from Bitlocker encrypted volumes. | [Windows6.1-KB943790-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/02_Windows6.1-KB943790-x64.msu) |
 | KB958559  | Windows Virtual PC                           | Windows Virtual PC is the latest Microsoft virtualization technology. You can use it to run more than one operating system at the same time on one computer, and to run many productivity applications on a virtual Windows environment, with a single click, directly from a computer running Windows 7. | [Windows6.1-KB958559-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/03_Windows6.1-KB958559-x64.msu) |
-| KB958830  | Remote Server Administration Tools           | Remote Server Administration Tools for Windows® 7 with SP1 enables IT administrators to manage roles and features that are installed on computers that are running Windows Server® 2008 R2, Windows Server® 2008, or Windows Server® 2003, from a remote computer that is running Windows 7 or Windows 7 with SP1. | [Windows6.1-KB958830-x64.zip.001](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/04_Windows6.1-KB958830-x64.zip.001)  [Windows6.1-KB958830-x64.zip.002](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/04_Windows6.1-KB958830-x64.zip.002)  [Windows6.1-KB958830-x64.zip.003](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/04_Windows6.1-KB958830-x64.zip.003) |
+| KB958830  | Remote Server Administration Tools           | Remote Server Administration Tools for Windows® 7 with SP1 enables IT administrators to manage roles and features that are installed on computers that are running Windows Server® 2008 R2, Windows Server® 2008, or Windows Server® 2003, from a remote computer that is running Windows 7 or Windows 7 with SP1. | [Windows6.1-KB958830-x64.msu Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/04_Windows6.1-KB958830-x64.zip.001)  [Windows6.1-KB958830-x64.msu Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/04_Windows6.1-KB958830-x64.zip.002)  [Windows6.1-KB958830-x64.msu Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/04_Windows6.1-KB958830-x64.zip.003) |
 | KB969168  | Microsoft Agent                              | Microsoft Agent is a set of software services that supports interactive characters within the Microsoft Windows display. Some examples of the Microsoft Agent characters are the Office Assistants.  Microsoft Agent is not included in Windows 7, and it will not be included in any later versions of the Windows operating system. However, you can download Microsoft Agent as a hotfix for your Windows 7 computer. | [Windows6.1-KB969168-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/05_Windows6.1-KB969168-x64.msu) |
 | KB970985  | Windows Activation Technologies              | Windows Activation Technologies helps you confirm that the copy of Windows 7 that is running on your computer is genuine. Additionally, Windows Activation Technologies helps protect against the risks of counterfeit software. Windows Activation Technologies in Windows 7 consists of activation and validation components that contain anti-piracy features. | [Windows6.1-KB970985-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/06_Windows6.1-KB970985-x64.msu) |
 | KB974150  | Windows NTBackup Utility                    | NTBackup is the legacy Windows backup application included in previous versions of Windows. Files can be backed up to tape, ZIP drives, floppy disks, and hard drives using a proprietary backup format (BKF). It also features integration with Task Scheduler and has several command line switches for scheduled automated backups. | [Windows6.1-KB974150-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/07_Windows6.1-KB974150-x64.msu) |
@@ -45,7 +45,6 @@ The next section of updates enables all optional features not available through 
 | KB2990999 | Internet Explorer 11 Web Driver Tool         | The IE WebDriver Tool enables developers to create automated tests that simulate users interacting with webpages and report back results in Internet Explorer 11. It can also manage testing across multiple windows, tabs, and webpages in a single session. | [Windows6.1-KB2990999-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/14_Windows6.1-KB2990999-x64.msu) |
 | KB3191566 | Windows Management Framework 5.1             | Windows Management Framework 5.1 includes updates to Windows PowerShell, Windows PowerShell Desired State Configuration (DSC), Windows Remote Management (WinRM), Windows Management Instrumentation (WMI). | [Windows6.1-KB2990999-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/14_Windows6.1-KB2990999-x64.msu) |
  
-
 <br>
 
 ### Installing AD LDS Optional Feature
@@ -67,6 +66,84 @@ The unnecessary updates related to AD LDS are: KB2898997, KB2922852, KB3042816, 
 | KB2589154 | AD MMC RODC Update                           | Active Directory Users and Computers MMC snap-in crashes when you try to delete an RODC in Windows 7 or in Windows Server 2008 R2. | [Windows6.1-KB2589154-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/03_Feature_AD_LDS/04_Windows6.1-KB2589154-x64.msu) |
 | KB2647644 | AD Certificate Use Issuer Update             | You cannot clear the "Use Issuer for alternate security identity" check box in Windows 7 or in Windows Server 2008 R2. | [Windows6.1-KB2647644-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/03_Feature_AD_LDS/04_Windows6.1-KB2647644-x64.msu) |
 | KB3012660 | Unable to install Security Update KB2853587  | "The update is not applicable to your computer" error when you install update 2853587 in Windows 7 SP1 with AD LDS. | [Windows6.1-KB3012660-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/03_Feature_AD_LDS/06_Windows6.1-KB3012660-x64.msu) |
+
+<br>
+
+### Installing the Convenience Rollup (SP2) and System Readiness Update
+
+There are two large updates that get applied next.  The first is the Windows 7 Convenience Rollup, which is essentially SP2 for Windows 7, including a collection of hotfixes and updates.  The second update is the System Readiness Check update.  This update will always show as needed, so this is executed once to verify the integrity after SP2 gets installed.
+
+| KB Number | Name                                         | Description | Download |
+|:---------:|----------------------------------------------|-------------|----------|
+| KB3125574 | Service Pack 2                               | This rollup package includes most updates that were released after the release of SP1 for Windows 7 and Windows Server 2008 R2, through April 2016. This convenience rollup is intended to make it easy to integrate fixes that were released after SP1 for Windows 7 and Windows Server 2008 R2. | [Windows6.1-KB3125574-v4-x64.msu Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/01_Windows6.1-KB3125574-v4-x64.zip.001)  [Windows6.1-KB3125574-v4-x64.msu Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/01_Windows6.1-KB3125574-v4-x64.zip.002)
+[Windows6.1-KB3125574-v4-x64.msu Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/01_Windows6.1-KB3125574-v4-x64.zip.003)
+[Windows6.1-KB3125574-v4-x64.msu Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/01_Windows6.1-KB3125574-v4-x64.zip.004)
+[Windows6.1-KB3125574-v4-x64.msu Part 5](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/01_Windows6.1-KB3125574-v4-x64.zip.005) |
+| KB947821  | System Update Readiness Tool                 | This tool fixes inconsistencies found in the Windows servicing store which may prevent the successful installation of future updates, service packs, and software.. | [Windows6.1-KB947821-v34-x64.msu Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x64.zip.001)  [Windows6.1-KB947821-v34-x64.msu Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x64.zip.002)  [Windows6.1-KB947821-v34-x64.msu Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x64.zip.003)  [Windows6.1-KB947821-v34-x64.msu Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x64.zip.004)  [Windows6.1-KB947821-v34-x64.msu Part 5](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x64.zip.005)  [Windows6.1-KB947821-v34-x64.msu Part 6](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x64.zip.006)  
+
+<br>
+
+### Non-ESU SP2 Hotfixes
+
+There are 6 hotfixes available to update components after Service Pack 2 has been installed.  These do not require an ESU license to install.
+
+| KB Number | Name                                         | Description | Download |
+|:---------:|----------------------------------------------|-------------|----------|
+| KB2818604 | AMD Microcode Update                         | A microcode update is available for Windows 7-based and Windows 8-based computers that use AMD processors. | [Windows6.1-KB2818604-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/01_Windows6.1-KB2818604-x64.msu)
+| KB3046480 | .NET Framework 1.1 Migration Check           | This update enables the system to determine whether to migrate the Microsoft .NET Framework 1.1 to a later version of Windows when you upgrade from Windows 8.1 or Windows 7 to a later version of Windows. This determination is based on the usage of the .NET Framework 1.1. | [Windows6.1-KB3046480-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/02_Windows6.1-KB3046480-x64.msu)
+| KB3064209 | Intel Microcode Update                       | June 2015 Intel CPU microcode update for Windows. | [Windows6.1-KB3064209-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/03_Windows6.1-KB3064209-x64.msu)
+| KB3161102 | Windows Journal Removal                       | The file format that's used by Windows Journal (Journal Note File, or JNT) has been demonstrated to be susceptible to many security exploits. Therefore, Windows Journal will be removed from all versions of Microsoft Windows. | [Windows6.1-KB3161102-v2-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/04_Windows6.1-KB3161102-v2-x64.msu)
+| KB4016754 | Media Transfer Protocol Driver Update         | MTP driver update causes USB connected phone or portable device issue.  Note: This update will most likely not be applicable. | [Windows6.1-KB4016754-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/05_Windows6.1-KB4016754-x64.msu)
+| KB4072650 | Hyper-V Integration Components Update         | This update installs the latest integrated components for Windows Server 2012 R2 and Windows Server 2008 R2 Guest Virtual Machines (VMs) that are running on a Windows 10-based or Windows Server 2016-based host, or a Windows Server 2012 R2-based host. | [06_Windows6.1-KB4072650-x64.cab](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/06_Windows6.1-KB4072650-x64.cab)
+
+<br>
+
+### ESU Updates
+
+This section describes the latest ESU updates available for Windows 7.  All of these updates are cumulative updates containing fixes from all previous versions of the updates.  Only the latest one needs to be intalled.
+
+| KB Number | Name                                         | Description | Download |
+|:---------:|----------------------------------------------|-------------|----------|
+| KB4555449 | May 2020 Servicing Stack Update              | This update makes quality improvements to the servicing stack, which is the component that installs Windows updates. Servicing stack updates (SSU) makes sure that you have a robust and reliable servicing stack so that your devices can receive and install Microsoft updates. | [Windows6.1-KB4555449-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/01_Windows6.1-KB4555449-x64.msu)
+| KB4552940 | May 2020 .NET Framework 3.5.1 Update         | Security and Quality Rollup for .NET Framework 3.5.1 for Windows 7 SP1. | [Windows6.1-KB4552940-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB4552940-x64.msu)
+| KB4538483 | May 2020 ESU Preparation Package             | This update provides the complete set of licensing changes to enable installation of the ESU MAK add-on key, which is one of the steps to prepare for installation of Extended Security Updates. | [Windows6.1-KB4538483-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/03_Windows6.1-KB4538483-x64.msu)
+| KB4538483 | May 2020 Windows 7 Cumulative Update         | Security and Quality Rollup for Windows 7 SP1. | [Windows6.1-KB4556836-x64.msu Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/04_Windows6.1-KB4556836-x64.zip.001) [Windows6.1-KB4556836-x64.msu Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/04_Windows6.1-KB4556836-x64.zip.002) [Windows6.1-KB4556836-x64.msu Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/04_Windows6.1-KB4556836-x64.zip.003) [Windows6.1-KB4556836-x64.msu Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/04_Windows6.1-KB4556836-x64.zip.004) |
+| KB4556798 | May 2020 IE 11 Cumulative Update             | Security and Quality Rollup for Internet Explorer 11 for Windows 7 SP1. | [Windows6.1-KB4556798-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/05_Windows6.1-KB4556798-x64.msu)
+| KB4552921 | May 2020 .NET Framework 4.8 Update           | Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1. | [ndp48-KB4552921-x64.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_.NET_4.8/01_ndp48-KB4552921-x64.exe)
+
+<br>
+
+### Root Certificate Updates
+
+Finally, the latest Microsoft Root Certificates need to be installed into the Local Computer Trusted Root Authority Certificate Store.  A batch file to automatically install all certificates and revocation lists can be found here: [Import.cmd](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Import.cmd)
+
+| Date       | Name                                                  | Type            | Download |
+|:----------:|-------------------------------------------------------|-----------------|----------|
+| 2020-03-22 | Microsoft Root Certificate Authority 2010             | Revocation List | [MicRooCerAut_2010-06-23.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/MicRooCerAut_2010-06-23.crl)
+| 2018-08-02 | Microsoft Root Certificate Authority 2011             | Certificate     | [MicRooCerAut2011_2011_03_22.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/MicRooCerAut2011_2011_03_22.crt)
+| 2020-03-29 | Microsoft ECC Product Root Certificate Authority 2018 | Revocation List | [Microsoft ECC Product Root Certificate Authority 2018.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Product%20Root%20Certificate%20Authority%202018.crl)
+| 2018-08-02 | Microsoft ECC Product Root Certificate Authority 2018 | Certificate     | [Microsoft ECC Product Root Certificate Authority 2018.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Product%20Root%20Certificate%20Authority%202018.crt)
+| 2020-04-08 | Microsoft ECC Root Certificate Authority 2017         | Revocation List | [Microsoft ECC Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Root%20Certificate%20Authority%202017.crl)
+| 2020-01-22 | Microsoft ECC Root Certificate Authority 2017         | Certificate     | [Microsoft ECC Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Root%20Certificate%20Authority%202017.crt)
+| 2020-03-29 | Microsoft ECC TS Root Certificate Authority 2018      | Revocation List | [Microsoft ECC TS Root Certificate Authority 2018.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20TS%20Root%20Certificate%20Authority%202018.crl)
+| 2018-08-02 | Microsoft ECC TS Root Certificate Authority 2018      | Certificate     | [Microsoft ECC TS Root Certificate Authority 2018.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20TS%20Root%20Certificate%20Authority%202018.crt)
+| 2020-04-08 | Microsoft EV ECC Root Certificate Authority 2017      | Revocation List | [Microsoft EV ECC Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20ECC%20Root%20Certificate%20Authority%202017.crl)
+| 2020-01-22 | Microsoft EV ECC Root Certificate Authority 2017      | Certificate     | [Microsoft EV ECC Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20ECC%20Root%20Certificate%20Authority%202017.crt)
+| 2020-04-08 | Microsoft EV RSA Root Certificate Authority 2017      | Revocation List | [Microsoft EV RSA Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20RSA%20Root%20Certificate%20Authority%202017.crl)
+| 2020-01-22 | Microsoft EV RSA Root Certificate Authority 2017      | Certificate     | [Microsoft EV RSA Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20RSA%20Root%20Certificate%20Authority%202017.crt)
+| 2020-04-08 | Microsoft RSA Root Certificate Authority 2017         | Revocation List | [Microsoft RSA Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crl)
+| 2020-01-22 | Microsoft RSA Root Certificate Authority 2017         | Certificate     | [Microsoft RSA Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crt)
+| 2020-03-22 | Microsoft Time Stamp Root Certificate Authority 2014  | Revocation List | [Microsoft Time Stamp Root Certificate Authority 2014.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20Time%20Stamp%20Root%20Certificate%20Authority%202014.crl)
+| 2018-08-02 | Microsoft Time Stamp Root Certificate Authority 2014  | Certificate | [Microsoft Time Stamp Root Certificate Authority 2014.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20Time%20Stamp%20Root%20Certificate%20Authority%202014.crt)
+
+
+
+All updates can be found here: github
+
+Please leave feedback if this helped you or if you have any questions or comments.  Feel free to reach out on Twitter or through this Github repository.
+
+
+
 
 
 
