@@ -2,7 +2,6 @@
 layout: post
 title: Windows 7 ESU Patching
 date: 2020-05-23 00:00:00
-tags: draft
 last_modified_at: 2020-05-25
 ---
 
@@ -44,7 +43,7 @@ The next section of updates enables all optional features not available through 
 | KB2891638 | Work Folders For Windows                     | Work Folders is a place to store your work files so that you can open them from all computers and devices, even when you are offline. | [Windows6.1-KB2891638-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/12_Windows6.1-KB2891638-x64.msu) |
 | KB2959936 | Embedded Lockdown Manager Feature Set Update | Embedded Lockdown Manager uses Windows Management Instrumentation (WMI) providers to detect and change configuration settings and can export the settings to PowerShell scripts. | [Windows6.1-KB2959936-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/13_Windows6.1-KB2959936-x64.msu) |
 | KB2990999 | Internet Explorer 11 Web Driver Tool         | The IE WebDriver Tool enables developers to create automated tests that simulate users interacting with webpages and report back results in Internet Explorer 11. It can also manage testing across multiple windows, tabs, and webpages in a single session. | [Windows6.1-KB2990999-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/14_Windows6.1-KB2990999-x64.msu) |
-| KB3191566 | Windows Management Framework 5.1             | Windows Management Framework 5.1 includes updates to Windows PowerShell, Windows PowerShell Desired State Configuration (DSC), Windows Remote Management (WinRM), Windows Management Instrumentation (WMI). | [Windows6.1-KB3191566-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/15_Windows6.1-KB3191566-x64.msu) |
+| KB3191566 | Windows Management Framework 5.1             | Windows Management Framework 5.1 includes updates to Windows PowerShell, Windows PowerShell Desired State Configuration (DSC), Windows Remote Management (WinRM), and Windows Management Instrumentation (WMI). | [Windows6.1-KB3191566-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/15_Windows6.1-KB3191566-x64.msu) |
  
 <br>
 
@@ -52,7 +51,7 @@ The next section of updates enables all optional features not available through 
 
 The next table describes the updates required to enable and patch AD LDS.
 
-There is an issue if the AD LDS feature is installed after Windows 7 SP1.  If this situation occurs, updates included within the Convenience rollup do not apply correctly.  Therefore, these updates need to be installed manually to fully update the feature.  More details can be found [here](http://windows-update-checker.com/FAQ/ConvenienceRollupKB3125574-Issues.htm).
+There is an issue if the AD LDS feature is installed after Windows 7 SP1.  If this situation occurs, updates included within the Convenience Rollup (SP2) do not apply correctly.  Therefore, these updates need to be installed manually to fully update the feature.  More details can be found [here](http://windows-update-checker.com/FAQ/ConvenienceRollupKB3125574-Issues.htm).
 
 There are a dozen different updates related to AD LDS on Windows 7 SP1.  However, after careful analysis, only half of them have components not replaced by other updates.  These unnecessary updates related to AD LDS are: KB2898997, KB2922852, KB3042816, KB3160352 , KB3184471, and KB3198591.  The required updates are listed in the table below.
 
