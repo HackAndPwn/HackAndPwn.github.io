@@ -103,8 +103,8 @@ This section describes the latest ESU updates available for Windows 7.  All thes
 | KB4552940 | May 2020 .NET Framework 3.5.1 Update         | Security and Quality Rollup for .NET Framework 3.5.1 for Windows 7 SP1. | [Windows6.1-KB4552940-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB4552940-x64.msu)
 | KB4538483 | May 2020 ESU Preparation Package             | This update provides the complete set of licensing changes to enable installation of the ESU MAK add-on key, which is one of the steps to prepare for installation of Extended Security Updates. | [Windows6.1-KB4538483-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/03_Windows6.1-KB4538483-x64.msu)
 | KB4538483 | May 2020 Windows 7 Cumulative Update         | Security and Quality Rollup for Windows 7 SP1. | Windows6.1-KB4556836-x64.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/04_Windows6.1-KB4556836-x64.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/04_Windows6.1-KB4556836-x64.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/04_Windows6.1-KB4556836-x64.zip.003) <br> [Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/04_Windows6.1-KB4556836-x64.zip.004) |
-| KB4556798 | May 2020 IE 11 Cumulative Update             | Security and Quality Rollup for Internet Explorer 11 for Windows 7 SP1. | [Windows6.1-KB4556798-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/05_Windows6.1-KB4556798-x64.msu)
 | KB4552921 | May 2020 .NET Framework 4.8 Update           | Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1. | [ndp48-KB4552921-x64.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_.NET_4.8/01_ndp48-KB4552921-x64.exe)
+| ~KB4556798~ | ~May 2020 IE 11 Cumulative Update~             | ~Security and Quality Rollup for Internet Explorer 11 for Windows 7 SP1.~ | ~[Windows6.1-KB4556798-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/05_Windows6.1-KB4556798-x64.msu)~
 
 <br>
 
@@ -138,3 +138,8 @@ Finally, the latest Microsoft Root Certificates need to be installed into the Lo
 Once these updates are installed on top of the current Windows 7 SP1 installation, the OS has been completely updated with hotfixes and optional features.  All of these updates can be found on this Github repository: [Windows-7-Patching](https://github.com/HackAndPwn/Windows-7-Patching)
 
 The goal is to keep this list updated as changes are introduced.  Please reach out to me via [Twitter](https://twitter.com/HackAndPwn) or [Github](https://github.com/HackAndPwn) if there is an update that is missing, or any other feedback on this post.
+
+<br>
+
+### Update 2020-05-25
+Internet Explorer 11 Cumulative Update (KB4556798) is included with the generic Windows 7 Cumulative Update.  Therefore, this update is no longer required.
