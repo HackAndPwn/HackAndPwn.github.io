@@ -3,6 +3,7 @@ layout: post
 title: Windows 7 ESU Patching
 date: 2020-05-23 00:00:00
 tags: draft
+last_modified_at: 2020-05-25
 ---
 
 With the May 2020 Windows Updates, I went on a mission to determine exactly what the minimum set of updates are required to enable all options within Windows 7 (and all optional hotfixes).  After extensive testing on both VMs and a laptop, I concluded that 35 updates not offered through Windows Update would reach this objective.  The following sections describe the updates required and provide links to each.
@@ -117,24 +118,24 @@ This section describes the latest ESU updates available for Windows 7.  All of t
 
 Finally, the latest Microsoft Root Certificates need to be installed into the Local Computer Trusted Root Authority Certificate Store.  A batch file to automatically install all certificates and revocation lists can be found here: [Import.cmd](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Import.cmd)
 
-| Date       | Name                                                  | Type            | Download |
-|:----------:|-------------------------------------------------------|-----------------|----------|
-| 2020-03-22 | Microsoft Root Certificate Authority 2010             | Revocation List | [MicRooCerAut_2010-06-23.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/MicRooCerAut_2010-06-23.crl)
-| 2018-08-02 | Microsoft Root Certificate Authority 2011             | Certificate     | [MicRooCerAut2011_2011_03_22.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/MicRooCerAut2011_2011_03_22.crt)
-| 2020-03-29 | Microsoft ECC Product Root Certificate Authority 2018 | Revocation List | [Microsoft ECC Product Root Certificate Authority 2018.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Product%20Root%20Certificate%20Authority%202018.crl)
-| 2018-08-02 | Microsoft ECC Product Root Certificate Authority 2018 | Certificate     | [Microsoft ECC Product Root Certificate Authority 2018.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Product%20Root%20Certificate%20Authority%202018.crt)
-| 2020-04-08 | Microsoft ECC Root Certificate Authority 2017         | Revocation List | [Microsoft ECC Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Root%20Certificate%20Authority%202017.crl)
-| 2020-01-22 | Microsoft ECC Root Certificate Authority 2017         | Certificate     | [Microsoft ECC Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Root%20Certificate%20Authority%202017.crt)
-| 2020-03-29 | Microsoft ECC TS Root Certificate Authority 2018      | Revocation List | [Microsoft ECC TS Root Certificate Authority 2018.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20TS%20Root%20Certificate%20Authority%202018.crl)
-| 2018-08-02 | Microsoft ECC TS Root Certificate Authority 2018      | Certificate     | [Microsoft ECC TS Root Certificate Authority 2018.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20TS%20Root%20Certificate%20Authority%202018.crt)
-| 2020-04-08 | Microsoft EV ECC Root Certificate Authority 2017      | Revocation List | [Microsoft EV ECC Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20ECC%20Root%20Certificate%20Authority%202017.crl)
-| 2020-01-22 | Microsoft EV ECC Root Certificate Authority 2017      | Certificate     | [Microsoft EV ECC Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20ECC%20Root%20Certificate%20Authority%202017.crt)
-| 2020-04-08 | Microsoft EV RSA Root Certificate Authority 2017      | Revocation List | [Microsoft EV RSA Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20RSA%20Root%20Certificate%20Authority%202017.crl)
-| 2020-01-22 | Microsoft EV RSA Root Certificate Authority 2017      | Certificate     | [Microsoft EV RSA Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20RSA%20Root%20Certificate%20Authority%202017.crt)
-| 2020-04-08 | Microsoft RSA Root Certificate Authority 2017         | Revocation List | [Microsoft RSA Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crl)
-| 2020-01-22 | Microsoft RSA Root Certificate Authority 2017         | Certificate     | [Microsoft RSA Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crt)
-| 2020-03-22 | Microsoft Time Stamp Root Certificate Authority 2014  | Revocation List | [Microsoft Time Stamp Root Certificate Authority 2014.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20Time%20Stamp%20Root%20Certificate%20Authority%202014.crl)
-| 2018-08-02 | Microsoft Time Stamp Root Certificate Authority 2014  | Certificate | [Microsoft Time Stamp Root Certificate Authority 2014.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20Time%20Stamp%20Root%20Certificate%20Authority%202014.crt)
+| Date       | Type            | Download |
+|:----------:|-----------------|----------|
+| 2020-03-22 | Revocation List | [MicRooCerAut_2010-06-23.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/MicRooCerAut_2010-06-23.crl)
+| 2018-08-02 | Certificate     | [MicRooCerAut2011_2011_03_22.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/MicRooCerAut2011_2011_03_22.crt)
+| 2020-03-29 | Revocation List | [Microsoft ECC Product Root Certificate Authority 2018.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Product%20Root%20Certificate%20Authority%202018.crl)
+| 2018-08-02 | Certificate     | [Microsoft ECC Product Root Certificate Authority 2018.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Product%20Root%20Certificate%20Authority%202018.crt)
+| 2020-04-08 | Revocation List | [Microsoft ECC Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Root%20Certificate%20Authority%202017.crl)
+| 2020-01-22 | Certificate     | [Microsoft ECC Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Root%20Certificate%20Authority%202017.crt)
+| 2020-03-29 | Revocation List | [Microsoft ECC TS Root Certificate Authority 2018.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20TS%20Root%20Certificate%20Authority%202018.crl)
+| 2018-08-02 | Certificate     | [Microsoft ECC TS Root Certificate Authority 2018.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20TS%20Root%20Certificate%20Authority%202018.crt)
+| 2020-04-08 | Revocation List | [Microsoft EV ECC Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20ECC%20Root%20Certificate%20Authority%202017.crl)
+| 2020-01-22 | Certificate     | [Microsoft EV ECC Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20ECC%20Root%20Certificate%20Authority%202017.crt)
+| 2020-04-08 | Revocation List | [Microsoft EV RSA Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20RSA%20Root%20Certificate%20Authority%202017.crl)
+| 2020-01-22 | Certificate     | [Microsoft EV RSA Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20RSA%20Root%20Certificate%20Authority%202017.crt)
+| 2020-04-08 | Revocation List | [Microsoft RSA Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crl)
+| 2020-01-22 | Certificate     | [Microsoft RSA Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crt)
+| 2020-03-22 | Revocation List | [Microsoft Time Stamp Root Certificate Authority 2014.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20Time%20Stamp%20Root%20Certificate%20Authority%202014.crl)
+| 2018-08-02 | Certificate | [Microsoft Time Stamp Root Certificate Authority 2014.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20Time%20Stamp%20Root%20Certificate%20Authority%202014.crt)
 
 
 
