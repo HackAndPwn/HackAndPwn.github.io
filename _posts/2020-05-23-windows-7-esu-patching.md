@@ -80,7 +80,7 @@ There are two large updates that get applied next.  The first is the Windows 7 C
 [Windows6.1-KB3125574-v4-x64.msu Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/01_Windows6.1-KB3125574-v4-x64.zip.003)
 [Windows6.1-KB3125574-v4-x64.msu Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/01_Windows6.1-KB3125574-v4-x64.zip.004)
 [Windows6.1-KB3125574-v4-x64.msu Part 5](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/01_Windows6.1-KB3125574-v4-x64.zip.005) |
-| KB947821  | System Update Readiness Tool                 | This tool fixes inconsistencies found in the Windows servicing store which may prevent the successful installation of future updates, service packs, and software.. | [Windows6.1-KB947821-v34-x64.msu Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x64.zip.001)  [Windows6.1-KB947821-v34-x64.msu Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x64.zip.002)  [Windows6.1-KB947821-v34-x64.msu Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x64.zip.003)  [Windows6.1-KB947821-v34-x64.msu Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x64.zip.004)  [Windows6.1-KB947821-v34-x64.msu Part 5](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x64.zip.005)  [Windows6.1-KB947821-v34-x64.msu Part 6](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x64.zip.006) |
+
 
 <br>
 
