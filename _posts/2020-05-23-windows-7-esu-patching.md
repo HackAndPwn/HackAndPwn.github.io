@@ -6,7 +6,7 @@ tags: draft
 last_modified_at: 2020-05-25
 ---
 
-With the May 2020 Windows 7 Updates, I went on a mission to determine the minimum set of updates needed to enable all features within Windows 7, including optional hotfixes.  After extensive testing on both VMs and a laptop, I concluded that 35 updates not offered through Windows Update would need to be installed to reach this objective.  The following sections describe the updates required and provide links to each.
+With the May 2020 Windows 7 updates, I went on a mission to determine the minimum set of updates needed to enable all features within Windows 7, including optional hotfixes, and to have the most up-to-date installation possible.  After extensive testing, I concluded that 35 updates not offered through Windows Update would need to be installed to reach this objective.  The following sections describe the updates required and provide links to each.
 
 > The base test image used for this testing was 64-bit Windows 7 Ultimate SP1.  Microsoft Update was enabled, and all updates offered through Windows Update were installed prior to starting this investigation.  All links and details within this post were only validated on 64-bit, although 32-bit should have a similar set of results.
 
@@ -14,7 +14,7 @@ With the May 2020 Windows 7 Updates, I went on a mission to determine the minimu
 
 <br>
 
-### Enabling ESU
+### Enabling ESU Updates
 
 This first section holds a single update required for ESU updates further down the list.  A detailed analysis on this update can be found on my [Windows 7 ESU Analysis](https://hackandpwn.com/windows-7-esu-analysis/) post.
 
@@ -34,8 +34,8 @@ The next section of updates enables all optional features not available through 
 | KB943790  | File Management API extensions for BitLocker | Install this update to extend the File Management APIs to not only enable the discovery and restoration of deleted files from volumes that are not encrypted but also enable the recovery of files from BitLocker encrypted volumes. | [Windows6.1-KB943790-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/02_Windows6.1-KB943790-x64.msu) |
 | KB958559  | Windows Virtual PC                           | Windows Virtual PC is the latest Microsoft virtualization technology. You can use it to run more than one operating system at the same time on one computer, and to run many productivity applications on a virtual Windows environment, with a single click, directly from a computer running Windows 7. | [Windows6.1-KB958559-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/03_Windows6.1-KB958559-x64.msu) |
 | KB958830  | Remote Server Administration Tools           | Remote Server Administration Tools for Windows 7 SP1 enables IT administrators to manage roles and features that are installed on computers that are running Windows Server 2008 R2, Windows Server 2008, or Windows Server 2003, from a remote computer that is running Windows 7 SP1. | Windows6.1-KB958830-x64.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/04_Windows6.1-KB958830-x64.zip.001)  <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/04_Windows6.1-KB958830-x64.zip.002)  <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/04_Windows6.1-KB958830-x64.zip.003) |
-| KB969168  | Microsoft Agent                              | Microsoft Agent is a set of software services that supports interactive characters within the Microsoft Windows display. Examples of the Microsoft Agent characters are the Office Assistants.  Microsoft Agent is not included in Windows 7, and it will not be included in any later versions of the Windows operating system.  However, you can download Microsoft Agent as a hotfix for your Windows 7 computer. | [Windows6.1-KB969168-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/05_Windows6.1-KB969168-x64.msu) |
-| KB970985  | Windows Activation Technologies              | Windows Activation Technologies helps you confirm that the copy of Windows 7 that is running on your computer is genuine. Additionally, Windows Activation Technologies helps protect against the risks of counterfeit software. Windows Activation Technologies in Windows 7 consists of activation and validation components that have anti-piracy features. | [Windows6.1-KB970985-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/06_Windows6.1-KB970985-x64.msu) |
+| KB969168  | Microsoft Agent                              | Microsoft Agent is a set of software services that supports interactive characters within the Microsoft Windows display. Examples of the Microsoft Agent characters are the Office Assistants. | [Windows6.1-KB969168-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/05_Windows6.1-KB969168-x64.msu) |
+| KB970985  | Windows Activation Technologies              | Windows Activation Technologies helps you confirm that the copy of Windows 7 that is running on your computer is genuine. Additionally, Windows Activation Technologies helps protect against the risks of counterfeit software. | [Windows6.1-KB970985-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/06_Windows6.1-KB970985-x64.msu) |
 | KB974150  | Windows NTBackup Utility                    | NTBackup is the legacy Windows backup application included in previous versions of Windows. Files can be backed up to tape, ZIP drives, floppy disks, and hard drives using a proprietary backup format (BKF). It also features integration with Task Scheduler and has several command line switches for scheduled automated backups. | [Windows6.1-KB974150-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/07_Windows6.1-KB974150-x64.msu) |
 | KB974405  | Windows Identity Foundation                  | The Windows Identity Foundation helps simplify user access for developers by externalizing user access from applications via claims and reducing development effort with pre-built security logic and integrated .NET tools. | [Windows6.1-KB974405-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/08_Windows6.1-KB974405-x64.msu) |
 | KB974674  | Windows NTBackup Restore Utility             | The Windows NTBackup Restore Utility for Windows 7 SP1 restores backups that are made on Windows XP and on Windows Server 2003 to computers that are running Windows 7 and Windows Server 2008 R2. | [Windows6.1-KB974674-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/09_Windows6.1-KB974674-x64.msu) |
@@ -48,7 +48,7 @@ The next section of updates enables all optional features not available through 
  
 <br>
 
-### Installing AD LDS Optional Feature
+### Installing the AD LDS Optional Feature
 
 The next table describes the updates required to enable and patch AD LDS.
 
@@ -58,7 +58,7 @@ There are a dozen different updates related to AD LDS on Windows 7 SP1.  However
 
 | KB Number | Name                                         | Description | Download |
 |:---------:|----------------------------------------------|-------------|----------|
-| KB975541  | AD LDS Feature                               | Active Directory Lightweight Directory Services (AD LDS) provides directory services for directory-enabled application. | [Windows6.1-KB975541-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/03_Feature_AD_LDS/01_Windows6.1-KB975541-x64.msu) |
+| KB975541  | AD LDS Feature                               | Active Directory Lightweight Directory Services (AD LDS) provides directory services for directory-enabled applications. | [Windows6.1-KB975541-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/03_Feature_AD_LDS/01_Windows6.1-KB975541-x64.msu) |
 | KB2462137 | AD MMC & ADAC Country Update                 | The Active Directory Users and Computers MMC snap-in and Active Directory Administrative Center display Serbia and Montenegro as one country instead of as two countries in Windows 7 SP1. | [Windows6.1-KB2462137-v2-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/03_Feature_AD_LDS/02_Windows6.1-KB2462137-v2-x64.msu) |
 | KB2539513 | Repadmin Indefinate Query                    | The repadmin command keeps running when you try to look up the users who have their passwords stored on the RODC. | [Windows6.1-KB2539513-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/03_Feature_AD_LDS/03_Windows6.1-KB2539513-x64.msu) |
 | KB2589154 | AD MMC RODC Update                           | Active Directory Users and Computers MMC snap-in crashes when you try to remove an RODC in Windows 7 SP1. | [Windows6.1-KB2589154-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/03_Feature_AD_LDS/04_Windows6.1-KB2589154-x64.msu) |
@@ -67,9 +67,9 @@ There are a dozen different updates related to AD LDS on Windows 7 SP1.  However
 
 <br>
 
-### Installing the Convenience Rollup (SP2) and System Readiness Update
+### Installing the Convenience Rollup (SP2) and running the System Update Readiness Tool
 
-There are two large updates that can be applied next.  The first is the Windows 7 Convenience Rollup, which is also considered SP2 for Windows 7, including a collection of hotfixes and updates.  The second update is the System Update Readiness Tool.  This update will always show as needed, so this is included to be thorough and executed once to verify the integrity after SP2 gets installed.
+There are two large updates that can be applied next.  The first is the Windows 7 Convenience Rollup, which is also considered SP2 for Windows 7, including a collection of hotfixes and updates.  The second update is the System Update Readiness Tool.  This update will show as installed, so this is included to be executed once (verifying SP2 installation integrity).
 
 | KB Number | Name                                         | Description | Download |
 |:---------:|----------------------------------------------|-------------|----------|
@@ -84,12 +84,12 @@ There are 6 hotfixes available to update components after Service Pack 2 has bee
 
 | KB Number | Name                                         | Description | Download |
 |:---------:|----------------------------------------------|-------------|----------|
-| KB2818604 | AMD Microcode Update                         | A microcode update is available for Windows 7-based and Windows 8-based computers that use AMD processors. | [Windows6.1-KB2818604-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/01_Windows6.1-KB2818604-x64.msu) |
-| KB3046480 | .NET Framework 1.1 Migration Check           | This update enables the system to determine whether to migrate the Microsoft .NET Framework 1.1 to a later version of Windows when you upgrade from Windows 8.1 or Windows 7 to a later version of Windows. This determination is based on the usage of the .NET Framework 1.1. | [Windows6.1-KB3046480-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/02_Windows6.1-KB3046480-x64.msu) |
+| KB2818604 | AMD Microcode Update                         | A microcode update is available for Windows 7-based computers that use AMD processors. | [Windows6.1-KB2818604-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/01_Windows6.1-KB2818604-x64.msu) |
+| KB3046480 | .NET Framework 1.1 Migration Check           | This update enables the system to determine whether to migrate the Microsoft .NET Framework 1.1 to a later version of Windows when you upgrade from Windows 7 to a later version of Windows. This determination is based on the usage of the .NET Framework 1.1. | [Windows6.1-KB3046480-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/02_Windows6.1-KB3046480-x64.msu) |
 | KB3064209 | Intel Microcode Update                       | June 2015 Intel CPU microcode update for Windows. | [Windows6.1-KB3064209-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/03_Windows6.1-KB3064209-x64.msu) |
 | KB3161102 | Windows Journal Removal                       | The file format that is used by Windows Journal (Journal Note File, or JNT) has been demonstrated to be susceptible to many security exploits. Therefore, Windows Journal will be removed from all versions of Microsoft Windows. | [Windows6.1-KB3161102-v2-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/04_Windows6.1-KB3161102-v2-x64.msu) |
 | KB4016754 | Media Transfer Protocol Driver Update         | MTP driver update causes USB connected phone or portable device issue.  Note: This update will most likely not be applicable. | [Windows6.1-KB4016754-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/05_Windows6.1-KB4016754-x64.msu) |
-| KB4072650 | Hyper-V Integration Components Update         | This update installs the latest integrated components for Windows Server 2012 R2 and Windows Server 2008 R2 Guest Virtual Machines (VMs) that are running on a Windows 10-based or Windows Server 2016-based host, or a Windows Server 2012 R2-based host. | [06_Windows6.1-KB4072650-x64.cab](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/06_Windows6.1-KB4072650-x64.cab) |
+| KB4072650 | Hyper-V Integration Components Update         | This update installs the latest integrated components for Windows 7 Guest Virtual Machines (VMs) that are running on a Windows 10-based or Windows Server 2016-based host, or a Windows Server 2012 R2-based host. | [06_Windows6.1-KB4072650-x64.cab](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/06_Windows6.1-KB4072650-x64.cab) |
 
 <br>
 
