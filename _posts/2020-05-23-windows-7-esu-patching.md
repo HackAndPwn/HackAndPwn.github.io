@@ -6,11 +6,11 @@ tags: draft
 last_modified_at: 2020-05-25
 ---
 
-With the May 2020 Windows Updates, I went on a mission to determine exactly what the minimum set of updates are required to enable all options within Windows 7 (and all optional hotfixes).  After extensive testing on both VMs and a laptop, I concluded that 35 updates not offered through Windows Update would reach this objective.  The following sections describe the updates required and provide links to each.
+With the May 2020 Windows 7 Updates, I went on a mission to determine exactly what the minimum set of updates is to enable all features within Windows 7, including optional hotfixes.  After extensive testing on both VMs and a laptop, I concluded that 35 updates not offered through Windows Update would reach this objective.  The following sections describe the updates required and provide links to each.
 
 Note 1: The base test image used for this testing was 64-bit Windows 7 Ultimate SP1.  Microsoft Update was enabled, and all updates offered through Windows Update were installed.  All links and details within this post were only validated on 64-bit, although 32-bit should have a similar set of results.
 
-Note2: I highly recommend both the [KUC Update Checker](https://windows-update-checker.com/) and [WSUS Offline Update](https://www.wsusoffline.net/) utlities.  I used both during this investigation in order to get to the minimum required set.  
+Note2: I highly recommend both the [KUC Update Checker](https://windows-update-checker.com/) and [WSUS Offline Update](https://www.wsusoffline.net/) utlities.  I used both during this investigation in order to get to this minimum required set.  
 
 <br>
 
@@ -54,7 +54,7 @@ The next table describes the updates required to enable and patch AD LDS.
 
 There is an issue if the AD LDS feature is installed after Windows 7 SP1.  Essentially, if this situation occurs, updates included with the Convenince rollup do not apply correctly.  Therefore, these updates need to be installed manually in order to fully update the feature.  More details can be found [here](http://windows-update-checker.com/FAQ/ConvenienceRollupKB3125574-Issues.htm).
 
-There are a dozen different updates related to AD LDS.  However, after careful analysis, only half of the have components not succeeded by later updates.  The required updates are listed in the table below.
+There are a dozen different updates related to AD LDS.  However, after careful analysis, only half of them have components not superseeded by later updates.  The required updates are listed in the table below.
 
 The unnecessary updates related to AD LDS are: KB2898997, KB2922852, KB3042816, KB3160352 , KB3184471, and KB3198591.
 
@@ -98,7 +98,7 @@ There are 6 hotfixes available to update components after Service Pack 2 has bee
 
 ### ESU Updates
 
-This section describes the latest ESU updates available for Windows 7.  All of these updates are cumulative updates containing fixes from all previous versions of the updates.  Only the latest one needs to be intalled.
+This section describes the latest ESU updates available for Windows 7.  All of these updates are cumulative updates containing fixes from all previous versions of the updates.  Only the latest one needs to be intalled.  An ESU license is required to install these updates.
 
 | KB Number | Name                                         | Description | Download |
 |:---------:|----------------------------------------------|-------------|----------|
@@ -134,16 +134,10 @@ Finally, the latest Microsoft Root Certificates need to be installed into the Lo
 | 2020-03-22 | Revocation List | [Microsoft Time Stamp Root Certificate Authority 2014.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20Time%20Stamp%20Root%20Certificate%20Authority%202014.crl)
 | 2018-08-02 | Certificate | [Microsoft Time Stamp Root Certificate Authority 2014.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20Time%20Stamp%20Root%20Certificate%20Authority%202014.crt)
 
+<br>
 
+### Conclusion
 
-All updates can be found here: github
+Once these updates are installed on top of the current Windows 7 SP1 instllation, the OS has been completely updated with hotfixes and optional features.  All of these updates can be found on this Github repository: [Windows-7-Patching](https://github.com/HackAndPwn/Windows-7-Patching)
 
-Please leave feedback if this helped you or if you have any questions or comments.  Feel free to reach out on Twitter or through this Github repository.
-
-
-
-
-
-
-
-
+The goal is to keep this list updated as changes are introduced.  Please reach out to me via Twitter or Github if there is an update that is missing, or any other feedback on this post.
