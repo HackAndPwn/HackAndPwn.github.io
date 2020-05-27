@@ -32,7 +32,7 @@ The next section of updates enables all optional features not available through 
 | KB Number | Name                                         | Description | Download |
 |:---------:|:--------------------------------------------:|-------------|:--------:|
 | KB917607  | Windows Help 32-bit Compatibility Update     | WinHlp32.exe is required to display 32-bit Help files that have the ".hlp" file name extension. To view .hlp files on Windows 7, you need to install this application. | [Windows6.1-KB917607-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/01_Windows6.1-KB917607-x64.msu) |
-| KB943790  | File Management API Extensions for BitLocker | Install this update to extend the File Management APIs to not only enable the discovery and restoration of deleted files from volumes that are not encrypted but also enable the recovery of files from BitLocker encrypted volumes. | [Windows6.1-KB943790-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/02_Windows6.1-KB943790-x64.msu) |
+| KB943790  | File Management API Extensions For BitLocker | Install this update to extend the File Management APIs to not only enable the discovery and restoration of deleted files from volumes that are not encrypted but also enable the recovery of files from BitLocker encrypted volumes. | [Windows6.1-KB943790-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/02_Windows6.1-KB943790-x64.msu) |
 | KB958559  | Windows Virtual PC                           | Windows Virtual PC can be used to run more than one operating system at the same time on one computer, and to run many productivity applications on a virtual Windows environment, with a single click, directly from a computer running Windows 7. | [Windows6.1-KB958559-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/03_Windows6.1-KB958559-x64.msu) |
 | KB958830  | Remote Server Administration Tools           | Remote Server Administration Tools for Windows 7 SP1 enables IT administrators to manage roles and features that are installed on computers that are running Windows Server 2008 R2, Windows Server 2008, or Windows Server 2003, from a remote computer that is running Windows 7 SP1. | Windows6.1-KB958830-x64.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/04_Windows6.1-KB958830-x64.zip.001)  <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/04_Windows6.1-KB958830-x64.zip.002)  <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/04_Windows6.1-KB958830-x64.zip.003) |
 | KB969168  | Microsoft Agent                              | Microsoft Agent is a set of software services that supports interactive characters within the Microsoft Windows display. Examples of the Microsoft Agent characters are the Office Assistants. | [Windows6.1-KB969168-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/05_Windows6.1-KB969168-x64.msu) |
@@ -74,7 +74,7 @@ There are a dozen different updates related to AD LDS on Windows 7 SP1.  However
 
 ### Installing the Convenience Rollup (SP2) and running the System Update Readiness Tool
 
-There are two large updates that can be applied next.  The first is the Windows 7 Convenience Rollup, which is also considered SP2 for Windows 7, including a collection of hotfixes and updates.  The second update is the System Update Readiness Tool.  This update will show as installed, so this is included to be executed once (verifying SP2 installation integrity).
+There are two large updates that can be applied next.  The first is the Windows 7 Convenience Rollup, which is also considered SP2 for Windows 7 and includes a collection of hotfixes and updates.  The second update is the System Update Readiness Tool.  This update will not show as installed, so this is included to be executed once (verifying SP2 installation integrity).
 
 > After installing Service Pack 2 (KB3125574), an update may appear as available in Windows Update (KB4539601).  However, this update is not required and is replaced with the latest ESU Windows 7 Cumulative Update.  Once that is installed, KB4539601 will no longer appear in Windows Update.  
 
@@ -96,13 +96,13 @@ There are 6 hotfixes available to update components after Service Pack 2 has bee
 | KB3064209 | Intel Microcode Update                       | June 2015 Intel CPU microcode update for Windows. | [Windows6.1-KB3064209-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/03_Windows6.1-KB3064209-x64.msu) |
 | KB3161102 | Windows Journal Removal                       | The file format that is used by Windows Journal (Journal Note File, or JNT) has been demonstrated to be susceptible to many security exploits. Therefore, Windows Journal will be removed from all versions of Microsoft Windows. | [Windows6.1-KB3161102-v2-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/04_Windows6.1-KB3161102-v2-x64.msu) |
 | KB4016754 | Media Transfer Protocol Driver Update         | MTP driver update causes USB connected phone or portable device issue.  Note: This update will most likely not be applicable. | [Windows6.1-KB4016754-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/05_Windows6.1-KB4016754-x64.msu) |
-| KB4072650 | Hyper-V Integration Components Update         | This update installs the latest integrated components for Windows 7 Guest Virtual Machines (VMs) that are running on a Windows 10-based or Windows Server 2016-based host, or a Windows Server 2012 R2-based host. | [06_Windows6.1-KB4072650-x64.cab](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/06_Windows6.1-KB4072650-x64.cab) |
+| KB4072650 | Hyper-V Integration Components Update         | This update installs the latest integrated components for Windows 7 Guest Virtual Machines (VMs) that are running on a Windows 10-based or Windows Server 2016-based host, or a Windows Server 2012 R2-based host. | [Windows6.1-KB4072650-x64.cab](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Non_ESU_Hotfixes/06_Windows6.1-KB4072650-x64.cab) |
 
 <br>
 
 ### ESU Updates
 
-This section describes the latest ESU updates available for Windows 7.  All these updates are cumulative updates containing fixes from all previous versions of the updates.  An ESU license is required to install these updates, and only the latest one needs to be installed.
+This section describes the latest ESU updates available for Windows 7.  All of these updates are cumulative containing fixes from all previous versions of the updates.  An ESU license is required to install these updates, and only the latest one needs to be installed.
 
 | KB Number | Name                                         | Description | Download |
 |:---------:|:--------------------------------------------:|-------------|:--------:|
@@ -142,9 +142,9 @@ Finally, the latest Microsoft Root Certificates need to be installed into the Lo
 
 ### Conclusion
 
-Once these updates are installed on top of the current Windows 7 SP1 installation, the OS has been completely updated with hotfixes and optional features.  All of these updates can be found on this Github repository: [Windows-7-Patching](https://github.com/HackAndPwn/Windows-7-Patching)
+Once these updates are installed on top of an up-to-date Windows 7 SP1 installation, the OS has been completely updated with hotfixes and optional features.  All of these updates can be found on this Github repository: [Windows 7 Patching](https://github.com/HackAndPwn/Windows-7-Patching)
 
-The goal is to keep this list updated as changes are introduced.  Please reach out to me via [Twitter](https://twitter.com/HackAndPwn) or [Github](https://github.com/HackAndPwn) if there is an update that is missing, or any other feedback on this post.
+The goal is to keep this list updated as changes are introduced.  Please reach out to me via [Twitter](https://twitter.com/HackAndPwn) or [Github](https://github.com/HackAndPwn) if there is an update that is missing, if there is an update in this list that you feel may not be needed, or if there are any other questions or feedback.
 
 <br>
 
@@ -153,4 +153,4 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 
 ### Update 2020-05-26
 * Added information about unnecessary updates showing up in Windows Update (KB2853587, KB3081954, KB3184471, KB4539601) and which updates replace them.  
-* Remove link to IE 11 Cumulative Update.
+* Removed link to IE 11 Cumulative Update.
