@@ -149,8 +149,8 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 <br>
 
 ### Update 2020-05-25
-Internet Explorer 11 Cumulative Update (KB4556798) is included with the generic Windows 7 Cumulative Update.  Therefore, this update is no longer required.
+* Internet Explorer 11 Cumulative Update (KB4556798) is included with the generic Windows 7 Cumulative Update.  Therefore, this update is no longer required.
 
 ### Update 2020-05-26
-Added information about unnecessary updates showing up in Windows Update (KB2853587, KB3081954, KB3184471, KB4539601) and which updates replace them.  
-Remove link to IE 11 Cumulative Update.
+* Added information about unnecessary updates showing up in Windows Update (KB2853587, KB3081954, KB3184471, KB4539601) and which updates replace them.  
+* Remove link to IE 11 Cumulative Update.
