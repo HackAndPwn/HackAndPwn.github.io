@@ -27,6 +27,8 @@ This first section holds a single update required for ESU updates further down t
 
 The next section of updates enables all optional features not available through Windows Update.  The notable exception from this list is the AD LDS feature, which is discussed in more detail in the next section.
 
+> After installing the Work Folders for Windows feature (KB2891638), an update may appear as available in Windows Update (KB3081954).  However, this update is not required and is replaced with Service Pack 2 (KB3125574).  Once KB3125574 is installed, KB3081954 will no longer appear in Windows Update.
+
 | KB Number | Name                                         | Description | Download |
 |:---------:|----------------------------------------------|-------------|----------|
 | KB917607  | Windows Help 32-bit Compatibility Update     | WinHlp32.exe is required to display 32-bit Help files that have the ".hlp" file name extension. To view .hlp files on Windows 7, you need to install this application. | [Windows6.1-KB917607-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/01_Windows6.1-KB917607-x64.msu) |
@@ -55,6 +57,10 @@ There is an issue if the AD LDS feature is installed after Windows 7 SP1.  If th
 
 There are a dozen different updates related to AD LDS on Windows 7 SP1.  However, after careful analysis, only half of them have components not replaced by other updates.  These unnecessary updates related to AD LDS are: KB2898997, KB2922852, KB3042816, KB3160352 , KB3184471, and KB3198591.  The required updates are listed in the table below.
 
+> After installing the first AD LDS Update (KB975541), an update may appear as available in Windows Update (KB2853587).  However, this update is not required and is replaced with KB3012660.  Once KB3012660 is installed, KB2853587 will no longer appear in Windows Update. 
+
+> After installing the first AD LDS Update (KB975541), another update may appear as available in Windows Update (KB3184471).  However, this update is not required and is replaced with the latest ESU Windows 7 Cumulative Update.  Once that is installed, KB3184471 will no longer appear in Windows Update. 
+
 | KB Number | Name                                         | Description | Download |
 |:---------:|----------------------------------------------|-------------|----------|
 | KB975541  | AD LDS Feature                               | Active Directory Lightweight Directory Services (AD LDS) provides directory services for directory-enabled applications. | [Windows6.1-KB975541-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/03_Feature_AD_LDS/01_Windows6.1-KB975541-x64.msu) |
@@ -69,6 +75,8 @@ There are a dozen different updates related to AD LDS on Windows 7 SP1.  However
 ### Installing the Convenience Rollup (SP2) and running the System Update Readiness Tool
 
 There are two large updates that can be applied next.  The first is the Windows 7 Convenience Rollup, which is also considered SP2 for Windows 7, including a collection of hotfixes and updates.  The second update is the System Update Readiness Tool.  This update will show as installed, so this is included to be executed once (verifying SP2 installation integrity).
+
+> After installing Service Pack 2 (KB3125574), an update may appear as available in Windows Update (KB4539601).  However, this update is not required and is replaced with the latest ESU Windows 7 Cumulative Update.  Once that is installed, KB4539601 will no longer appear in Windows Update.  
 
 | KB Number | Name                                         | Description | Download |
 |:---------:|----------------------------------------------|-------------|----------|
@@ -103,7 +111,7 @@ This section describes the latest ESU updates available for Windows 7.  All thes
 | KB4538483 | May 2020 ESU Preparation Package             | This update provides the complete set of licensing changes to enable installation of the ESU MAK add-on key, which is one of the steps to prepare for installation of Extended Security Updates. | [Windows6.1-KB4538483-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/03_Windows6.1-KB4538483-x64.msu)
 | KB4538483 | May 2020 Windows 7 Cumulative Update         | Security and Quality Rollup for Windows 7 SP1. | Windows6.1-KB4556836-x64.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/04_Windows6.1-KB4556836-x64.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/04_Windows6.1-KB4556836-x64.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/04_Windows6.1-KB4556836-x64.zip.003) <br> [Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/04_Windows6.1-KB4556836-x64.zip.004) |
 | KB4552921 | May 2020 .NET Framework 4.8 Update           | Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1. | [ndp48-KB4552921-x64.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_.NET_4.8/01_ndp48-KB4552921-x64.exe)
-| ~~KB4556798~~ | ~~May 2020 IE 11 Cumulative Update~~             | ~~Security and Quality Rollup for Internet Explorer 11 for Windows 7 SP1.~~ | ~~[Windows6.1-KB4556798-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/05_Windows6.1-KB4556798-x64.msu)~~
+| ~~KB4556798~~ | ~~May 2020 IE 11 Cumulative Update~~             | ~~Security and Quality Rollup for Internet Explorer 11 for Windows 7 SP1.~~ | ~~Windows6.1-KB4556798-x64.msu~~
 
 <br>
 
@@ -142,3 +150,7 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 
 ### Update 2020-05-25
 Internet Explorer 11 Cumulative Update (KB4556798) is included with the generic Windows 7 Cumulative Update.  Therefore, this update is no longer required.
+
+### Update 2020-05-26
+Added information about unnecessary updates showing up in Windows Update (KB2853587, KB3081954, KB3184471, KB4539601) and which updates replace them.  
+Remove link to IE 11 Cumulative Update.
