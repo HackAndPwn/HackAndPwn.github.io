@@ -177,4 +177,4 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 * Replaced July 2020 .NET Framework 3.5.1 Update (KB4565612 v1 & v2) with August 2020 .NET Framework 3.5.1 Update (KB4569767).
 * Replaced July 2020 Monthly Update (KB4565524) with August 2020 Monthly Update (KB4571729).
 * Replaced July 2020 .NET Framework 4.8 Updates (KB4565636 v1 & v2) with August 2020 .NET Framework 4.8 Update (KB4569754).
-* Removed May 2020 ESU Preparation Package (KB4538483) and July 2020 ESU Preparation Package (KB4575903)).  This has been replaced with the August 2020 Monthly Update (KB4571729).
+* Removed May 2020 ESU Preparation Package (KB4538483) and July 2020 ESU Preparation Package (KB4575903).  This has been replaced with the August 2020 Monthly Update (KB4571729).
