@@ -106,11 +106,10 @@ This section describes the latest ESU updates available for Windows 7.  All of t
 
 | KB Number | Name                                         | Description | Download |
 |:---------:|:--------------------------------------------:|-------------|:--------:|
-| KB4565354 | July 2020 Servicing Stack Update             | This update makes quality improvements to the servicing stack, which is the component that installs Windows updates. Servicing stack updates (SSU) makes sure that you have a robust and reliable servicing stack so that your devices can receive and install Microsoft updates. | [Windows6.1-KB4565354-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/01_Windows6.1-KB4565354-x64.msu)
-| KB4565612 | July 2020 .NET Framework 3.5.1 Update        | Security and Quality Rollup for .NET Framework 3.5.1 for Windows 7 SP1. | [Windows6.1-KB4565612-v2-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB4565612-v2-x64.msu)
-| KB4538483 | May 2020 ESU Preparation Package             | This update provides the complete set of licensing changes to enable installation of the ESU MAK add-on key, which is one of the steps to prepare for installation of Extended Security Updates. | [Windows6.1-KB4538483-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/03_Windows6.1-KB4538483-x64.msu)
-| KB4565524 | July 2020 Windows 7 Cumulative Update        | Security and Quality Rollup for Windows 7 SP1. | Windows6.1-KB4565524-x64.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/04_Windows6.1-KB4565524-x64.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/04_Windows6.1-KB4565524-x64.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/04_Windows6.1-KB4565524-x64.zip.003) <br> [Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/04_Windows6.1-KB4565524-x64.zip.004) |
-| KB4565636 | July 2020 .NET Framework 4.8 Update          | Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1. | [ndp48-KB4565636-x64.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_.NET_4.8/01_ndp48-KB4565636-x64.exe)
+| KB4570673 | August 2020 Servicing Stack Update           | This update makes quality improvements to the servicing stack, which is the component that installs Windows updates. Servicing stack updates (SSU) makes sure that you have a robust and reliable servicing stack so that your devices can receive and install Microsoft updates. | [Windows6.1-KB4570673-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/01_Windows6.1-KB4570673-x64.msu)
+| KB4569767 | August 2020 .NET Framework 3.5.1 Update      | Security and Quality Rollup for .NET Framework 3.5.1 for Windows 7 SP1. | [Windows6.1-KB4569767-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB4569767-x64.msu)
+| KB4571729 | August 2020 Windows 7 Cumulative Update      | Security and Quality Rollup for Windows 7 SP1. | Windows6.1-KB4571729-x64.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/03_Windows6.1-KB4571729-x64.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/03_Windows6.1-KB4571729-x64.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/03_Windows6.1-KB4571729-x64.zip.003) <br> [Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/03_Windows6.1-KB4571729-x64.zip.004) |
+| KB4569754 | August 2020 .NET Framework 4.8 Update        | Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1. | [ndp48-KB4569754-x64.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_.NET_4.8/01_ndp48-KB4569754-x64.exe)
 
 <br>
 
@@ -172,3 +171,10 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 * Updated Microsoft EV ECC Root Certificate Authority 2017.crl.
 * Updated Microsoft RSA Root Certificate Authority 2017.crl.
 * Updated Microsoft EV RSA Root Certificate Authority 2017.crl.
+
+### Update 2020-08-11
+* Replaced July 2020 Servicing Stack Update (KB4565354) with August 2020 Servicing Stack Update (KB4570673).
+* Replaced July 2020 .NET Framework 3.5.1 Update (KB4565612 v1 & v2) with August 2020 .NET Framework 3.5.1 Update (KB4569767).
+* Replaced July 2020 Monthly Update (KB4565524) with August 2020 Monthly Update (KB4571729).
+* Replaced July 2020 .NET Framework 4.8 Updates (KB4565636 v1 & v2) with August 2020 .NET Framework 4.8 Update (KB4569754).
+* Removed May 2020 ESU Preparation Package (KB4538483). This has been replaced with the August 2020 Monthly Update (KB4571729).
