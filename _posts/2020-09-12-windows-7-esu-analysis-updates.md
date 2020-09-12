@@ -5,7 +5,7 @@ date: 2020-09-12 00:00:00
 tags: draft
 ---
 
-The original Windows 7 ESU Analysis can be found [here](https://hackandpwn.com/2020-04-28-windows-7-esu-analysis).  With the September 2020 Cumulative Update, the technique as described no longer works.  However, only slight modifications need to be made in order for this new update to also install.
+The original Windows 7 ESU Analysis can be found [here](https://hackandpwn.com/2020-04-28-windows-7-esu-analysis).  With the September 2020 Cumulative Update, the technique as described no longer works to install this update.  However, only slight modifications need to be made in order for this new update to also install.
 
 Please reference the original post for the majority of the instructions.  This post will only highlight updates that need to be made.
 
