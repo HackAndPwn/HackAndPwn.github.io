@@ -34,8 +34,8 @@ The September 2020 Cumulative Update includes new ESU files that bump versions p
 
 These files can all be found on Github [here](https://github.com/HackAndPwn/Windows-7-ESU-Analysis).  See below for specific file links.
 
-> [Updated Manifest File X64 KB4577051](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2020_09/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.24560_none_c8a77e3a36502557.manifest)
+> [Updated Manifest File X64 KB4577051](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2020_09/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.24560_none_c8a77e3a36502557.manifest)
 >
-> [Updated Components Registry Key KB4577051](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2020_09/ComponentsRegistryKey.reg)
+> [Updated Components Registry Key KB4577051](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2020_09/ComponentsRegistryKey.reg)
 >
-> [Updated SideBySide Registry Key KB4577051](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2020_09/SideBySideRegistryKey.reg)
+> [Updated SideBySide Registry Key KB4577051](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2020_09/SideBySideRegistryKey.reg)

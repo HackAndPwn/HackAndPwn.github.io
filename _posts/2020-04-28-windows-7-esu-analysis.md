@@ -179,12 +179,12 @@ The September 2020 Cumulative update breaks this technique and it does not insta
 
 The various files and registry keys used as part of this analysis have been uploaded to GitHub [here](https://github.com/HackAndPwn/Windows-7-ESU-Analysis).  See below for specific files and links referenced.
 
-> [KB4528069 X64](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2019_10/windows6.1-kb4528069-x64_b00bef3c3a13b8bc65bfaea63426386dbb54c336.msu)
+> [KB4528069 X64](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2019_10/windows6.1-kb4528069-x64_b00bef3c3a13b8bc65bfaea63426386dbb54c336.msu)
 >
-> [KB4528069 X86](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2019_10/windows6.1-kb4528069-x86_82fedea7537b64f6b147070f53bb95e4bf27d3a5.msu)
+> [KB4528069 X86](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2019_10/windows6.1-kb4528069-x86_82fedea7537b64f6b147070f53bb95e4bf27d3a5.msu)
 >
-> [Manifest File X64](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2019_10/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.20587_none_c8993b883659a816.manifest)
+> [Manifest File X64](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2019_10/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.20587_none_c8993b883659a816.manifest)
 >
-> [Components Registry Key](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2019_10/ComponentsRegistryKey.reg)
+> [Components Registry Key](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2019_10/ComponentsRegistryKey.reg)
 >
-> [SideBySide Registry Key](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2019_10/SideBySideRegistryKey.reg)
+> [SideBySide Registry Key](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2019_10/SideBySideRegistryKey.reg)
