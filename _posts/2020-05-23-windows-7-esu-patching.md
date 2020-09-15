@@ -111,7 +111,7 @@ This section describes the latest ESU updates available for Windows 7.  All of t
 | KB4577051* | September 2020 Windows 7 Cumulative Update   | Security and Quality Rollup for Windows 7 SP1. | Windows6.1-KB4577051-x64.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/03_Windows6.1-KB4577051-x64.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/03_Windows6.1-KB4577051-x64.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/03_Windows6.1-KB4577051-x64.zip.003) <br> [Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/03_Windows6.1-KB4577051-x64.zip.004) |
 | KB4576487  | September 2020 .NET Framework 4.8 Update     | Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1. | [ndp48-KB4576487-x64.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_.NET_4.8/01_ndp48-KB4576487-x64.exe)
 
-\* Note: a new ESU package has been integrated into this update.  For details please see the updated [Windows 7 ESU Analysis Updates](https://hackandpwn.com/windows-7-esu-analysis-updates/) post.
+\* Note: a new ESU package has been integrated into this update.  For details please see this post: [Windows 7 ESU Analysis Updates](https://hackandpwn.com/windows-7-esu-analysis-updates/).
 
 <br>
 
