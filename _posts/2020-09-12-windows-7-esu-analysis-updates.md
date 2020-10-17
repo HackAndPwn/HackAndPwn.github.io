@@ -46,4 +46,4 @@ These files can all be found on Github [here](https://github.com/HackAndPwn/Wind
 ### Update 2020-10-17
 * Replaced September 2020 Servicing Stack Update (KB4570673) with October 2020 Servicing Stack Update (KB4580970).
 * Replaced September 2020 Monthly Update (KB4577051) with October 2020 Monthly Update (KB4580345).
-* Replaced September 2020 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.24560) with October 2020 (6.1.7602.24561)
+* Replaced September 2020 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.24560) with October 2020 (6.1.7602.24561).
