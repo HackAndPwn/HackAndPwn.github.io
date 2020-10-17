@@ -3,7 +3,8 @@ layout: page
 ---
 
 <ul>
-  {% sorted_for post in site.posts reversed sort_by:last_modified_at %}
+  {% assign sorted_posts = site.posts | sort: 'last_modified_at' | reverse %}
+  {% for post in sorted_posts %}
 	{% unless post.tags contains 'draft' %}
 		<li>
 		  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
@@ -11,5 +12,5 @@ layout: page
 		</li>
 	{% endunless %}
 	<br>
-  {% endsorted_for %}
+  {% endfor %}
 </ul>
