@@ -24,12 +24,7 @@ layout: default
     {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 
-  {% capture postdate %}{{post.date | date: '%s'}}{% endcapture %}
-  {% capture postmodified %}{{post.last_modified_at | date: '%s'}}{% endcapture %}
-  {% if postdate == postmodified %}
-    <br><i>Last updated on: {{ postmodified }}</i>
-	<br><i>Last updated on: {{ postdate }}</i>
-  {% endif %}
+
 </time>
 
 {% if page.link %}
