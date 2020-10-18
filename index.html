@@ -3,7 +3,8 @@ layout: page
 ---
 
 <ul>
-  {% for post in site.posts | sort_natural 'last_updated' descending %}
+  {% assign sorted_posts = site.posts | sort: 'last_modified_at' | reverse %}
+  {% for post in sorted_posts %}
 	{% unless post.tags contains 'draft' %}
 		<li>
 		  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
