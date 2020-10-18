@@ -3,44 +3,49 @@ layout: default
 ---
 
 <article class="post">
-{% if page.link %}
-<h1 class="post-title"><a href="{{ page.link }}">
-  {{ page.title | smartify }} <span class="link-arrow">&rarr;</span></a>
-</h1>
+  {% if page.link %}
+    <h1 class="post-title"><a href="{{ page.link }}">
+      {{ page.title | smartify }} <span class="link-arrow">&rarr;</span></a>
+    </h1>
   {% else %}
-<h1 class="post-title">{{ page.title | smartify }}</h1>
+    <h1 class="post-title">{{ page.title | smartify }}</h1>
   {% endif %}
   
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_long_string: "ordinal", "US" }}
+<time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">
+  {{ page.date | date_to_long_string: "ordinal", "US" }}
   {% if post %}
-  {% assign categories = post.categories %}
+    {% assign categories = post.categories %}
   {% else %}
-  {% assign categories = page.categories %}
+    {% assign categories = page.categories %}
   {% endif %}
+
   {% for category in categories %}
-  in <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
+    in <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+    {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
-  {%- if page.last_modified_at -%}
-  <br><i>Last updated on: {{ page.last_modified_at | date_to_long_string: "ordinal", "US" }}</i>
-  {%- endif -%}
-  {% if page.date != page.last_modified_at %}
+
+  {% if page.last_modified_at != page.date %}
     <br><i>Last updated on: {{ page.last_modified_at | date_to_long_string: "ordinal", "US" }}</i>
   {% endif %}
-  </time>{% if page.link %}<span class="external-link">External Link</span>{% endif %}
+</time>
+
+{% if page.link %}
+  <span class="external-link">External Link</span>
+{% endif %}
   
-  {{ content | smartify }}
+{{ content | smartify }}
   
-  <br>
+<br>
   <div class="tag-list">
   {% if post %}
-  {% assign tags = post.tags %}
+    {% assign tags = post.tags %}
   {% else %}
-  {% assign tags = page.tags %}
+    {% assign tags = page.tags %}
   {% endif %}
+  
   {% for tag in tags %}
-  <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">#{{tag}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
+    <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">#{{tag}}</a>
+    {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
   </div>
 
