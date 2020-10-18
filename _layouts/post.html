@@ -53,6 +53,7 @@ layout: default
 
 </article>
 
+{%comment%}
 <div class="PageNavigation">
   {% if page.previous.url %}
     {% unless page.previous.tags contains 'draft' %}
@@ -65,7 +66,9 @@ layout: default
 	{% endunless %}
   {% endif %}
 </div>
+{%endcomment%}
 
+{%comment%}
 {% if site.related_posts != empty %}
 <aside class="related">
   <h3>Related Posts</h3>
@@ -83,3 +86,4 @@ layout: default
   </ul>
 </aside>
 {% endif %}
+{%endcomment%}
