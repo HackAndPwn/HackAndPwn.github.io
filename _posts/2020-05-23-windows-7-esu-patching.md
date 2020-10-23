@@ -199,3 +199,6 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 * Replaced August 2020 .NET Framework 3.5.1 Update (KB4569767) with October 2020 .NET Framework 3.5.1 Update (KB4578952).
 * Replaced September 2020 .NET Framework 4.8 Updates (KB4576487) with October 2020 .NET Framework 4.8 Update (KB4578977).
 * Changed the order of ESU updates (Monthly Update needs to be installed prior to installing .NET Framework 3.5.1 Update).
+
+### Update 2020-10-22
+* Updated the description for KB970985 - Thanks <a href="https://twitter.com/FrankLesniak">FrankLesniak</a>!
