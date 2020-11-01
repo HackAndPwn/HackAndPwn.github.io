@@ -17,11 +17,11 @@
 @import "posts";
 
 body {color: rgba(255, 255, 255, 0.8); background-color: rgba(0, 0, 0, 0.9)}
-a: hover, a: focus {color: #65f227}
+a:hover, a:focus {color: #65f227}
 a {color: #65f227}
 table {border: 1px solid #555555}
 td, th {border: 1px solid #555555}
-tbody tr: nth-child(odd) td, tbody tr: nth-child(odd) th {background-color: #2d2d2d}
+tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {background-color: #2d2d2d}
 h1, h2, h3, h4, h5, h6 {color: #d0f6db}
 h2::before, h4::before, h5::before, h6::before {color: #d0f6db}
 hr {border-top: 1px solid #333333; border-bottom: 1px solid #333333}
@@ -29,7 +29,7 @@ abbr {color: rgba(255, 255, 255, 0.8)}
 span.link-arrow {color: #65f227}
 blockquote {border-left: 3px solid #333333}
 mark {background: #0fb47c; color:rgba(255,255,255,0.8)}
-a[href ^= "#fn:"] {color: #65f227; background: #2c2c2c; border: 1px solid #2c2c2c}
+a[href^="#fn:"] {color: #65f227; background: #2c2c2c; border: 1px solid #2c2c2c}
 .footnotes: target {background: #2c2c2c; border: solid 1px #65f227}
 .highlighter-rouge {background-color: #212c2d; color: #d0f6db}
 figure.highlight pre, div.highlight pre {border: 1px solid #d0f6db}
@@ -42,4 +42,4 @@ figure.highlight pre code[data-lang]::before, div.highlight pre code[data-lang]:
 .external-link {color: rgba(255, 255, 255, 0.8)}
 .tag-list {color: #d0f6db}
 .related {border-top: 1px solid #333333; border-bottom: 1px solid #333333}
-.related-posts li a: hover {color: #65f227}
+.related-posts li a:hover {color: #65f227}
