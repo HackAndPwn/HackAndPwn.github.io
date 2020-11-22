@@ -142,7 +142,7 @@ Finally, the latest Microsoft Root Certificates need to be installed into the Lo
 
 ### Conclusion
 
-Once these updates are installed on top of an up-to-date Windows 7 SP1 installation, the OS has been completely updated with hotfixes and optional features.  All of these updates can be found on this Github repository: [Windows 7 Patching](https://github.com/HackAndPwn/Windows-7-Patching)
+Once these updates are installed on top of an up-to-date Windows 7 SP1 installation, the OS has been completely updated with hotfixes and optional features.  All of these updates can be found on this Github repository: [Windows 7 Patching](https://github.com/HackAndPwn/Windows-7-Patching).
 
 The goal is to keep this list updated as changes are introduced.  Please reach out to me via [Twitter](https://twitter.com/HackAndPwn) or [Github](https://github.com/HackAndPwn) if there is an update that is missing, if there is an update in this list that you feel may not be needed, or if there are any other questions or feedback.
 
