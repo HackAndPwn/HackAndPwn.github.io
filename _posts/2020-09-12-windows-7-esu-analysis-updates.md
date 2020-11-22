@@ -35,7 +35,7 @@ The November 2020 Cumulative Update includes new ESU files that bump versions pa
 
 These files can all be found on Github [here](https://github.com/HackAndPwn/Windows-7-ESU-Analysis).  See below for specific file links.
 
-> [Updated Manifest File X64 KB4586827](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2020_11/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.24562_none_c8a87e84364f3eae.manifest)
+> [Updated Manifest File X64 KB4586827](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2020_11/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.24562_none_c8a97ece364e5805.manifest)
 >
 > [Updated Components Registry Key KB4586827](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2020_11/ComponentsRegistryKey.reg)
 >
