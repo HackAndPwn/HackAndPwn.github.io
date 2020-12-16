@@ -23,7 +23,7 @@ Install KB4528069 as described in [Windows 7 ESU Analysis](https://hackandpwn.co
 
 The December 2020 Cumulative Update includes new ESU files that bump versions past those used in KB4528069.  However, the same technique that previously applied still works.
 
-1. Install the latest Servicing Stack Update [Windows6.1-KB4592510-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/01_Windows6.1-KB4592510-x64.msu)
+1. Install the latest Servicing Stack Update [Windows6.1-KB4592510-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/01_Windows6.1-KB4592510-x64.msu).  Reboot the machine.
 
 2. If using the Manifest/Components registry key technique, perform the same installation steps as KB4528069 using the updated files below.
 
@@ -56,3 +56,4 @@ These files can all be found on Github [here](https://github.com/HackAndPwn/Wind
 * Replaced October 2020 Servicing Stack Update (KB4580970) with December 2020 Servicing Stack Update (KB4592510).
 * Replaced November 2020 Monthly Update (KB4586827) with December 2020 Monthly Update (KB4592471).
 * Replaced November 2020 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.24562) with December 2020 (6.1.7602.24563).
+* Added a note that a reboot is required after installing the SSU.
