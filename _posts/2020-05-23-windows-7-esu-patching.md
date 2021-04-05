@@ -107,9 +107,9 @@ This section describes the latest ESU updates available for Windows 7.  All of t
 | KB Number  | Name                                         | Description | Download |
 |:----------:|:--------------------------------------------:|-------------|:--------:|
 | KB4592510  | December 2020 Servicing Stack Update         | This update makes quality improvements to the servicing stack, which is the component that installs Windows updates. Servicing stack updates (SSU) makes sure that you have a robust and reliable servicing stack so that your devices can receive and install Microsoft updates. | [Windows6.1-KB4592510-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/01_Windows6.1-KB4592510-x64.msu)
-| KB4601347* | February 2021 Windows 7 Cumulative Update    | Security and Quality Rollup for Windows 7 SP1. | Windows6.1-KB4601347-x64.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB4601347-x64.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB4601347-x64.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB4601347-x64.zip.003) <br> [Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB4601347-x64.zip.004) |
+| KB5000841* | March 2021 Windows 7 Cumulative Update       | Security and Quality Rollup for Windows 7 SP1. | Windows6.1-KB5000841-x64.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB5000841-x64.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB5000841-x64.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB5000841-x64.zip.003) <br> [Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB5000841-x64.zip.004) |
 | KB4578952  | October 2020 .NET Framework 3.5.1 Update     | Security and Quality Rollup for .NET Framework 3.5.1 for Windows 7 SP1. | [Windows6.1-KB4578952-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/03_Windows6.1-KB4578952-x64.msu)
-| KB4600944  | February 2021 .NET Framework 4.8 Update      | Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1. | [ndp48-KB4600944-x64.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_.NET_4.8/01_ndp48-KB4600944-x64.exe)
+| KB4600944 | March 2021 .NET Framework 4.8 Update          | Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1. | [ndp48-KB4600944-v2-x64.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_.NET_4.8/01_ndp48-KB4600944-v2-x64.exe)
 
 \* Note: a new ESU package has been integrated into this update.  For details please see this post: [Windows 7 ESU Analysis Updates](https://hackandpwn.com/windows-7-esu-analysis-updates/).
 
@@ -234,3 +234,7 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 * Updated Microsoft EV RSA Root Certificate Authority 2017.crl.
 * Updated Microsoft Time Stamp Root Certificate Authority 2014.crl.
 * Updated MicRooCerAut_2010-06-23.crl.
+
+### Update 2021-04-04
+* Replaced February 2021 Monthly Update (KB4601347) with March 2021 Monthly Update (KB5000841).
+* Replaced February 2021 .NET Framework 4.8 Updates (KB4600944) with March 2021 .NET Framework 4.8 Update (KB4600944-v2).
