@@ -2,7 +2,7 @@
 layout: post
 title: Windows 7 ESU Patching
 date: 2020-05-23 00:00:00
-last_modified_at: 2021-05-13
+last_modified_at: 2021-06-13
 ---
 
 With the May 2020 Windows 7 updates, I went on a mission to determine the minimum set of updates needed to enable all features within Windows 7, including optional hotfixes, and to have the most up-to-date installation possible.  After extensive testing, I concluded that 35 updates not offered through Windows Update would need to be installed to reach this objective.  The following sections describe the updates required and provide links to each.
@@ -107,9 +107,9 @@ This section describes the latest ESU updates available for Windows 7.  All of t
 | KB Number  | Name                                         | Description | Download |
 |:----------:|:--------------------------------------------:|-------------|:--------:|
 | KB4592510  | December 2020 Servicing Stack Update         | This update makes quality improvements to the servicing stack, which is the component that installs Windows updates. Servicing stack updates (SSU) makes sure that you have a robust and reliable servicing stack so that your devices can receive and install Microsoft updates. | [Windows6.1-KB4592510-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/01_Windows6.1-KB4592510-x64.msu)
-| KB5003233* | May 2021 Windows 7 Cumulative Update         | Security and Quality Rollup for Windows 7 SP1. | Windows6.1-KB5003233-x64.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB5003233-x64.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB5003233-x64.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB5003233-x64.zip.003) <br> [Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB5003233-x64.zip.004) |
+| KB5003667* | June 2021 Windows 7 Cumulative Update        | Security and Quality Rollup for Windows 7 SP1. | Windows6.1-KB5003667-x64.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB5003667-x64.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB5003667-x64.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB5003667-x64.zip.003) <br> [Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/02_Windows6.1-KB5003667-x64.zip.004) |
 | KB4578952  | October 2020 .NET Framework 3.5.1 Update     | Security and Quality Rollup for .NET Framework 3.5.1 for Windows 7 SP1. | [Windows6.1-KB4578952-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/03_Windows6.1-KB4578952-x64.msu)
-| KB5001843 | May 2021 .NET Framework 4.8 Update            | Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1. | [ndp48-KB5001843-x64.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_.NET_4.8/01_ndp48-KB5001843-x64.exe)
+| KB5003543 | June 2021 .NET Framework 4.8 Update           | Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1. | [ndp48-KB5003543-x64.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_.NET_4.8/01_ndp48-KB5003543-x64.exe)
 
 \* Note: a new ESU package has been integrated into this update.  For details please see this post: [Windows 7 ESU Analysis Updates](https://hackandpwn.com/windows-7-esu-analysis-updates/).
 
@@ -183,7 +183,7 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 
 ### Update 2020-09-14
 * Replaced August 2020 Monthly Update (KB4571729) with September 2020 Monthly Update (KB4577051).
-* Replaced August 2020 .NET Framework 4.8 Updates (KB4569754) with September 2020 .NET Framework 4.8 Update (KB4576487).
+* Replaced August 2020 .NET Framework 4.8 Update (KB4569754) with September 2020 .NET Framework 4.8 Update (KB4576487).
 * Updated Microsoft ECC Product Root Certificate Authority 2018.crl.
 * Updated Microsoft ECC TS Root Certificate Authority 2018.crl.
 * Updated Microsoft ECC Root Certificate Authority 2017.crl.
@@ -197,7 +197,7 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 * Replaced August 2020 Servicing Stack Update (KB4570673) with October 2020 Servicing Stack Update (KB4580970).
 * Replaced September 2020 Monthly Update (KB4577051) with October 2020 Monthly Update (KB4580345).
 * Replaced August 2020 .NET Framework 3.5.1 Update (KB4569767) with October 2020 .NET Framework 3.5.1 Update (KB4578952).
-* Replaced September 2020 .NET Framework 4.8 Updates (KB4576487) with October 2020 .NET Framework 4.8 Update (KB4578977).
+* Replaced September 2020 .NET Framework 4.8 Update (KB4576487) with October 2020 .NET Framework 4.8 Update (KB4578977).
 * Changed the order of ESU updates (Monthly Update needs to be installed prior to installing .NET Framework 3.5.1 Update).
 
 ### Update 2020-10-22
@@ -205,7 +205,7 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 
 ### Update 2020-11-22
 * Replaced October 2020 Monthly Update (KB4580345) with November 2020 Monthly Update (KB4586827).
-* Replaced October 2020 .NET Framework 4.8 Updates (KB4578977) with November 2020 .NET Framework 4.8 Update (KB4585205).
+* Replaced October 2020 .NET Framework 4.8 Update (KB4578977) with November 2020 .NET Framework 4.8 Update (KB4585205).
 * Updated MicRooCerAut_2010-06-23.crl
 * Updated Microsoft ECC Product Root Certificate Authority 2018.crl.
 * Updated Microsoft ECC TS Root Certificate Authority 2018.crl.
@@ -221,11 +221,11 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 
 ### Update 2021-01-17
 * Replaced December 2020 Monthly Update (KB4592471) with January 2021 Monthly Update (KB4598279).
-* Replaced December 2020 .NET Framework 4.8 Updates (KB4585205) with January 2021 .NET Framework 4.8 Update (KB4597254).
+* Replaced December 2020 .NET Framework 4.8 Update (KB4585205) with January 2021 .NET Framework 4.8 Update (KB4597254).
 
 ### Update 2021-02-17
 * Replaced January 2020 Monthly Update (KB4598279) with February 2021 Monthly Update (KB4601347).
-* Replaced January 2020 .NET Framework 4.8 Updates (KB4597254) with February 2021 .NET Framework 4.8 Update (KB4600944).
+* Replaced January 2020 .NET Framework 4.8 Update (KB4597254) with February 2021 .NET Framework 4.8 Update (KB4600944).
 * Updated Microsoft ECC Product Root Certificate Authority 2018.crl.
 * Updated Microsoft ECC TS Root Certificate Authority 2018.crl.
 * Updated Microsoft ECC Root Certificate Authority 2017.crl.
@@ -237,7 +237,7 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 
 ### Update 2021-04-04
 * Replaced February 2021 Monthly Update (KB4601347) with March 2021 Monthly Update (KB5000841).
-* Replaced February 2021 .NET Framework 4.8 Updates (KB4600944) with March 2021 .NET Framework 4.8 Update (KB4600944-v2).
+* Replaced February 2021 .NET Framework 4.8 Update (KB4600944) with March 2021 .NET Framework 4.8 Update (KB4600944-v2).
 
 ### Update 2021-04-15
 * Replaced March 2021 Monthly Update (KB5000841) with April 2021 Monthly Update (KB5001335).
@@ -250,8 +250,12 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 
 ### Update 2021-05-13
 * Replaced April 2021 Monthly Update (KB5001335) with May 2021 Monthly Update (KB5003233).
-* Replaced March 2021 .NET Framework 4.8 Updates (KB4600944) with May 2021 .NET Framework 4.8 Update (KB5001843).
+* Replaced March 2021 .NET Framework 4.8 Update (KB4600944) with May 2021 .NET Framework 4.8 Update (KB5001843).
 * Updated Microsoft ECC Root Certificate Authority 2017.crl.
 * Updated Microsoft EV ECC Root Certificate Authority 2017.crl.
 * Updated Microsoft RSA Root Certificate Authority 2017.crl.
 * Updated Microsoft EV RSA Root Certificate Authority 2017.crl.
+
+### Update 2021-06-13
+* Replaced May 2021 Monthly Update (KB5003233) with June 2021 Monthly Update (KB5003667).
+* Replaced May 2021 .NET Framework 4.8 Update (KB5001843) with June 2021 .NET Framework 4.8 Update (KB5003543).
