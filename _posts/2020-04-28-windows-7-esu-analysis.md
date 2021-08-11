@@ -2,7 +2,7 @@
 layout: post
 title: Windows 7 ESU Analysis
 date: 2020-04-28 00:00:00
-last_modified_at: 2020-09-12
+last_modified_at: 2021-08-09
 ---
 
 The Windows 7 free security update window closed to consumers in January of 2020.  However, due to the overwhelming popularity of the OS, Microsoft began offering Extended Security Updates (ESU) for the Operating System.  The first update preparing a Windows 7 system for this next phase of patches is [KB4528069](https://support.microsoft.com/en-us/help/4528069).  This post dissects the KB4528069 update to understand how ESUs differ from standard Windows 7 updates.
@@ -23,7 +23,7 @@ Next, I started checking for updates.  This resulted in 182 updates on the first
 
 <center><img src="/assets/2020-04-28-windows-7-esu-analysis/02.jpg"></center>
 
-Some of the updates would not install without manually installing KB4474419 first (the SHA2 update).
+Some of the updates would not install without manually installing KB4474419 (the SHA2 update), KB4490628 (Service Stack update), and KB3138612 (Windows Update Client update).
 
 After many update cycles and reboots, 10 years of updates have been applied.  
 
@@ -169,9 +169,15 @@ Note: Windows Update will not detect available updates unless a valid key has be
 
 <br>
 
-### Update September 2020
+### Update 2020-09-12
 
 The September 2020 Cumulative update breaks this technique and it does not install successfully.  For an updated workaround, see this post: [Windows 7 ESU Analysis Updates](https://hackandpwn.com/windows-7-esu-analysis-updates)
+
+<br> 
+
+### Update 2021-08-09
+
+Support for 32-Bit operating systems has been verified.  Links to relevant registry settings and the manifest file have been added.
 
 <br> 
 
@@ -179,12 +185,18 @@ The September 2020 Cumulative update breaks this technique and it does not insta
 
 The various files and registry keys used as part of this analysis have been uploaded to GitHub [here](https://github.com/HackAndPwn/Windows-7-ESU-Analysis).  See below for specific files and links referenced.
 
-> [KB4528069 X64](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2019_10/windows6.1-kb4528069-x64_b00bef3c3a13b8bc65bfaea63426386dbb54c336.msu)
+> [KB4528069 x64](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2019_10/windows6.1-kb4528069-x64_b00bef3c3a13b8bc65bfaea63426386dbb54c336.msu)
 >
-> [KB4528069 X86](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2019_10/windows6.1-kb4528069-x86_82fedea7537b64f6b147070f53bb95e4bf27d3a5.msu)
+> [KB4528069 x86](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2019_10/windows6.1-kb4528069-x86_82fedea7537b64f6b147070f53bb95e4bf27d3a5.msu)
 >
-> [Manifest File X64](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2019_10/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.20587_none_c8993b883659a816.manifest)
+> [Manifest File x64](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2019_10/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.20587_none_c8993b883659a816.manifest)
 >
-> [Components Registry Key](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2019_10/ComponentsRegistryKey.reg)
+> [Manifest File x86](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2019_10/x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.20587_none_6c7aa0047dfc36e0.manifest)
 >
-> [SideBySide Registry Key](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2019_10/SideBySideRegistryKey.reg)
+> [Components Registry Key x64](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2019_10/ComponentsRegistryKey_x64.reg)
+>
+> [Components Registry Key x86](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2019_10/ComponentsRegistryKey_x86.reg)
+>
+> [SideBySide Registry Key x64](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2019_10/SideBySideRegistryKey_x64.reg)
+>
+> [SideBySide Registry Key x86](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2019_10/SideBySideRegistryKey_x86.reg)
