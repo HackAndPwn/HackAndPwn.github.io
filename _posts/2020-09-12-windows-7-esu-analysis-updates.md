@@ -35,9 +35,9 @@ The August 2021 Cumulative Update includes new ESU files that bump versions past
 
 These files can all be found on Github [here](https://github.com/HackAndPwn/Windows-7-ESU-Analysis).  See below for specific file links.
 
-> [Updated Manifest File x64 KB5005088](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_08/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25685_none_c896caf2365bf2b4)
+> [Updated Manifest File x64 KB5005088](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_08/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25685_none_c896caf2365bf2b4.manifest)
 >
-> [Updated Manifest File x86 KB5005088](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_08/x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25685_none_6c782f6e7dfe817e)
+> [Updated Manifest File x86 KB5005088](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_08/x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25685_none_6c782f6e7dfe817e.manifest)
 >
 > [Updated Components Registry Key x64 KB5005088](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_08/ComponentsRegistryKey_x64.reg)
 >
