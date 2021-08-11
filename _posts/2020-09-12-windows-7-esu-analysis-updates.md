@@ -23,11 +23,11 @@ Install KB4528069 as described in [Windows 7 ESU Analysis](https://hackandpwn.co
 
 The August 2021 Cumulative Update includes new ESU files that bump versions past those used in KB4528069.  However, the same technique that previously applied still works.
 
-1. Install the latest Servicing Stack Update [Windows6.1-KB5005088-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/01_Windows6.1-KB5005088-x64.msu) [Windows6.1-KB5005088-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/01_Windows6.1-KB5005088-x86.msu).  Reboot the machine.
+1. Install the latest Servicing Stack Update [Windows6.1-KB5004378-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/01_Windows6.1-KB5004378-x64.msu) [Windows6.1-KB5004378-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_ESU_Updates/01_Windows6.1-KB5004378-x86.msu).  Reboot the machine.
 
 2. If using the Manifest/Components registry key technique, perform the same installation steps as KB4528069 using the updated files below.
 
-3. If using the failed reboot technique, try to install KB5004289 and let it fail.  Apply the updated SideBySide registry key below and retry the update.  This time it will succeed.
+3. If using the failed reboot technique, try to install KB5005088 and let it fail.  Apply the updated SideBySide registry key below and retry the update.  This time it will succeed.
 
 <br>
 
@@ -35,17 +35,17 @@ The August 2021 Cumulative Update includes new ESU files that bump versions past
 
 These files can all be found on Github [here](https://github.com/HackAndPwn/Windows-7-ESU-Analysis).  See below for specific file links.
 
-> [Updated Manifest File x64 KB5004289](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_08/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25685_none_c896caf2365bf2b4)
+> [Updated Manifest File x64 KB5005088](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_08/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25685_none_c896caf2365bf2b4)
 >
-> [Updated Manifest File x86 KB5004289](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_08/x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25685_none_6c782f6e7dfe817e)
+> [Updated Manifest File x86 KB5005088](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_08/x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25685_none_6c782f6e7dfe817e)
 >
-> [Updated Components Registry Key x64 KB5004289](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_08/ComponentsRegistryKey_x64.reg)
+> [Updated Components Registry Key x64 KB5005088](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_08/ComponentsRegistryKey_x64.reg)
 >
-> [Updated Components Registry Key x86 KB5004289](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_08/ComponentsRegistryKey_x86.reg)
+> [Updated Components Registry Key x86 KB5005088](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_08/ComponentsRegistryKey_x86.reg)
 >
-> [Updated SideBySide Registry Key x64 KB5004289](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_08/SideBySideRegistryKey_x64.reg)
+> [Updated SideBySide Registry Key x64 KB5005088](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_08/SideBySideRegistryKey_x64.reg)
 >
-> [Updated SideBySide Registry Key x86 KB5004289](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_08/SideBySideRegistryKey_x86.reg)
+> [Updated SideBySide Registry Key x86 KB5005088](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_08/SideBySideRegistryKey_x86.reg)
 
 <br>
 
