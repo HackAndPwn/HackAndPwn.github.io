@@ -23,7 +23,7 @@ Next, I started checking for updates.  This resulted in 182 updates on the first
 
 <center><img src="/assets/2020-04-28-windows-7-esu-analysis/02.jpg"></center>
 
-Some of the updates would not install without manually installing KB4474419 (the SHA2 update), KB4490628 (Service Stack update), and KB3138612 (Windows Update Client update).
+Some of the updates would not install without manually installing KB4474419 (SHA2 update), KB4490628 (Service Stack update), and KB3138612 (Windows Update Client update).
 
 After many update cycles and reboots, 10 years of updates have been applied.  
 
