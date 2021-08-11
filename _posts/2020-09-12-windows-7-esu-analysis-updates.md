@@ -94,6 +94,6 @@ These files can all be found on Github [here](https://github.com/HackAndPwn/Wind
 * Replaced June 2021 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.25632) with July 2021 (6.1.7602.25661).
 
 ### Update 2021-08-10
-* Added 32-bit Details
+* Added 32-bit links.
 * Replaced July 2021 Monthly Update (KB5004289) with August 2021 Monthly Update (KB5005088).
 * Replaced July 2021 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.25661) with August 2021 (6.1.7602.25685).
