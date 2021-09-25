@@ -138,7 +138,7 @@ This section describes the latest ESU updates available for Windows 7.  All of t
 
 ### Root Certificate Updates
 
-Finally, the latest Microsoft Root Certificates need to be installed into the Local Computer Trusted Root Authority Certificate Store.  A batch file to automatically install all certificates and revocation lists can be found here: [Import.cmd](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Import.cmd)
+Finally, the latest Microsoft Root Certificates need to be installed into the Local Computer Trusted Root Authority Certificate Store.  A batch file to automatically install all certificates and revocation lists can be found here: [Import.cmd](https://github.com/HackAndPwn/Windows-7-Patching/blob/master/08_Certs/Import.cmd)
 
 | Date       | Type            | Download |
 |:----------:|:---------------:|:--------:|

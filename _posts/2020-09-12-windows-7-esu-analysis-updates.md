@@ -35,17 +35,17 @@ The September 2021 Cumulative Update includes new ESU files that bump versions p
 
 These files can all be found on GitHub [here](https://github.com/HackAndPwn/Windows-7-ESU-Analysis).  See below for specific file links.
 
-> [Updated Manifest File x64 KB5005633](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_09/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25712_none_c8df7b6e3625e03f.manifest)
+> [Updated Manifest File x64 KB5005633](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2021_09/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25712_none_c8df7b6e3625e03f.manifest)
 >
-> [Updated Manifest File x86 KB5005633](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_09/x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25712_none_6cc0dfea7dc86f09.manifest)
+> [Updated Manifest File x86 KB5005633](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2021_09/x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25712_none_6cc0dfea7dc86f09.manifest)
 >
-> [Updated Components Registry Key x64 KB5005633](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_09/ComponentsRegistryKey_x64.reg)
+> [Updated Components Registry Key x64 KB5005633](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2021_09/ComponentsRegistryKey_x64.reg)
 >
-> [Updated Components Registry Key x86 KB5005633](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_09/ComponentsRegistryKey_x86.reg)
+> [Updated Components Registry Key x86 KB5005633](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2021_09/ComponentsRegistryKey_x86.reg)
 >
-> [Updated SideBySide Registry Key x64 KB5005633](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_09/SideBySideRegistryKey_x64.reg)
+> [Updated SideBySide Registry Key x64 KB5005633](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2021_09/SideBySideRegistryKey_x64.reg)
 >
-> [Updated SideBySide Registry Key x86 KB5005633](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/master/2021_09/SideBySideRegistryKey_x86.reg)
+> [Updated SideBySide Registry Key x86 KB5005633](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2021_09/SideBySideRegistryKey_x86.reg)
 
 <br>
 
