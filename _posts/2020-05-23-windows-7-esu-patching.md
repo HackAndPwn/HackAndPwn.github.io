@@ -2,7 +2,7 @@
 layout: post
 title: Windows 7 ESU Patching
 date: 2020-05-23 00:00:00
-last_modified_at: 2021-09-25
+last_modified_at: 2021-10-22
 ---
 
 With the May 2020 Windows 7 updates, I went on a mission to determine the minimum set of updates needed to enable all features within Windows 7, including optional hotfixes, and to have the most up-to-date installation possible.  After extensive testing, I concluded that 35 updates not offered through Windows Update would need to be installed to reach this objective.  The following sections describe the updates required and provide links to each.
@@ -127,10 +127,10 @@ This section describes the latest ESU updates available for Windows 7.  All of t
 
 | KB Number   | Name                                        | Description | Download |
 |:-----------:|:-------------------------------------------:|-------------|:--------:|
-| KB5004378   | July 2021 Servicing Stack Update            | This update makes quality improvements to the servicing stack, which is the component that installs Windows updates. Servicing stack updates (SSU) makes sure that you have a robust and reliable servicing stack so that your devices can receive and install Microsoft updates. | [Windows6.1-KB5004378-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5004378-x64.msu) <br>&nbsp;<br> [Windows6.1-KB5004378-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5004378-x86.msu) |
-| KB5005633\* | September 2021 Windows 7 Cumulative Update  | Security and Quality Rollup for Windows 7 SP1. | Windows6.1-KB5005633-x64.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5005633-x64.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5005633-x64.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5005633-x64.zip.003) <br> [Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5005633-x64.zip.004) <br>&nbsp;<br> Windows6.1-KB5005633-x86.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5005633-x86.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5005633-x86.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5005633-x86.zip.003) |
+| KB5006749   | October 2021 Servicing Stack Update         | This update makes quality improvements to the servicing stack, which is the component that installs Windows updates. Servicing stack updates (SSU) makes sure that you have a robust and reliable servicing stack so that your devices can receive and install Microsoft updates. | [Windows6.1-KB5006749-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5006749-x64.msu) <br>&nbsp;<br> [Windows6.1-KB5006749-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5006749-x86.msu) |
+| KB5006743\* | October 2021 Windows 7 Cumulative Update    | Security and Quality Rollup for Windows 7 SP1. | Windows6.1-KB5006743-x64.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5006743-x64.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5006743-x64.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5006743-x64.zip.003) <br> [Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5006743-x64.zip.004) <br>&nbsp;<br> Windows6.1-KB5006743-x86.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5006743-x86.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5006743-x86.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5006743-x86.zip.003) |
 | KB4578952   | October 2020 .NET Framework 3.5.1 Update    | Security and Quality Rollup for .NET Framework 3.5.1 for Windows 7 SP1. | [Windows6.1-KB4578952-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/03_Windows6.1-KB4578952-x64.msu) <br>&nbsp;<br> [Windows6.1-KB4578952-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/03_Windows6.1-KB4578952-x86.msu) |
-| KB5004755   | August 2021 .NET Framework 4.8 Update       | Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1. | [ndp48-KB5004755-x64.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5004755-x64.exe) <br>&nbsp;<br> [ndp48-KB5004755-x86.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5004755-x86.exe) |
+| KB5006060   | October 2021 .NET Framework 4.8 Update      | Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1. | [ndp48-KB5006060-x64.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5006060-x64.exe) <br>&nbsp;<br> [ndp48-KB5006060-x86.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5006060-x86.exe) |
 
 \* Note: a new ESU package has been integrated into this update.  For details please see this post: [Windows 7 ESU Analysis Updates](https://hackandpwn.com/windows-7-esu-analysis-updates/).
 
@@ -150,14 +150,14 @@ Finally, the latest Microsoft Root Certificates need to be installed into the Lo
 | 2020-01-22 | Certificate     | [Microsoft EV ECC Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20ECC%20Root%20Certificate%20Authority%202017.crt) |
 | 2020-01-22 | Certificate     | [Microsoft RSA Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crt) |
 | 2020-01-22 | Certificate     | [Microsoft EV RSA Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20RSA%20Root%20Certificate%20Authority%202017.crt) |
-| 2021-07-23 | Revocation List | [Microsoft EV ECC Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20ECC%20Root%20Certificate%20Authority%202017.crl) |
-| 2021-07-23 | Revocation List | [Microsoft EV RSA Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20RSA%20Root%20Certificate%20Authority%202017.crl) |
-| 2021-07-24 | Revocation List | [Microsoft ECC Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Root%20Certificate%20Authority%202017.crl) |
-| 2021-07-24 | Revocation List | [Microsoft RSA Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crl) |
 | 2021-09-04 | Revocation List | [MicRooCerAut_2010-06-23.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/MicRooCerAut_2010-06-23.crl) |
 | 2021-09-12 | Revocation List | [Microsoft ECC Product Root Certificate Authority 2018.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Product%20Root%20Certificate%20Authority%202018.crl) |
 | 2021-09-12 | Revocation List | [Microsoft ECC TS Root Certificate Authority 2018.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20TS%20Root%20Certificate%20Authority%202018.crl) |
 | 2021-09-18 | Revocation List | [Microsoft Time Stamp Root Certificate Authority 2014.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20Time%20Stamp%20Root%20Certificate%20Authority%202014.crl) |
+| 2021-09-22 | Revocation List | [Microsoft EV ECC Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20ECC%20Root%20Certificate%20Authority%202017.crl) |
+| 2021-09-22 | Revocation List | [Microsoft EV RSA Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20RSA%20Root%20Certificate%20Authority%202017.crl) |
+| 2021-10-10 | Revocation List | [Microsoft ECC Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Root%20Certificate%20Authority%202017.crl) |
+| 2021-10-10 | Revocation List | [Microsoft RSA Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crl) |
 
 <br>
 
@@ -245,8 +245,8 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 * Replaced December 2020 .NET Framework 4.8 Update (KB4585205) with January 2021 .NET Framework 4.8 Update (KB4597254).
 
 ### Update 2021-02-17
-* Replaced January 2020 Monthly Update (KB4598279) with February 2021 Monthly Update (KB4601347).
-* Replaced January 2020 .NET Framework 4.8 Update (KB4597254) with February 2021 .NET Framework 4.8 Update (KB4600944).
+* Replaced January 2021 Monthly Update (KB4598279) with February 2021 Monthly Update (KB4601347).
+* Replaced January 2021 .NET Framework 4.8 Update (KB4597254) with February 2021 .NET Framework 4.8 Update (KB4600944).
 * Updated Microsoft ECC Product Root Certificate Authority 2018.crl.
 * Updated Microsoft ECC TS Root Certificate Authority 2018.crl.
 * Updated Microsoft ECC Root Certificate Authority 2017.crl.
@@ -295,8 +295,8 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 
 ### Update 2021-08-11
 * Added 32-bit Updates
-* Replaced June 2021 Monthly Update (KB5004289) with July 2021 Monthly Update (KB5005088).
-* Replaced June 2021 .NET Framework 4.8 Update (KB5004116) with July 2021 .NET Framework 4.8 Update (KB5004755).
+* Replaced July 2021 Monthly Update (KB5004289) with August 2021 Monthly Update (KB5005088).
+* Replaced July 2021 .NET Framework 4.8 Update (KB5004116) with August 2021 .NET Framework 4.8 Update (KB5004755).
 * Updated Microsoft ECC Root Certificate Authority 2017.crl.
 * Updated Microsoft EV ECC Root Certificate Authority 2017.crl.
 * Updated Microsoft RSA Root Certificate Authority 2017.crl.
@@ -326,3 +326,12 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 * Updated Microsoft ECC TS Root Certificate Authority 2018.crl.
 * Updated Microsoft Time Stamp Root Certificate Authority 2014.crl.
 * Updated MicRooCerAut_2010-06-23.crl.
+
+### Update 2021-10-22
+* Replaced July 2021 Servicing Stack Update (KB5004378) with October 2021 Servicing Stack Update (KB5006749).
+* Replaced September 2021 Monthly Update (KB5005633) with October 2021 Monthly Update (KB5006743).
+* Replaced August 2021 .NET Framework 4.8 Update (KB5004755) with October 2021 .NET Framework 4.8 Update (KB5006060).
+* Updated Microsoft ECC Root Certificate Authority 2017.crl.
+* Updated Microsoft EV ECC Root Certificate Authority 2017.crl.
+* Updated Microsoft RSA Root Certificate Authority 2017.crl.
+* Updated Microsoft EV RSA Root Certificate Authority 2017.crl.
