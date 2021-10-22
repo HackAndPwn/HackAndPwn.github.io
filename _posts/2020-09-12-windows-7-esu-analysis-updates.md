@@ -104,5 +104,6 @@ These files can all be found on GitHub [here](https://github.com/HackAndPwn/Wind
 * Updated GitHub links.
 
 ### Update 2021-10-21
+* Replaced July 2021 Servicing Stack Update (KB5004378) with October 2021 Servicing Stack Update (KB5006749).
 * Replaced September 2021 Monthly Update (KB5005633) with October 2021 Monthly Update (KB5006743).
 * Replaced September 2021 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.25712) with October 2021 (6.1.7602.25740).
