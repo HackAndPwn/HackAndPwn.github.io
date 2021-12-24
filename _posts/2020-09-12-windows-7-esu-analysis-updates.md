@@ -2,7 +2,7 @@
 layout: post
 title: Windows 7 ESU Analysis Updates
 date: 2020-09-12 00:00:00
-last_modified_at: 2021-11-18
+last_modified_at: 2021-12-24
 ---
 
 The original Windows 7 ESU Analysis can be found [here](https://hackandpwn.com/windows-7-esu-analysis).  With the September 2020 Cumulative Update, the technique as described no longer works to install this update.  However, only slight modifications need to be made in order for this new update to also install.
@@ -19,15 +19,15 @@ Please reference the original post for the majority of the instructions.  This p
 
 Install KB4528069 as described in [Windows 7 ESU Analysis](https://hackandpwn.com/windows-7-esu-analysis). 
 
-### Installing KB5007236 (November 2021 Cumulative Update)
+### Installing KB5008244 (December 2021 Cumulative Update)
 
-The November 2021 Cumulative Update includes new ESU files that bump versions past those used in KB4528069.  However, the same technique that previously applied still works.
+The December 2021 Cumulative Update includes new ESU files that bump versions past those used in KB4528069.  However, the same technique that previously applied still works.
 
 1. Install the latest Servicing Stack Update [Windows6.1-KB5006749-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5006749-x64.msu) [Windows6.1-KB5006749-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5006749-x86.msu).  Reboot the machine.
 
 2. If using the Manifest/Components registry key technique, perform the same installation steps as KB4528069 using the updated files below.
 
-3. If using the failed reboot technique, try to install KB5007236 and let it fail.  Apply the updated SideBySide registry key below and retry the update.  This time it will succeed.
+3. If using the failed reboot technique, try to install KB5008244 and let it fail.  Apply the updated SideBySide registry key below and retry the update.  This time it will succeed.
 
 <br>
 
@@ -35,17 +35,17 @@ The November 2021 Cumulative Update includes new ESU files that bump versions pa
 
 These files can all be found on GitHub [here](https://github.com/HackAndPwn/Windows-7-ESU-Analysis).  See below for specific file links.
 
-> [Updated Manifest File x64 KB5007236](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2021_11/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25769_none_c8b06dd836481d55.manifest)
+> [Updated Manifest File x64 KB5008244](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2021_12/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25796_none_c88cfd3636632523.manifest)
 >
-> [Updated Manifest File x86 KB5007236](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2021_11/x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25769_none_6c91d2547deaac1f.manifest)
+> [Updated Manifest File x86 KB5008244](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2021_12/x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25796_none_6c6e61b27e05b3ed.manifest)
 >
-> [Updated Components Registry Key x64 KB5007236](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2021_11/ComponentsRegistryKey_x64.reg)
+> [Updated Components Registry Key x64 KB5008244](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2021_12/ComponentsRegistryKey_x64.reg)
 >
-> [Updated Components Registry Key x86 KB5007236](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2021_11/ComponentsRegistryKey_x86.reg)
+> [Updated Components Registry Key x86 KB5008244](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2021_12/ComponentsRegistryKey_x86.reg)
 >
-> [Updated SideBySide Registry Key x64 KB5007236](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2021_11/SideBySideRegistryKey_x64.reg)
+> [Updated SideBySide Registry Key x64 KB5008244](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2021_12/SideBySideRegistryKey_x64.reg)
 >
-> [Updated SideBySide Registry Key x86 KB5007236](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2021_11/SideBySideRegistryKey_x86.reg)
+> [Updated SideBySide Registry Key x86 KB5008244](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2021_12/SideBySideRegistryKey_x86.reg)
 
 <br>
 
@@ -111,3 +111,7 @@ These files can all be found on GitHub [here](https://github.com/HackAndPwn/Wind
 ### Update 2021-11-18
 * Replaced October 2021 Monthly Update (KB5006743) with November 2021 Monthly Update (KB5007236).
 * Replaced October 2021 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.25740) with November 2021 (6.1.7602.25769).
+
+### Update 2021-12-24
+* Replaced November 2021 Monthly Update (KB5007236) with December 2021 Monthly Update (KB5008244).
+* Replaced November 2021 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.25769) with December 2021 (6.1.7602.25796).
