@@ -2,7 +2,7 @@
 layout: post
 title: Windows 7 ESU Analysis Updates
 date: 2020-09-12 00:00:00
-last_modified_at: 2022-02-20
+last_modified_at: 2022-03-23
 ---
 
 The original Windows 7 ESU Analysis can be found [here](https://hackandpwn.com/windows-7-esu-analysis).  With the September 2020 Cumulative Update, the technique as described no longer works to install this update.  However, only slight modifications need to be made in order for this new update to also install.
@@ -19,15 +19,15 @@ Please reference the original post for the majority of the instructions.  This p
 
 Install KB4528069 as described in [Windows 7 ESU Analysis](https://hackandpwn.com/windows-7-esu-analysis). 
 
-### Installing KB5010404 (February 2022 Cumulative Update)
+### Installing KB5011552 (March 2022 Cumulative Update)
 
-The February 2022 Cumulative Update includes new ESU files that bump versions past those used in KB4528069.  However, the same technique that previously applied still works.
+The March 2022 Cumulative Update includes new ESU files that bump versions past those used in KB4528069.  However, the same technique that previously applied still works.
 
-1. Install the latest Servicing Stack Update [Windows6.1-KB5010451-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5010451-x64.msu) [Windows6.1-KB5010451-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5010451-x86.msu).  Reboot the machine.
+1. Install the latest Servicing Stack Update [Windows6.1-KB5011649-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5011649-x64.msu) [Windows6.1-KB5011649-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5011649-x86.msu).  Reboot the machine.
 
 2. If using the Manifest/Components registry key technique, perform the same installation steps as KB4528069 using the updated files below.
 
-3. If using the failed reboot technique, try to install KB5010404 and let it fail.  Apply the updated SideBySide registry key below and retry the update.  This time it will succeed.
+3. If using the failed reboot technique, try to install KB5011552 and let it fail.  Apply the updated SideBySide registry key below and retry the update.  This time it will succeed.
 
 <br>
 
@@ -35,17 +35,17 @@ The February 2022 Cumulative Update includes new ESU files that bump versions pa
 
 These files can all be found on GitHub [here](https://github.com/HackAndPwn/Windows-7-ESU-Analysis).  See below for specific file links.
 
-> [Updated Manifest File x64 KB5010404](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_02/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25860_none_c8a76d243650366d.manifest)
+> [Updated Manifest File x64 KB5011552](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_03/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25898_none_c88effb0366154f8.manifest)
 >
-> [Updated Manifest File x86 KB5010404](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_02/x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25860_none_6c88d1a07df2c537.manifest)
+> [Updated Manifest File x86 KB5011552](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_03/x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.25898_none_6c70642c7e03e3c2.manifest)
 >
-> [Updated Components Registry Key x64 KB5010404](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_02/ComponentsRegistryKey_x64.reg)
+> [Updated Components Registry Key x64 KB5011552](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_03/ComponentsRegistryKey_x64.reg)
 >
-> [Updated Components Registry Key x86 KB5010404](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_02/ComponentsRegistryKey_x86.reg)
+> [Updated Components Registry Key x86 KB5011552](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_03/ComponentsRegistryKey_x86.reg)
 >
-> [Updated SideBySide Registry Key x64 KB5010404](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_02/SideBySideRegistryKey_x64.reg)
+> [Updated SideBySide Registry Key x64 KB5011552](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_03/SideBySideRegistryKey_x64.reg)
 >
-> [Updated SideBySide Registry Key x86 KB5010404](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_02/SideBySideRegistryKey_x86.reg)
+> [Updated SideBySide Registry Key x86 KB5011552](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_03/SideBySideRegistryKey_x86.reg)
 
 <br>
 
@@ -124,3 +124,8 @@ These files can all be found on GitHub [here](https://github.com/HackAndPwn/Wind
 * Replaced October 2021 Servicing Stack Update (KB5006749) with February 2022 Servicing Stack Update (KB5010451).
 * Replaced January 2022 Monthly Update (KB5009610) with February 2022 Monthly Update (KB5010404).
 * Replaced January 2022 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.25829) with February 2022 (6.1.7602.25860).
+
+### Update 2022-03-23
+* Replaced February 2022 Servicing Stack Update (KB5010451) with March 2022 Servicing Stack Update (KB5011649).
+* Replaced February 2022 Monthly Update (KB5010404) with March 2022 Monthly Update (KB5011552).
+* Replaced February 2022 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.25860) with March 2022 (6.1.7602.25898).
