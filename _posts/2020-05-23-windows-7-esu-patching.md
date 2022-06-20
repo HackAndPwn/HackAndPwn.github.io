@@ -390,6 +390,6 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 * Updated Microsoft Time Stamp Root Certificate Authority 2014.crl.
 
 ### Update 2022-06-19
-* Replaced May 2022 Monthly Update (KB5012626) with June 2022 Monthly Update (KB5014748).
+* Replaced May 2022 Monthly Update (KB5014012) with June 2022 Monthly Update (KB5014748).
 * Replaced May 2022 .NET Framework 4.8 Update (KB5013632) with June 2022 .NET Framework 4.8 Update (KB5014631).
 * Updated Microsoft ECC Root Certificate Authority 2017.crl.
