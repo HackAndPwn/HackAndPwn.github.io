@@ -2,7 +2,7 @@
 layout: post
 title: Windows 7 ESU Patching
 date: 2020-05-23 00:00:00
-last_modified_at: 2022-07-18
+last_modified_at: 2022-08-22
 ---
 
 With the May 2020 Windows 7 updates, I went on a mission to determine the minimum set of updates needed to enable all features within Windows 7, including optional hotfixes, and to have the most up-to-date installation possible.  After extensive testing, I concluded that 42 updates not offered through Windows Update would need to be installed to reach this objective.  The following sections describe the updates required and provide links to each.
@@ -125,12 +125,12 @@ There are six hotfixes available to update components after Service Pack 2 has b
 
 This section describes the latest ESU updates available for Windows 7.  All of these updates are cumulative containing fixes from all previous versions of the updates.  An ESU license is required to install these updates, and only the latest one needs to be installed.
 
-| KB Number   | Name                                  | Description | Download |
-|:-----------:|:-------------------------------------:|-------------|:--------:|
-| KB5016057   | July 2022 Servicing Stack Update      | This update makes quality improvements to the servicing stack, which is the component that installs Windows updates. Servicing stack updates (SSU) makes sure that you have a robust and reliable servicing stack so that your devices can receive and install Microsoft updates. | [Windows6.1-KB5016057-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5016057-x64.msu) <br>&nbsp;<br> [Windows6.1-KB5016057-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5016057-x86.msu) |
-| KB5015861\* | July 2022 Windows 7 Cumulative Update | Security and Quality Rollup for Windows 7 SP1. | Windows6.1-KB5015861-x64.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5015861-x64.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5015861-x64.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5015861-x64.zip.003) <br> [Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5015861-x64.zip.004) <br>&nbsp;<br> Windows6.1-KB5015861-x86.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5015861-x86.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5015861-x86.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5015861-x86.zip.003) |
-| KB5013637   | May 2022 .NET Framework 3.5.1 Update  | Security and Quality Rollup for .NET Framework 3.5.1 for Windows 7 SP1. | [Windows6.1-KB5013637-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/03_Windows6.1-KB5013637-x64.msu) <br>&nbsp;<br> [Windows6.1-KB5013637-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/03_Windows6.1-KB5013637-x86.msu) |
-| KB5014631   | June 2022 .NET Framework 4.8 Update   | Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1. | [ndp48-KB5014631-x64.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5014631-x64.exe) <br>&nbsp;<br> [ndp48-KB5014631-x86.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5014631-x86.exe) |
+| KB Number   | Name                                    | Description | Download |
+|:-----------:|:---------------------------------------:|-------------|:--------:|
+| KB5016057   | July 2022 Servicing Stack Update        | This update makes quality improvements to the servicing stack, which is the component that installs Windows updates. Servicing stack updates (SSU) makes sure that you have a robust and reliable servicing stack so that your devices can receive and install Microsoft updates. | [Windows6.1-KB5016057-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5016057-x64.msu) <br>&nbsp;<br> [Windows6.1-KB5016057-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5016057-x86.msu) |
+| KB5016676\* | August 2022 Windows 7 Cumulative Update | Security and Quality Rollup for Windows 7 SP1. | Windows6.1-KB5016676-x64.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5016676-x64.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5016676-x64.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5016676-x64.zip.003) <br> [Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5016676-x64.zip.004) <br>&nbsp;<br> Windows6.1-KB5016676-x86.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5016676-x86.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5016676-x86.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5016676-x86.zip.003) |
+| KB5013637   | May 2022 .NET Framework 3.5.1 Update    | Security and Quality Rollup for .NET Framework 3.5.1 for Windows 7 SP1. | [Windows6.1-KB5013637-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/03_Windows6.1-KB5013637-x64.msu) <br>&nbsp;<br> [Windows6.1-KB5013637-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/03_Windows6.1-KB5013637-x86.msu) |
+| KB5016367   | August 2022 .NET Framework 4.8 Update   | Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1. | [ndp48-KB5016367-x64.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5016367-x64.exe) <br>&nbsp;<br> [ndp48-KB5016367-x86.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5016367-x86.exe) |
 
 \* Note: a new ESU package has been integrated into this update.  For details please see this post: [Windows 7 ESU Analysis Updates](https://hackandpwn.com/windows-7-esu-analysis-updates/).
 
@@ -150,14 +150,14 @@ Finally, the latest Microsoft Root Certificates need to be installed into the Lo
 | 2020-01-22 | Certificate     | [Microsoft EV ECC Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20ECC%20Root%20Certificate%20Authority%202017.crt) |
 | 2020-01-22 | Certificate     | [Microsoft RSA Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crt) |
 | 2020-01-22 | Certificate     | [Microsoft EV RSA Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20RSA%20Root%20Certificate%20Authority%202017.crt) |
-| 2022-05-08 | Revocation List | [Microsoft EV ECC Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20ECC%20Root%20Certificate%20Authority%202017.crl) |
-| 2022-05-08 | Revocation List | [Microsoft EV RSA Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20RSA%20Root%20Certificate%20Authority%202017.crl) |
-| 2022-05-10 | Revocation List | [Microsoft Time Stamp Root Certificate Authority 2014.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20Time%20Stamp%20Root%20Certificate%20Authority%202014.crl) |
 | 2022-06-01 | Revocation List | [Microsoft ECC Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Root%20Certificate%20Authority%202017.crl) |
 | 2022-07-05 | Revocation List | [MicRooCerAut_2010-06-23.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/MicRooCerAut_2010-06-23.crl) |
 | 2022-07-06 | Revocation List | [Microsoft RSA Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crl) |
 | 2022-07-13 | Revocation List | [Microsoft ECC Product Root Certificate Authority 2018.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Product%20Root%20Certificate%20Authority%202018.crl) |
 | 2022-07-13 | Revocation List | [Microsoft ECC TS Root Certificate Authority 2018.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20TS%20Root%20Certificate%20Authority%202018.crl) |
+| 2022-07-23 | Revocation List | [Microsoft EV ECC Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20ECC%20Root%20Certificate%20Authority%202017.crl) |
+| 2022-07-23 | Revocation List | [Microsoft EV RSA Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20RSA%20Root%20Certificate%20Authority%202017.crl) |
+| 2022-07-27 | Revocation List | [Microsoft Time Stamp Root Certificate Authority 2014.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20Time%20Stamp%20Root%20Certificate%20Authority%202014.crl) |
 
 <br>
 
@@ -401,3 +401,10 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 * Updated Microsoft ECC TS Root Certificate Authority 2018.crl.
 * Updated Microsoft RSA Root Certificate Authority 2017.crl.
 * Updated MicRooCerAut_2010-06-23.crl.
+
+### Update 2022-08-22
+* Replaced July 2022 Monthly Update (KB5015861) with August 2022 Monthly Update (KB5016676).
+* Replaced June 2022 .NET Framework 4.8 Update (KB5014631) with August 2022 .NET Framework 4.8 Update (KB5016367).
+* Updated Microsoft EV ECC Root Certificate Authority 2017.crl.
+* Updated Microsoft EV RSA Root Certificate Authority 2017.crl.
+* Updated Microsoft Time Stamp Root Certificate Authority 2014.crl.
