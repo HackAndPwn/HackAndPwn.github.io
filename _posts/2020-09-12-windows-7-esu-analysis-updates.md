@@ -35,17 +35,17 @@ The November 2022 Cumulative Update includes new ESU files that bump versions pa
 
 These files can all be found on GitHub [here](https://github.com/HackAndPwn/Windows-7-ESU-Analysis).  See below for specific file links.
 
-> [Updated Manifest File x64 KB5018454](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_11/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26221_none_c8d38af2362f0ab7.manifest)
+> [Updated Manifest File x64 KB5020000](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_11/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26221_none_c8d38af2362f0ab7.manifest)
 >
-> [Updated Manifest File x86 KB5018454](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_11/x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26221_none_6cb4ef6e7dd19981.manifest)
+> [Updated Manifest File x86 KB5020000](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_11/x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26221_none_6cb4ef6e7dd19981.manifest)
 >
-> [Updated Components Registry Key x64 KB5018454](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_11/ComponentsRegistryKey_x64.reg)
+> [Updated Components Registry Key x64 KB5020000](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_11/ComponentsRegistryKey_x64.reg)
 >
-> [Updated Components Registry Key x86 KB5018454](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_11/ComponentsRegistryKey_x86.reg)
+> [Updated Components Registry Key x86 KB5020000](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_11/ComponentsRegistryKey_x86.reg)
 >
-> [Updated SideBySide Registry Key x64 KB5018454](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_11/SideBySideRegistryKey_x64.reg)
+> [Updated SideBySide Registry Key x64 KB5020000](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_11/SideBySideRegistryKey_x64.reg)
 >
-> [Updated SideBySide Registry Key x86 KB5018454](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_11/SideBySideRegistryKey_x86.reg)
+> [Updated SideBySide Registry Key x86 KB5020000](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2022_11/SideBySideRegistryKey_x86.reg)
 
 <br>
 
