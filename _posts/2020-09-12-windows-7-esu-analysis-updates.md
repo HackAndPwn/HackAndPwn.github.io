@@ -27,7 +27,7 @@ The November 2022 Cumulative Update includes new ESU files that bump versions pa
 
 2. If using the Manifest/Components registry key technique, perform the same installation steps as KB4528069 using the updated files below.
 
-3. If using the failed reboot technique, try to install KB50200000 and let it fail.  Apply the updated SideBySide registry key below and retry the update.  This time it will succeed.
+3. If using the failed reboot technique, try to install KB5020000 and let it fail.  Apply the updated SideBySide registry key below and retry the update.  This time it will succeed.
 
 <br>
 
