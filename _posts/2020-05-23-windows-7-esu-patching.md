@@ -464,6 +464,6 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 * Updated Microsoft EV RSA Root Certificate Authority 2017.crl.
 * Updated Microsoft Time Stamp Root Certificate Authority 2014.crl.
 
-### Update 2023-03-21
+### Update 2023-04-12
 * Replaced March 2023 Monthly Update (KB5023769) with April 2023 Monthly Update (KB5025279).
 * Updated Microsoft ECC Root Certificate Authority 2017.crl
