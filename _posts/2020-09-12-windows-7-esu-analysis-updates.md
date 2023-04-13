@@ -182,5 +182,5 @@ These files can all be found on GitHub [here](https://github.com/HackAndPwn/Wind
 * Updated the reboot note to say it may be required.  Best to attempt the update first and reboot if it fails.
 
 ### Update 2023-04-12
-* Replaced March 2023 Monthly Update (KB5023769) with April 2023 Update (KB5025279).
+* Replaced March 2023 Monthly Update (KB5023769) with April 2023 Monthly Update (KB5025279).
 * Replaced March 2023 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.26415) with April 2023 (6.1.7602.26466).
