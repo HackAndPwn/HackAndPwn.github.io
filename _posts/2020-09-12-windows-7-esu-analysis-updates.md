@@ -21,7 +21,7 @@ Install KB4528069 as described in [Windows 7 ESU Analysis](https://hackandpwn.co
 
 ### Installing KB5026413 (May 2023 Cumulative Update)
 
-The Apri 2023 Cumulative Update includes new ESU files that bump versions past those used in KB4528069.  However, the same technique that previously applied still works.
+The May 2023 Cumulative Update includes new ESU files that bump versions past those used in KB4528069.  However, the same technique that previously applied still works.
 
 1. Install the latest Servicing Stack Update [Windows6.1-KB5017397-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5017397-x64.msu) [Windows6.1-KB5017397-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5017397-x86.msu).  Rebooting the machine may be required.
 
