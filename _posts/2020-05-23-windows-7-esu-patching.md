@@ -491,7 +491,7 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 
 ### Update 2023-08-21
 * Replaced July 2023 Monthly Update (KB5028240) with August 2023 Monthly Update (KB5029296).
-* Replaced July 2023 .NET Framework 3.5.1 Update (KB5028871) with August 2023 .NET Framework 3.5.1 Update (KB5028871).
+* Replaced July 2023 .NET Framework 3.5.1 Update (KB5028871) with August 2023 .NET Framework 3.5.1 Update (KB5028969).
 * Replaced July 2023 .NET Framework 4.8 Update (KB5028860) with August 2023 .NET Framework 4.8 Update (KB5028958).
 * Updated MicRooCerAut_2010-06-23.crl.
 * Updated Microsoft RSA Root Certificate Authority 2017.crl.
