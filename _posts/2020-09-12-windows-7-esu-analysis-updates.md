@@ -2,7 +2,7 @@
 layout: post
 title: Windows 7 ESU Analysis Updates
 date: 2020-09-12 00:00:00
-last_modified_at: 2023-09-19
+last_modified_at: 2023-10-12
 ---
 
 The original Windows 7 ESU Analysis can be found [here](https://hackandpwn.com/windows-7-esu-analysis).  With the September 2020 Cumulative Update, the technique as described no longer works to install this update.  However, only slight modifications need to be made in order for this new update to also install.
@@ -19,15 +19,15 @@ Please reference the original post for the majority of the instructions.  This p
 
 Install KB4528069 as described in [Windows 7 ESU Analysis](https://hackandpwn.com/windows-7-esu-analysis). 
 
-### Installing KB5030265 (September 2023 Cumulative Update)
+### Installing KB5031408 (October 2023 Cumulative Update)
 
-The September 2023 Cumulative Update includes new ESU files that bump versions past those used in KB4528069.  However, the same technique that previously applied still works.
+The October 2023 Cumulative Update includes new ESU files that bump versions past those used in KB4528069.  However, the same technique that previously applied still works.
 
-1. Install the latest Servicing Stack Update [Windows6.1-KB5028264-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5028264-x64.msu) [Windows6.1-KB5028264-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5028264-x86.msu).  Rebooting the machine may be required.
+1. Install the latest Servicing Stack Update [Windows6.1-KB5031658-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5031658-x64.msu) [Windows6.1-KB5031658-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5031658-x86.msu).  Rebooting the machine may be required.
 
 2. If using the Manifest/Components registry key technique, perform the same installation steps as KB4528069 using the updated files below.
 
-3. If using the failed reboot technique, try to install KB5030265 and let it fail.  Apply the updated SideBySide registry key below and retry the update.  This time it will succeed.
+3. If using the failed reboot technique, try to install KB5031408 and let it fail.  Apply the updated SideBySide registry key below and retry the update.  This time it will succeed.
 
 <br>
 
@@ -35,17 +35,17 @@ The September 2023 Cumulative Update includes new ESU files that bump versions p
 
 These files can all be found on GitHub [here](https://github.com/HackAndPwn/Windows-7-ESU-Analysis).  See below for specific file links.
 
-> [Updated Manifest File x64 KB5030265](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_09/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26713_none_c8e064f036251337.manifest)
+> [Updated Manifest File x64 KB5031408](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_10/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26769_none_c8b05710364836f6.manifest)
 >
-> [Updated Manifest File x86 KB5030265](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_09/x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26713_none_6cc1c96c7dc7a201.manifest)
+> [Updated Manifest File x86 KB5031408](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_10/x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26769_none_6c91bb8c7deac5c0.manifest)
 >
-> [Updated Components Registry Key x64 KB5030265](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_09/ComponentsRegistryKey_x64.reg)
+> [Updated Components Registry Key x64 KB5031408](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_10/ComponentsRegistryKey_x64.reg)
 >
-> [Updated Components Registry Key x86 KB5030265](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_09/ComponentsRegistryKey_x86.reg)
+> [Updated Components Registry Key x86 KB5031408](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_10/ComponentsRegistryKey_x86.reg)
 >
-> [Updated SideBySide Registry Key x64 KB5030265](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_09/SideBySideRegistryKey_x64.reg)
+> [Updated SideBySide Registry Key x64 KB5031408](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_10/SideBySideRegistryKey_x64.reg)
 >
-> [Updated SideBySide Registry Key x86 KB5030265](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_09/SideBySideRegistryKey_x86.reg)
+> [Updated SideBySide Registry Key x86 KB5031408](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_10/SideBySideRegistryKey_x86.reg)
 
 <br>
 
@@ -205,3 +205,8 @@ These files can all be found on GitHub [here](https://github.com/HackAndPwn/Wind
 ### Update 2023-09-19
 * Replaced August 2023 Monthly Update (KB5029296) with September 2023 Monthly Update (KB5030265).
 * Replaced August 2023 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.26664) with September 2023 (6.1.7602.26713).
+
+### Update 2023-10-12
+* Replaced July 2023 Servicing Stack Update (KB5028264) with October 2023 Servicing Stack Update (KB5031658).
+* Replaced September 2023 Monthly Update (KB5030265) with October 2023 Monthly Update (KB5031408).
+* Replaced September 2023 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.26713) with October 2023 (6.1.7602.26769).
