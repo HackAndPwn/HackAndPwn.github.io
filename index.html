@@ -17,7 +17,6 @@ title: Home
 </ul>
 <br />
 <center>
-	<ul>
 	{% if paginator.previous_page %}
 	<a href="{{ paginator.previous_page_path }}" class="previous">
 	  Previous
@@ -29,5 +28,4 @@ title: Home
 	{% if paginator.next_page %}
 	<a href="{{ paginator.next_page_path }}" class="next">Next</a>
 	{% endif %}
-	</ul>
 </center>
