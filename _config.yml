@@ -3,5 +3,6 @@ title: HackAndPwn
 tagline: Security & Vulnerability Researcher / Professional Penetration Tester
 url: https://hackandpwn.com
 paginate: 5
+paginate_path: "/page:num/"
 baseurl: ""
 permalink: :title/
