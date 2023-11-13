@@ -8,26 +8,26 @@ title: Home
 	{% unless post.tags contains 'draft' %}
 		<li>
 		  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-		  <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.last_modified_at | date_to_long_string: "ordinal", "US" }}</time></small>
+		  <small><time datetime="{{ post.original_date | date_to_xmlschema }}">{{ post.date | date_to_long_string: "ordinal", "US" }}</time></small>
 		  {{ post.excerpt }}
 		</li>
 		<br>
 	{% endunless %}
   {% endfor %}
 </ul>
-
 <br />
-<br />
-<ul>
-{% if paginator.previous_page %}
-<a href="{{ paginator.previous_page_path }}" class="previous">
-  Previous
-</a>
-{% endif %}
-<span class="page_number ">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Page: {{ paginator.page }} of {{ paginator.total_pages }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>
-{% if paginator.next_page %}
-<a href="{{ paginator.next_page_path }}" class="next">Next</a>
-{% endif %}
-</ul>
+<center>
+	<ul>
+	{% if paginator.previous_page %}
+	<a href="{{ paginator.previous_page_path }}" class="previous">
+	  Previous
+	</a>
+	{% endif %}
+	<span class="page_number ">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Page: {{ paginator.page }} of {{ paginator.total_pages }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</span>
+	{% if paginator.next_page %}
+	<a href="{{ paginator.next_page_path }}" class="next">Next</a>
+	{% endif %}
+	</ul>
+</center>
