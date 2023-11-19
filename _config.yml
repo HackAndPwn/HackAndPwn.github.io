@@ -5,7 +5,10 @@ url: https://hackandpwn.com
 paginate: 5
 baseurl: ""
 permalink: :title/
-scope:
-  path: "disclosures/"
-values:
-  sitemap: true
+defaults:
+  -
+    scope:
+      path: "disclosures/"
+      type: "pages"
+    values:
+      sitemap: true
