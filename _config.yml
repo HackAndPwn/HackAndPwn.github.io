@@ -9,6 +9,6 @@ defaults:
   -
     scope:
       path: "disclosures/"
-      type: "pages"
+      type: "documents"
     values:
       sitemap: true
