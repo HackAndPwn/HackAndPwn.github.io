@@ -38,7 +38,7 @@ layout: null
   
   {% for file in site.static_files %}
 	<url>
-		<loc>{{ site.url }}{{ page.url}}</loc>
+		<loc>{{ site.url }}{{ file.path }}</loc>
 		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.1</priority>
