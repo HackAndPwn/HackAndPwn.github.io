@@ -35,13 +35,14 @@ layout: null
 	{% endunless %}
   {% endfor %}
   
-  
   {% for file in site.static_files %}
-	<url>
+	{% if file.extname == ".pdf" %}
+	  <url>
 		<loc>{{ site.url }}{{ file.path }}</loc>
 		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.1</priority>
 	  </url>
+	{% endif %}
   {% endfor %}
 </urlset>
