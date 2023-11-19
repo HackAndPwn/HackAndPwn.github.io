@@ -35,12 +35,15 @@ layout: null
 	{% endunless %}
   {% endfor %}
   
-  {% for page in site.documents %}
-    <url>
-	  <loc>{{ site.url }}{{ page.url}}</loc>
-	  <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-	  <changefreq>weekly</changefreq>
-	  <priority>0.1</priority>
-	</url>
+  
+  {% for file in site.static_files %}
+	{% unless file.extname != "pdf" %}
+	  <url>
+		<loc>{{ site.url }}{{ page.url}}</loc>
+		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.1</priority>
+	  </url>
+	{% endunless %}
   {% endfor %}
 </urlset>
