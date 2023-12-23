@@ -49,9 +49,7 @@ These files can all be found on GitHub [here](https://github.com/HackAndPwn/Wind
 
 <br>
 
-<br>
-
-> Note: this technique also works for Windows Server 2012 R2.  The December 2023 Cumulative Update SideBySide Registry Key can be found here:
+Note: this technique also works for Windows Server 2012 R2.  The December 2023 Cumulative Update SideBySide Registry Key can be found here:
 
 > [Updated SideBySide Registry Key x64 KB5032252](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_12/Server_2012_R2_SideBySideRegistryKey_x64.reg)
 
