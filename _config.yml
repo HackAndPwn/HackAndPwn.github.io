@@ -5,4 +5,3 @@ url: https://hackandpwn.com
 paginate: 5
 baseurl: ""
 permalink: :title/
-markdown: CommonMarkGhPages
