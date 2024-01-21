@@ -11,8 +11,6 @@ With the May 2020 Windows 7 updates, I went on a mission to determine the minimu
 
 > I highly recommend both the [KUC Update Checker](http://windows-update-checker.com/) and [WSUS Offline Update](https://www.wsusoffline.net/) utilities.  I used both during this investigation in order to get to this minimum required set.  
 
-<br>
-
 ### Enabling ESU Updates
 
 This first section holds a single update required for ESU updates further down the list.  A detailed analysis on this update can be found on my [Windows 7 ESU Analysis](https://hackandpwn.com/windows-7-esu-analysis/) post.
@@ -20,8 +18,6 @@ This first section holds a single update required for ESU updates further down t
 | KB Number | Name                          | Description | Download |
 |:---------:|:-----------------------------:|-------------|:--------:|
 | KB4528069 |Windows 7 SP1 ESU Verification | This optional update will help verify that eligible Windows 7 SP1 devices can continue to get Extended Security Updates (ESUs) after the end of support date of January 14, 2020. | [Windows6.1-KB4528069-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/01_Enable_ESU/01_Windows6.1-KB4528069-x64.msu) <br>&nbsp;<br> [Windows6.1-KB4528069-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/01_Enable_ESU/01_Windows6.1-KB4528069-x86.msu) |
-
-<br>
 
 ### Installing Optional Features
 
@@ -50,8 +46,6 @@ The next section of updates enables all optional features not available through 
 | KB2959936      | Embedded Lockdown Manager Feature Set Update              | Embedded Lockdown Manager uses Windows Management Instrumentation (WMI) providers to detect and change configuration settings and can export the settings to PowerShell scripts. | [Windows6.1-KB2959936-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/17_Windows6.1-KB2959936-x64.msu) <br>&nbsp;<br> [Windows6.1-KB2959936-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/17_Windows6.1-KB2959936-x86.msu) |
 | KB2990999      | Internet Explorer 11 Web Driver Tool                      | The IE WebDriver Tool enables developers to create automated tests that simulate users interacting with webpages and report back results in Internet Explorer 11. It can also manage testing across multiple windows, tabs, and webpages in a single session. | [Windows6.1-KB2990999-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/18_Windows6.1-KB2990999-x64.msu) <br>&nbsp;<br> [Windows6.1-KB2990999-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/18_Windows6.1-KB2990999-x86.msu) |
 | KB3191566      | Windows Management Framework 5.1                          | Windows Management Framework 5.1 includes updates to Windows PowerShell, Windows PowerShell Desired State Configuration (DSC), Windows Remote Management (WinRM), and Windows Management Instrumentation (WMI). | [Windows6.1-KB3191566-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/19_Windows6.1-KB3191566-x64.msu) <br>&nbsp;<br> [Windows6.1-KB3191566-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/19_Windows6.1-KB3191566-x86.msu) |
- 
-<br>
 
 ### Installing the AD LDS Optional Feature
 
@@ -75,8 +69,6 @@ There are a dozen different updates related to AD LDS on Windows 7 SP1.  However
 | KB2790338 | AD FS Update Rollup 3                       | Update Rollup 3 for Active Directory Federation Services (AD FS) 2.0. | [Windows6.1-KB2790338-v2-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/03_Feature_AD_LDS/06_Windows6.1-KB2790338-v2-x64.msu) |
 | KB3012660 | Unable to install Security Update KB2853587 | "The update is not applicable to your computer" error when you install update 2853587 in Windows 7 SP1 with AD LDS. | [Windows6.1-KB3012660-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/03_Feature_AD_LDS/07_Windows6.1-KB3012660-x64.msu) <br>&nbsp;<br> [Windows6.1-KB3012660-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/03_Feature_AD_LDS/07_Windows6.1-KB3012660-x86.msu) |
 
-<br>
-
 ### Installing the Convenience Rollup (SP2) and running the System Update Readiness Tool
 
 There are two large updates that can be applied next.  The first is the Windows 7 Convenience Rollup, which is also considered SP2 for Windows 7 and includes a collection of hotfixes and updates.  The second update is the System Update Readiness Tool.  This update will not show as installed, so this is included to be executed once (verifying SP2 installation integrity).
@@ -87,8 +79,6 @@ There are two large updates that can be applied next.  The first is the Windows 
 |:---------:|:----------------------------:|-------------|:--------:|
 | KB3125574 | Service Pack 2               | This rollup package includes most updates that were released after the release of SP1 for Windows 7, through April 2016, intended to make it easy to integrate these fixes. | Windows6.1-KB3125574-v4-x64.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/01_Windows6.1-KB3125574-v4-x64.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/01_Windows6.1-KB3125574-v4-x64.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/01_Windows6.1-KB3125574-v4-x64.zip.003) <br> [Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/01_Windows6.1-KB3125574-v4-x64.zip.004) <br> [Part 5](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/01_Windows6.1-KB3125574-v4-x64.zip.005) <br>&nbsp;<br> Windows6.1-KB3125574-v4-x86.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/01_Windows6.1-KB3125574-v4-x86.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/01_Windows6.1-KB3125574-v4-x86.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/01_Windows6.1-KB3125574-v4-x86.zip.003) <br> [Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/01_Windows6.1-KB3125574-v4-x86.zip.004) |
 | KB947821  | System Update Readiness Tool | This tool fixes inconsistencies found in the Windows servicing store which may prevent the successful installation of future updates, service packs, and software. | Windows6.1-KB947821-v34-x64.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x64.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x64.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x64.zip.003) <br> [Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x64.zip.004) <br> [Part 5](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x64.zip.005) <br> [Part 6](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x64.zip.006) <br>&nbsp;<br> Windows6.1-KB947821-v34-x86.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x86.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x86.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/04_SP2/02_Windows6.1-KB947821-v34-x86.zip.003) |
-
-<br>
 
 ### Optional Software Updates
 
@@ -104,8 +94,6 @@ There are seven Windows 7 optional software updates that do not require an ESU l
 | 6.3.9723.0  | Microsoft Camera Codec Pack                                 | The Microsoft Camera Codec Pack enables the viewing of a variety of device-specific file formats in Windows Live Photo Gallery as well as other software that is based in Windows Imaging Codecs (WIC).  Installing this package will allow supported RAW camera files to be viewable in Windows Explorer.  | [Microsoft-Camera-Codec-Pack-x64.msi](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Optional_Software_Updates/06_MicrosoftCameraCodecPack-x64.msi) <br>&nbsp;<br> [Microsoft-Camera-Codec-Pack-x86.msi](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Optional_Software_Updates/06_MicrosoftCameraCodecPack-x86.msi) |
 | 10.0.7063.0 | Utilities and SDK for Subsystem for UNIX-based Applications | Utilities and SDK for Subsystem for UNIX-based Applications (SUA) includes the following base utilities, software development kits (SDKs), and shells for use with Subsystem for UNIX-based Applications: Base subsystem commands and utilities, SVR-5 commands and utilities, Base subsystem SDK, GNU SDK, GNU commands and utilities, SCO commands and utilities, UNIX-based Perl, Microsoft Visual Studio® Debugger Extension for debugging POSIX applications, Korn and C shells, and Subsystem for UNIX-based Applications HTML Help files (\*.chm). This release allows you to develop x64-based applications by using SUA, and develop and port custom UNIX-based applications to Windows by using the Windows OCI (Oracle Call Interface) and Windows ODBC libraries. | Utilities-and-SDK-for-Subsystem-for-UNIX-based-Applications-AMD64.exe <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Optional_Software_Updates/07_Utilities_and_SDK_for_Subsystem_for_UNIX-based_Applications_AMD64.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Optional_Software_Updates/07_Utilities_and_SDK_for_Subsystem_for_UNIX-based_Applications_AMD64.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Optional_Software_Updates/07_Utilities_and_SDK_for_Subsystem_for_UNIX-based_Applications_AMD64.zip.003) <br>&nbsp;<br> Utilities-and-SDK-for-Subsystem-for-UNIX-based-Applications-X86.exe <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Optional_Software_Updates/07_Utilities_and_SDK_for_Subsystem_for_UNIX-based_Applications_X86.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Optional_Software_Updates/07_Utilities_and_SDK_for_Subsystem_for_UNIX-based_Applications_X86.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/05_Optional_Software_Updates/07_Utilities_and_SDK_for_Subsystem_for_UNIX-based_Applications_X86.zip.003) |
 
-<br>
-
 ### Non-ESU SP2 Hotfixes
 
 There are six hotfixes available to update components after Service Pack 2 has been installed.  These do not require an ESU license to install.
@@ -119,8 +107,6 @@ There are six hotfixes available to update components after Service Pack 2 has b
 | KB4524752 | Windows 7 SP1 Support Notification              | After 10 years of servicing, January 14, 2020 is the last day Microsoft will offer security updates for computers that run Windows 7 Service Pack 1 (SP1). This update enables reminders about Windows 7 end of support. | [Windows6.1-KB4524752-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_Non_ESU_Hotfixes/05_Windows6.1-KB4524752-x64.msu) <br>&nbsp;<br> [Windows6.1-KB4524752-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_Non_ESU_Hotfixes/05_Windows6.1-KB4524752-x86.msu) |
 | KB4578847 | Update for Application and Device Compatibility | Adds functionality for evaluating the compatibility status of the Windows ecosystem to help ensure application and device compatibility for all updates to Windows. | [Windows6.1-KB4578847-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_Non_ESU_Hotfixes/06_Windows6.1-KB4578847-x64.msu) <br>&nbsp;<br> [Windows6.1-KB4578847-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/06_Non_ESU_Hotfixes/06_Windows6.1-KB4578847-x86.msu) |
 
-<br>
-
 ### ESU Updates
 
 This section describes the latest ESU updates available for Windows 7.  All of these updates are cumulative containing fixes from all previous versions of the updates.  An ESU license is required to install these updates, and only the latest one needs to be installed.
@@ -133,8 +119,6 @@ This section describes the latest ESU updates available for Windows 7.  All of t
 | KB5033916   | January 2024 .NET Framework 4.8 Update   | Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1. | [ndp48-KB5033916-x64.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5033916-x64.exe) <br>&nbsp;<br> [ndp48-KB5033916-x86.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5033916-x86.exe) |
 
 \* Note: a new ESU package has been integrated into this update.  For details please see this post: [Windows 7 ESU Analysis Updates](https://hackandpwn.com/windows-7-esu-analysis-updates/).
-
-<br>
 
 ### Root Certificate Updates
 
@@ -159,15 +143,11 @@ Finally, the latest Microsoft Root Certificates need to be installed into the Lo
 | 2024-01-06 | Revocation List | [Microsoft EV ECC Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20ECC%20Root%20Certificate%20Authority%202017.crl) |
 | 2024-01-06 | Revocation List | [Microsoft EV RSA Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20RSA%20Root%20Certificate%20Authority%202017.crl) |
 
-<br>
-
 ### Conclusion
 
 Once these updates are installed on top of an up-to-date Windows 7 SP1 installation, the OS has been completely updated with hotfixes and optional features.  All of these updates can be found on this GitHub repository: [Windows 7 Patching](https://github.com/HackAndPwn/Windows-7-Patching).
 
 The goal is to keep this list updated as changes are introduced.  Please reach out to me via [Twitter](https://twitter.com/HackAndPwn) or [GitHub](https://github.com/HackAndPwn) if there is an update that is missing, if there is an update in this list that you feel may not be needed, or if there are any other questions or feedback.
-
-<br>
 
 ### Update 2020-05-25
 * Internet Explorer 11 Cumulative Update (KB4556798) is included with the generic Windows 7 Monthly Update.  Therefore, this update is no longer required.
