@@ -524,3 +524,19 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
   * Internet Explorer 11 Cumulative Update (KB4556798) is included with the generic Windows 7 Monthly Update.  Therefore, this update is no longer required.
   
 </details>
+
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
