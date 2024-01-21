@@ -2,7 +2,7 @@
 layout: post
 title: Windows 7 ESU Analysis Updates
 original_date: 2020-09-12
-date: 2023-12-22
+date: 2024-01-21
 ---
 
 The original Windows 7 ESU Analysis can be found [here](https://hackandpwn.com/windows-7-esu-analysis).  With the September 2020 Cumulative Update, the technique as described no longer works to install this update.  However, only slight modifications need to be made in order for this new update to also install.
@@ -19,15 +19,15 @@ Please reference the original post for the majority of the instructions.  This p
 
 Install KB4528069 as described in [Windows 7 ESU Analysis](https://hackandpwn.com/windows-7-esu-analysis). 
 
-### Installing KB5033433 (December 2023 Cumulative Update)
+### Installing KB5034169 (January 2024 Cumulative Update)
 
-The December 2023 Cumulative Update includes new ESU files that bump versions past those used in KB4528069.  However, the same technique that previously applied still works.
+The January 2023 Cumulative Update includes new ESU files that bump versions past those used in KB4528069.  However, the same technique that previously applied still works.
 
 1. Install the latest Servicing Stack Update [Windows6.1-KB5032383-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5032383-x64.msu) [Windows6.1-KB5032383-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5032383-x86.msu).  Rebooting the machine may be required.
 
 2. If using the Manifest/Components registry key technique, perform the same installation steps as KB4528069 using the updated files below.
 
-3. If using the failed reboot technique, try to install KB5033433 and let it fail.  Apply the updated SideBySide registry key below and retry the update.  This time it will succeed.
+3. If using the failed reboot technique, try to install KB5034169 and let it fail.  Apply the updated SideBySide registry key below and retry the update.  This time it will succeed.
 
 <br>
 
@@ -35,17 +35,17 @@ The December 2023 Cumulative Update includes new ESU files that bump versions pa
 
 These files can all be found on GitHub [here](https://github.com/HackAndPwn/Windows-7-ESU-Analysis).  See below for specific file links.
 
-> [Updated Manifest File x64 KB5033433](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_12/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26864_none_c8ab5784364cb56a.manifest)
+> [Updated Manifest File x64 KB5034169](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2024_01/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26910_none_c8dd67de3627c180.manifest)
 >
-> [Updated Manifest File x86 KB5033433](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_12/x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26864_none_6c8cbc007def4434.manifest)
+> [Updated Manifest File x86 KB5034169](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2024_01/x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26910_none_6cbecc5a7dca504a.manifest)
 >
-> [Updated Components Registry Key x64 KB5033433](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_12/ComponentsRegistryKey_x64.reg)
+> [Updated Components Registry Key x64 KB5034169](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2024_01/ComponentsRegistryKey_x64.reg)
 >
-> [Updated Components Registry Key x86 KB5033433](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_12/ComponentsRegistryKey_x86.reg)
+> [Updated Components Registry Key x86 KB5034169](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2024_01/ComponentsRegistryKey_x86.reg)
 >
-> [Updated SideBySide Registry Key x64 KB5033433](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_12/SideBySideRegistryKey_x64.reg)
+> [Updated SideBySide Registry Key x64 KB5034169](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2024_01/SideBySideRegistryKey_x64.reg)
 >
-> [Updated SideBySide Registry Key x86 KB5033433](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_12/SideBySideRegistryKey_x86.reg)
+> [Updated SideBySide Registry Key x86 KB5034169](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2024_01/SideBySideRegistryKey_x86.reg)
 
 <br>
 
@@ -223,6 +223,9 @@ Note: this technique also works for Windows Server 2012 R2.  The December 2023 C
 * Replaced October 2023 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.26769) with November 2023 (6.1.7602.26816).
 
 ### Update 2023-12-22
-* Added Server 2012 R2 SideBySide Registry Key for December 2023 (6.3.9600.21715).
 * Replaced November 2023 Monthly Update (KB5032252) with December 2023 Monthly Update (KB5033433).
 * Replaced November 2023 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.26816) with December 2023 (6.1.7602.26864).
+
+### Update 2024-01-21
+* Replaced December 2023 Monthly Update (KB5033433) with January 2024 Monthly Update (KB5034169).
+* Replaced December 2023 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.26864) with January 2024 (6.1.7602.26910).
