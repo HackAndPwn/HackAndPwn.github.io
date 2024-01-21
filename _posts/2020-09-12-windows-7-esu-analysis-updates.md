@@ -9,11 +9,7 @@ The original Windows 7 ESU Analysis can be found [here](https://hackandpwn.com/w
 
 Please reference the original post for the majority of the instructions.  This post will only highlight updates that need to be made.
 
-<br>
-
 > Important:  You must obtain an ESU license to apply ESU updates.  Details on obtaining an ESU license can be found [here](https://support.microsoft.com/en-us/help/4497181/lifecycle-faq-extended-security-updates).  This research was completed for security vulnerability research purposes only following the [Microsoft Legal Safe Harbor Terms](https://www.microsoft.com/en-us/msrc/bounty-safe-harbor).  Do not try to reproduce without having the required licenses.
-
-<br>
 
 ### Installing KB4528069
 
@@ -28,8 +24,6 @@ The January 2023 Cumulative Update includes new ESU files that bump versions pas
 2. If using the Manifest/Components registry key technique, perform the same installation steps as KB4528069 using the updated files below.
 
 3. If using the failed reboot technique, try to install KB5034169 and let it fail.  Apply the updated SideBySide registry key below and retry the update.  This time it will succeed.
-
-<br>
 
 ### References
 
@@ -46,14 +40,6 @@ These files can all be found on GitHub [here](https://github.com/HackAndPwn/Wind
 > [Updated SideBySide Registry Key x64 KB5034169](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2024_01/SideBySideRegistryKey_x64.reg)
 >
 > [Updated SideBySide Registry Key x86 KB5034169](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2024_01/SideBySideRegistryKey_x86.reg)
-
-<br>
-
-Note: this technique also works for Windows Server 2012 R2.  The December 2023 Cumulative Update SideBySide Registry Key can be found here:
-
-> [Updated Server 2012 R2 SideBySide Registry Key x64 KB5032252](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2023_12/Server_2012_R2_SideBySideRegistryKey_x64.reg)
-
-<br>
 
 ### Update 2020-10-17
 * Replaced September 2020 Servicing Stack Update (KB4570673) with October 2020 Servicing Stack Update (KB4580970).
