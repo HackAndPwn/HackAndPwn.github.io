@@ -5,5 +5,3 @@ url: https://hackandpwn.com
 paginate: 5
 baseurl: ""
 permalink: :title/
-kramdown:
-  parse_block_html: true
