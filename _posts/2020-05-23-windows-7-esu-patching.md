@@ -161,8 +161,8 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 * Updated Microsoft EV RSA Root Certificate Authority 2017.crl.
 
 <details>
-<summary>Previous Updates</summary>
-### Update 2023-12-22
+<summary><i>Previous Updates</i></summary>
+<p>### Update 2023-12-22
 * Replaced November 2023 Monthly Update (KB5032252) with December 2023 Monthly Update (KB5033433).
 * Updated Microsoft ECC Root Certificate Authority 2017.crl.
 
@@ -520,6 +520,5 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 * Removed link to IE 11 Cumulative Update.
 
 ### Update 2020-05-25
-* Internet Explorer 11 Cumulative Update (KB4556798) is included with the generic Windows 7 Monthly Update.  Therefore, this update is no longer required.
-
+* Internet Explorer 11 Cumulative Update (KB4556798) is included with the generic Windows 7 Monthly Update.  Therefore, this update is no longer required.</p>
 </details>
