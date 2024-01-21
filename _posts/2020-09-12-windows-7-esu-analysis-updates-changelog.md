@@ -4,10 +4,6 @@ title: Windows 7 ESU Analysis Updates Changelog
 original_date: 2020-09-12
 ---
 
-### Update 2024-01-21
-* Replaced December 2023 Monthly Update (KB5033433) with January 2024 Monthly Update (KB5034169).
-* Replaced December 2023 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.26864) with January 2024 (6.1.7602.26910).
-
 ### Update 2023-12-22
 * Replaced November 2023 Monthly Update (KB5032252) with December 2023 Monthly Update (KB5033433).
 * Replaced November 2023 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.26816) with December 2023 (6.1.7602.26864).
