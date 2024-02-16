@@ -27,18 +27,11 @@ The January 2023 Cumulative Update includes new ESU files that bump versions pas
 >
 > icacls C:\Windows\WinSXS\Manifests /grant Everyone:(F)
 >
->
-> If using 32-bit Windows
->
 > copy amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26910_none_c8dd67de3627c180.manifest C:\Windows\WinSXS\Manifests
 >
->
-> If using 64-bit Windows
+>   or
 >
 > copy amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26910_none_c8dd67de3627c180.manifest C:\Windows\WinSXS\Manifests
->
->
->And restore the permissions
 >
 > icacls C:\Windows\WinSXS\Manifests /remove Everyone
 >
