@@ -21,9 +21,24 @@ The January 2023 Cumulative Update includes new ESU files that bump versions pas
 
 1. Install the latest Servicing Stack Update [Windows6.1-KB5032383-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5032383-x64.msu) [Windows6.1-KB5032383-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5032383-x86.msu).  Rebooting the machine may be required.
 
-2. If using the Manifest/Components registry key technique, perform the same installation steps as KB4528069 using the updated files below.
+2. If using the Manifest/Components registry key technique, copy the manifest file into the WinSXS directory by using the following commands:
 
-3. If using the failed reboot technique, try to install KB5034169 and let it fail.  Apply the updated SideBySide registry key below and retry the update.  This time it will succeed.
+> takeown /f C:\Windows\WinSXS\Manifests /a
+> icacls C:\Windows\WinSXS\Manifests /grant Everyone:(F)
+
+If using 32-bit Windows
+> copy amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26910_none_c8dd67de3627c180.manifest C:\Windows\WinSXS\Manifests
+
+If using 64-bit Windows
+> copy amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26910_none_c8dd67de3627c180.manifest C:\Windows\WinSXS\Manifests
+
+And restore the permissions
+> icacls C:\Windows\WinSXS\Manifests /remove Everyone
+> icacls C:\Windows\WinSXS\Manifests /setowner "NT SERVICE\TrustedInstaller"
+
+Finally, import the appropriate Components and SideBySide Registry keys linked below.
+
+3. If using the failed reboot technique, try to install KB5034169 and let it fail.  Apply the updated SideBySide registry key linked below and retry the update.  This time it will succeed.
 
 ### References
 
