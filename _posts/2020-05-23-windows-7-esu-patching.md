@@ -15,9 +15,10 @@ With the May 2020 Windows 7 updates, I went on a mission to determine the minimu
 
 This first section holds a single update required for ESU updates further down the list.  A detailed analysis on this update can be found on my [Windows 7 ESU Analysis](https://hackandpwn.com/windows-7-esu-analysis/) post.
 
-| KB Number | Name                          | Description | Download |
-|:---------:|:-----------------------------:|-------------|:--------:|
-| KB4528069 |Windows 7 SP1 ESU Verification | This optional update will help verify that eligible Windows 7 SP1 devices can continue to get Extended Security Updates (ESUs) after the end of support date of January 14, 2020. | [Windows6.1-KB4528069-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/01_Enable_ESU/01_Windows6.1-KB4528069-x64.msu) <br>&nbsp;<br> [Windows6.1-KB4528069-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/01_Enable_ESU/01_Windows6.1-KB4528069-x86.msu) |
+<table><colgroup><col width="15%" /><col width="20%" /><col width="15%" /><col width="50%" /></colgroup>
+<thead><tr><th>KB Number</th><th>Name</th><th>Description</th><th>Download</th></tr></thead><tbody>
+<tr><td>KB4528069</td><td>Windows 7 SP1 ESU Verification</td><td>This optional update will help verify that eligible Windows 7 SP1 devices can continue to get Extended Security Updates (ESUs) after the end of support date of January 14, 2020.</td><td><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/01_Enable_ESU/01_Windows6.1-KB4528069-x64.msu) <br>&nbsp;<br> [Windows6.1-KB4528069-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/01_Enable_ESU/01_Windows6.1-KB4528069-x86.msu">Windows6.1-KB4528069-x64.msu</a></td></tr>
+</tbody></table>
 
 ### Installing Optional Features
 
@@ -26,7 +27,7 @@ The next section of updates enables all optional features not available through 
 > After installing the Work Folders for Windows feature (KB2891638), an update may appear as available in Windows Update (KB3081954).  However, this update is not required and is replaced with Service Pack 2 (KB3125574).  Once KB3125574 is installed, KB3081954 will no longer appear in Windows Update.
 
 | KB Number      | Name                                                      | Description | Download |
-|:--------------:|:---------------------------------------------------------:|-------------|:------------------:|
+|:--------------:|:---------------------------------------------------------:|-------------|:--------:|
 | KB917607       | Windows Help 32-bit Compatibility Update                  | WinHlp32.exe is required to display 32-bit Help files that have the ".hlp" file name extension. To view .hlp files on Windows 7, you need to install this application. | [Windows6.1-KB917607-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/01_Windows6.1-KB917607-x64.msu) <br>&nbsp;<br> [Windows6.1-KB917607-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/01_Windows6.1-KB917607-x86.msu) |
 | KB943790       | File Management API Extensions For BitLocker              | Install this update to extend the File Management APIs to not only enable the discovery and restoration of deleted files from volumes that are not encrypted but also enable the recovery of files from BitLocker encrypted volumes. | [Windows6.1-KB943790-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/02_Windows6.1-KB943790-x64.msu) <br>&nbsp;<br> [Windows6.1-KB943790-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/02_Windows6.1-KB943790-x86.msu) |
 | KB958559       | Windows Virtual PC                                        | Windows Virtual PC can be used to run more than one operating system at the same time on one computer, and to run many productivity applications on a virtual Windows environment, with a single click, directly from a computer running Windows 7. | [Windows6.1-KB958559-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/03_Windows6.1-KB958559-x64.msu) <br>&nbsp;<br> [Windows6.1-KB958559-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/03_Windows6.1-KB958559-x86.msu) |
