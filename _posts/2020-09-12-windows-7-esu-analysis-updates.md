@@ -20,26 +20,12 @@ Install KB4528069 as described in [Windows 7 ESU Analysis](https://hackandpwn.co
 The January 2023 Cumulative Update includes new ESU files that bump versions past those used in KB4528069.  However, the same technique that previously applied still works.
 
 1. Install the latest Servicing Stack Update [Windows6.1-KB5034865-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5034865-x64.msu) [Windows6.1-KB5034865-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5034865-x86.msu).  Rebooting the machine may be required.
-2. If using the Manifest/Components registry key technique on a 32-bit system, execute the following commands:
+2. If using the Manifest/Components registry key technique on a 64-bit system, execute the following commands:
 > takeown /f C:\Windows\WinSxS\Manifests /a
 >
 > icacls C:\Windows\WinSxS\Manifests /grant Everyone:(F)
 >
-> copy x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26910_none_6cbecc5a7dca504a.manifest C:\Windows\WinSxS\Manifests
->
-> icacls C:\Windows\WinSxS\Manifests /remove Everyone
->
-> icacls C:\Windows\WinSxS\Manifests /setowner "NT SERVICE\TrustedInstaller"
->
-> reg import ComponentsRegistryKey_x86.reg
->
-> reg import SideBySideRegistryKey_x86.reg
-3. If using the Manifest/Components registry key technique on a 64-bit system, execute the following commands:
-> takeown /f C:\Windows\WinSxS\Manifests /a
->
-> icacls C:\Windows\WinSxS\Manifests /grant Everyone:(F)
->
-> copy amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26910_none_c8dd67de3627c180.manifest C:\Windows\WinSxS\Manifests
+> copy amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26961_none_c8a8588c364f668c.manifest C:\Windows\WinSxS\Manifests
 >
 > icacls C:\Windows\WinSxS\Manifests /remove Everyone
 >
@@ -48,6 +34,20 @@ The January 2023 Cumulative Update includes new ESU files that bump versions pas
 > reg import ComponentsRegistryKey_x64.reg
 >
 > reg import SideBySideRegistryKey_x64.reg
+3. If using the Manifest/Components registry key technique on a 32-bit system, execute the following commands:
+> takeown /f C:\Windows\WinSxS\Manifests /a
+>
+> icacls C:\Windows\WinSxS\Manifests /grant Everyone:(F)
+>
+> copy x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.26961_none_6c89bd087df1f556.manifest C:\Windows\WinSxS\Manifests
+>
+> icacls C:\Windows\WinSxS\Manifests /remove Everyone
+>
+> icacls C:\Windows\WinSxS\Manifests /setowner "NT SERVICE\TrustedInstaller"
+>
+> reg import ComponentsRegistryKey_x86.reg
+>
+> reg import SideBySideRegistryKey_x86.reg
 4. If using the failed reboot technique, try to install KB5034831 and let it fail.  Apply the new 32-bit or 64-bit SideBySide registry key linked below and retry the update.  This time it will succeed.
 
 ### References
