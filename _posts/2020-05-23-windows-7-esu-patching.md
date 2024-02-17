@@ -15,7 +15,7 @@ With the May 2020 Windows 7 updates, I went on a mission to determine the minimu
 
 This first section holds a single update required for ESU updates further down the list.  A detailed analysis on this update can be found on my [Windows 7 ESU Analysis](https://hackandpwn.com/windows-7-esu-analysis/) post.
 
-<table style="text-align:center"><colgroup><col width="8%" /><col width="17%" /><col width="57%" /><col width="18%" /></colgroup>
+<table style="text-align:center"><colgroup><col width="8%" /><col width="17%" /><col width="55%" /><col width="20%" /></colgroup>
 <thead><tr><th style="text-align:center">KB Number</th><th style="text-align:center">Name</th><th style="text-align:center">Description</th><th style="text-align:center">Download</th></tr></thead><tbody>
 <tr><td>KB4528069</td><td>Windows 7 SP1 ESU Verification</td><td style="text-align:left">This optional update will help verify that eligible Windows 7 SP1 devices can continue to get Extended Security Updates (ESUs) after the end of support date of January 14, 2020.</td><td><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/01_Enable_ESU/01_Windows6.1-KB4528069-x64.msu">Windows6.1-KB4528069-x64.msu</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/01_Enable_ESU/01_Windows6.1-KB4528069-x86.msu">Windows6.1-KB4528069-x86.msu</a></td></tr>
 </tbody></table>
@@ -26,7 +26,7 @@ The next section of updates enables all optional features not available through 
 
 > After installing the Work Folders for Windows feature (KB2891638), an update may appear as available in Windows Update (KB3081954).  However, this update is not required and is replaced with Service Pack 2 (KB3125574).  Once KB3125574 is installed, KB3081954 will no longer appear in Windows Update.
 
-<table style="text-align:center"><colgroup><col width="8%" /><col width="17%" /><col width="57%" /><col width="18%" /></colgroup>
+<table style="text-align:center"><colgroup><col width="8%" /><col width="17%" /><col width="55%" /><col width="20%" /></colgroup>
 <thead><tr><th style="text-align:center">KB Number</th><th style="text-align:center">Name</th><th style="text-align:center">Description</th><th style="text-align:center">Download</th></tr></thead><tbody>
 <tr><td>KB917607</td><td style="text-align:left">Windows Help 32-bit Compatibility Update</td><td style="text-align:left">WinHlp32.exe is required to display 32-bit Help files that have the ".hlp" file name extension. To view .hlp files on Windows 7, you need to install this application.</td><td><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/01_Windows6.1-KB917607-x64.msu">Windows6.1-KB917607-x64.msu</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/01_Windows6.1-KB917607-x86.msu">Windows6.1-KB917607-x86.msu</a></td></tr>
 <tr><td>KB943790</td><td style="text-align:left">File Management API Extensions For BitLocker</td><td style="text-align:left">Install this update to extend the File Management APIs to not only enable the discovery and restoration of deleted files from volumes that are not encrypted but also enable the recovery of files from BitLocker encrypted volumes.</td><td><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/02_Windows6.1-KB943790-x64.msu">Windows6.1-KB943790-x64.msu</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/02_Features/02_Windows6.1-KB943790-x86.msu">Windows6.1-KB943790-x86.msu</a></td></tr>
