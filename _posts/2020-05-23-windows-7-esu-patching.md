@@ -2,7 +2,7 @@
 layout: post
 title: Windows 7 ESU Patching
 original_date: 2020-05-23
-date: 2024-01-24
+date: 2024-02-16
 ---
 
 With the May 2020 Windows 7 updates, I went on a mission to determine the minimum set of updates needed to enable all features within Windows 7, including optional hotfixes, and to have the most up-to-date installation possible.  After extensive testing, I concluded that 42 updates not offered through Windows Update would need to be installed to reach this objective.  The following sections describe the updates required and provide links to each.
