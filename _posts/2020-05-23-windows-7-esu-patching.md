@@ -15,7 +15,7 @@ With the May 2020 Windows 7 updates, I went on a mission to determine the minimu
 
 This first section holds a single update required for ESU updates further down the list.  A detailed analysis on this update can be found on my [Windows 7 ESU Analysis](https://hackandpwn.com/windows-7-esu-analysis/) post.
 
-<table><colgroup><col width="7%" /><col width="17%" /><col width="58%" /><col width="18%" /></colgroup>
+<table><colgroup><col width="8%" /><col width="17%" /><col width="57%" /><col width="18%" /></colgroup>
 <thead><tr><th>KB Number</th><th>Name</th><th>Description</th><th>Download</th></tr></thead><tbody>
 <tr><td>KB4528069</td><td>Windows 7 SP1 ESU Verification</td><td>This optional update will help verify that eligible Windows 7 SP1 devices can continue to get Extended Security Updates (ESUs) after the end of support date of January 14, 2020.</td><td><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/01_Enable_ESU/01_Windows6.1-KB4528069-x64.msu) <br>&nbsp;<br> [Windows6.1-KB4528069-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/01_Enable_ESU/01_Windows6.1-KB4528069-x86.msu">Windows6.1-KB4528069-x64.msu</a></td></tr>
 </tbody></table>
