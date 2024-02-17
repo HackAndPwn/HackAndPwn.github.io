@@ -111,12 +111,12 @@ There are six hotfixes available to update components after Service Pack 2 has b
 
 This section describes the latest ESU updates available for Windows 7.  All of these updates are cumulative containing fixes from all previous versions of the updates.  An ESU license is required to install these updates, and only the latest one needs to be installed.
 
-| KB Number   | Name                                     | Description | Download |
-|:-----------:|:----------------------------------------:|-------------|:--------:|
-| KB5032383   | November 2023 Servicing Stack Update     | This update makes quality improvements to the servicing stack, which is the component that installs Windows updates. Servicing stack updates (SSU) makes sure that you have a robust and reliable servicing stack so that your devices can receive and install Microsoft updates. | [Windows6.1-KB5032383-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5032383-x64.msu) <br>&nbsp;<br> [Windows6.1-KB5032383-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5032383-x86.msu) |
-| KB5034169\* | January 2024 Windows 7 Cumulative Update | Security and Quality Rollup for Windows 7 SP1. | Windows6.1-KB5034169-x64.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5034169-x64.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5034169-x64.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5034169-x64.zip.003) <br> [Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5034169-x64.zip.004) <br> [Part 5](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5034169-x64.zip.005) <br>&nbsp;<br> Windows6.1-KB5034169-x86.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5034169-x86.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5034169-x86.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5034169-x86.zip.003) |
-| KB5033899   | January 2024 .NET Framework 3.5.1 Update | Security and Quality Rollup for .NET Framework 3.5.1 for Windows 7 SP1. | [Windows6.1-KB5033899-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/03_Windows6.1-KB5033899-x64.msu) <br>&nbsp;<br> [Windows6.1-KB5033899-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/03_Windows6.1-KB5033899-x86.msu) |
-| KB5033916   | January 2024 .NET Framework 4.8 Update   | Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1. | [ndp48-KB5033916-x64.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5033916-x64.exe) <br>&nbsp;<br> [ndp48-KB5033916-x86.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5033916-x86.exe) |
+| KB Number   | Name                                      | Description | Download |
+|:-----------:|:-----------------------------------------:|-------------|:--------:|
+| KB5034865   | February 2024 Servicing Stack Update      | This update makes quality improvements to the servicing stack, which is the component that installs Windows updates. Servicing stack updates (SSU) makes sure that you have a robust and reliable servicing stack so that your devices can receive and install Microsoft updates.  | [Windows6.1-KB5034865-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5034865-x64.msu) <br>&nbsp;<br> [Windows6.1-KB5034865-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5034865-x86.msu) |
+| KB5034831\* | February 2024 Windows 7 Cumulative Update | Security and Quality Rollup for Windows 7 SP1. | Windows6.1-KB5034831-x64.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5034831-x64.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5034831-x64.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5034831-x64.zip.003) <br> [Part 4](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5034831-x64.zip.004) <br> [Part 5](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5034831-x64.zip.005) <br>&nbsp;<br> Windows6.1-KB5034831-x86.msu <br> [Part 1](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5034831-x86.zip.001) <br> [Part 2](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5034831-x86.zip.002) <br> [Part 3](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5034831-x86.zip.003) |
+| KB5033899   | January 2024 .NET Framework 3.5.1 Update  | Security and Quality Rollup for .NET Framework 3.5.1 for Windows 7 SP1. | [Windows6.1-KB5033899-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/03_Windows6.1-KB5033899-x64.msu) <br>&nbsp;<br> [Windows6.1-KB5033899-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/03_Windows6.1-KB5033899-x86.msu) |
+| KB5033916   | February 2024 .NET Framework 4.8 Update   | Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1. | [ndp48-KB5033916-x64.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5033916-x64.exe) <br>&nbsp;<br> [ndp48-KB5033916-x86.exe](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5033916-x86.exe) |
 
 \* Note: a new ESU package has been integrated into this update.  For details please see this post: [Windows 7 ESU Analysis Updates](https://hackandpwn.com/windows-7-esu-analysis-updates/).
 
@@ -134,7 +134,6 @@ Finally, the latest Microsoft Root Certificates need to be installed into the Lo
 | 2020-01-22 | Certificate     | [Microsoft EV ECC Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20ECC%20Root%20Certificate%20Authority%202017.crt) |
 | 2020-01-22 | Certificate     | [Microsoft RSA Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crt) |
 | 2020-01-22 | Certificate     | [Microsoft EV RSA Root Certificate Authority 2017.crt](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20RSA%20Root%20Certificate%20Authority%202017.crt) |
-| 2023-11-07 | Revocation List | [Microsoft Time Stamp Root Certificate Authority 2014.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20Time%20Stamp%20Root%20Certificate%20Authority%202014.crl) |
 | 2023-11-29 | Revocation List | [Microsoft ECC Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Root%20Certificate%20Authority%202017.crl) |
 | 2023-12-19 | Revocation List | [MicRooCerAut_2010-06-23.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/MicRooCerAut_2010-06-23.crl) |
 | 2023-12-17 | Revocation List | [Microsoft ECC Product Root Certificate Authority 2018.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Product%20Root%20Certificate%20Authority%202018.crl) |
@@ -142,6 +141,7 @@ Finally, the latest Microsoft Root Certificates need to be installed into the Lo
 | 2024-01-03 | Revocation List | [Microsoft RSA Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crl) |
 | 2024-01-06 | Revocation List | [Microsoft EV ECC Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20ECC%20Root%20Certificate%20Authority%202017.crl) |
 | 2024-01-06 | Revocation List | [Microsoft EV RSA Root Certificate Authority 2017.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20RSA%20Root%20Certificate%20Authority%202017.crl) |
+| 2024-01-24 | Revocation List | [Microsoft Time Stamp Root Certificate Authority 2014.crl](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20Time%20Stamp%20Root%20Certificate%20Authority%202014.crl) |
 
 ### Conclusion
 
@@ -149,18 +149,10 @@ Once these updates are installed on top of an up-to-date Windows 7 SP1 installat
 
 The goal is to keep this list updated as changes are introduced.  Please reach out to me via [X](https://twitter.com/HackAndPwn) or [GitHub](https://github.com/HackAndPwn) if there is an update that is missing, if there is an update in this list that you feel may not be needed, or if there are any other questions or feedback.
 
-### Update 2024-01-24
-* Added missing link for Part 5 of January 2024 Monthly Update (Thanks [Robbbert](https://github.com/Robbbert)!)
-
-### Update 2024-01-21
-* Replaced December 2023 Monthly Update (KB5033433) with January 2024 Monthly Update (KB5034169).
-* Replaced November 2023 .NET Framework 3.5.1 Update (KB5032000) with January 2024 .NET Framework 3.5.1 Update (KB5033899).
-* Replaced November 2023 .NET Framework 4.8 Update (KB5031995) with January 2024 .NET Framework 4.8 Update (KB5033916).
-* Updated MicRooCerAut_2010-06-23.crl.
-* Updated Microsoft ECC Product Root Certificate Authority 2018.crl.
-* Updated Microsoft ECC TS Root Certificate Authority 2018.crl.
-* Updated Microsoft RSA Root Certificate Authority 2017.crl.
-* Updated Microsoft EV ECC Root Certificate Authority 2017.crl.
-* Updated Microsoft EV RSA Root Certificate Authority 2017.crl.
+### Update 2024-02-16
+* Replaced January 2024 Servicing Stack Update (KB5032383) with February 2024 Servicing Stack Update (KB5034865).
+* Replaced January 2024 Monthly Update (KB5034169) with February 2024 Monthly Update (KB5034831).
+* Replaced January 2024 .NET Framework 4.8 Update (KB5033916) with February 2024 .NET Framework 4.8 Update (KB5034615).
+* Updated Microsoft Time Stamp Root Certificate Authority 2014.crl.
 
 For previous updates to this post, see [Windows 7 ESU Patching Changelog](https://hackandpwn.com/windows-7-esu-patching-changelog/).
