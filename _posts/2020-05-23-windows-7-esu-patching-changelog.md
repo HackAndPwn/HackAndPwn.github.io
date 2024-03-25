@@ -4,6 +4,12 @@ title: Windows 7 ESU Patching Changelog
 original_date: 2020-05-23
 ---
 
+### Update 2024-02-16
+* Replaced January 2024 Servicing Stack Update (KB5032383) with February 2024 Servicing Stack Update (KB5034865).
+* Replaced January 2024 Monthly Update (KB5034169) with February 2024 Monthly Update (KB5034831).
+* Replaced January 2024 .NET Framework 4.8 Update (KB5033916) with February 2024 .NET Framework 4.8 Update (KB5034615).
+* Updated Microsoft Time Stamp Root Certificate Authority 2014.crl.
+
 ### Update 2024-01-24
 * Added missing link for Part 5 of January 2024 Monthly Update (Thanks [Robbbert](https://github.com/Robbbert)!)
 
