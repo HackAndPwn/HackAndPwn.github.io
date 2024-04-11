@@ -4,6 +4,13 @@ title: Windows 7 ESU Patching Changelog
 original_date: 2020-05-23
 ---
 
+### Update 2024-03-25
+* Replaced February 2024 Monthly Update (KB5034831) with March 2024 Monthly Update (KB5035888).
+* Updated Microsoft ECC Root Certificate Authority 2017.crl.
+* Updated MicRooCerAut_2010-06-23.crl.
+* Updated Microsoft ECC Product Root Certificate Authority 2018.crl.
+* Updated Microsoft ECC TS Root Certificate Authority 2018.crl.
+
 ### Update 2024-02-16
 * Replaced January 2024 Servicing Stack Update (KB5032383) with February 2024 Servicing Stack Update (KB5034865).
 * Replaced January 2024 Monthly Update (KB5034169) with February 2024 Monthly Update (KB5034831).
