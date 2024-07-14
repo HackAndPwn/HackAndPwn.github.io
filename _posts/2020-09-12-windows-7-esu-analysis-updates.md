@@ -72,6 +72,6 @@ These files can all be found on GitHub [here](https://github.com/HackAndPwn/Wind
 
 ### Update 2024-07-13
 * Replaced June 2024 Monthly Update (KB5039289) with July 2024 Monthly Update (KB5040497).
-* Replaced June 2024 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.27117) with June 2024 (6.1.7602.27219).
+* Replaced June 2024 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.27117) with July 2024 (6.1.7602.27219).
 
 For previous updates to this post, see [Windows 7 ESU Analysis Updates Changelog](https://hackandpwn.com/windows-7-esu-analysis-updates-changelog/).
