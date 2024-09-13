@@ -4,6 +4,16 @@ title: Windows 7 ESU Patching Changelog
 original_date: 2020-05-23
 ---
 
+### Update 2024-08-15
+* Replaced July 2024 Monthly Update (KB5040497) with August 2024 Monthly Update (KB5041838).
+* Replaced July 2024 .NET Framework 3.5.1 Update (KB5039909) with August 2024 .NET Framework 3.5.1 Update (KB5041942).
+* Replaced July 2024 .NET Framework 4.8 Update (KB5039891) with August 2024 .NET Framework 4.8 Update (KB5041954).
+* Updated Microsoft Time Stamp Root Certificate Authority 2014.crl.
+* Updated Microsoft ECC Root Certificate Authority 2017.crl.
+* Updated MicRooCerAut_2010-06-23.crl.
+* Updated Microsoft ECC Product Root Certificate Authority 2018.crl.
+* Updated Microsoft ECC TS Root Certificate Authority 2018.crl.
+
 ### Update 2024-07-13
 * Replaced June 2024 Monthly Update (KB5039289) with July 2024 Monthly Update (KB5040497).
 * Replaced April 2024 .NET Framework 3.5.1 Update (KB5036626) with July 2024 .NET Framework 3.5.1 Update (KB5039909).
