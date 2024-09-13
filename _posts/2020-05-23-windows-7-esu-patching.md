@@ -170,6 +170,7 @@ The goal is to keep this list updated as changes are introduced.  Please reach o
 
 ### Update 2024-09-13
 * Added Prerequisite Updates section for clean installs (Thanks @piotr25691!)
+* Added footnote about .NET 4.8 update not working without proper ESU license.
 
 ### Update 2024-09-12
 * Replaced August 2024 Monthly Update (KB5041838) with September 2024 Monthly Update (KB5043129).
