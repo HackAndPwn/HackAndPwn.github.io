@@ -2,7 +2,7 @@
 layout: post
 title: Windows 7 ESU Patching
 original_date: 2020-05-23
-date: 2024-09-12
+date: 2024-09-13
 ---
 
 With the May 2020 Windows 7 updates, I went on a mission to determine the minimum set of updates needed to enable all features within Windows 7, including optional hotfixes, and to have the most up-to-date installation possible.  After extensive testing, I concluded that 42 updates not offered through Windows Update would need to be installed to reach this objective.  The following sections describe the updates required and provide links to each.
@@ -10,6 +10,16 @@ With the May 2020 Windows 7 updates, I went on a mission to determine the minimu
 > The base test image used for this research was 64-Bit Windows 7 Ultimate SP1.  Microsoft Update was enabled, and all updates offered through Windows Update were installed prior to starting this investigation.
 
 > I highly recommend both the [KUC Update Checker](http://windows-update-checker.com/) and [WSUS Offline Update](https://www.wsusoffline.net/) utilities.  I used both during this investigation in order to get to this minimum required set.  
+
+### Prerequisite Updates For A Clean Install
+
+If attempting to apply ESU patches to a clean install, without going through Windows Update first, then these packages need to be installed prior to attempting to apply any additional updates.
+
+<table style="text-align:center"><colgroup><col width="8%" /><col width="17%" /><col width="53%" /><col width="22%" /></colgroup>
+<thead><tr><th style="text-align:center">KB Number</th><th style="text-align:center">Name</th><th style="text-align:center">Description</th><th style="text-align:center">Download</th></tr></thead><tbody>
+<tr><td>KB4474419</td><td>SHA-2 Code Signing Support</td><td style="text-align:left">To help protect the security of the Windows operating system, updates were previously signed (using both the SHA-1 and SHA-2 hash algorithms). Because of weaknesses in the SHA-1 algorithm and to align to industry standards, this update changes the signing verification of Windows updates to use the more secure SHA-2 algorithm exclusively.<td><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/00_Prerequisites/01_Windows6.1-KB4474419-v3-x64.msu">Windows6.1-KB4474419-v3-x64.msu</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/00_Prerequisites/01_Windows6.1-KB4474419-v3-x86.msu">Windows6.1-KB4474419-v3-x86.msu</a></td></tr>
+<tr><td>KB4592510</td><td>December 2020 Servicing Stack Update</td><td style="text-align:left">This update makes quality improvements to the servicing stack, which is the component that installs Windows updates. Servicing stack updates (SSU) makes sure that you have a robust and reliable servicing stack so that your devices can receive and install Microsoft updates.</td><td><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/00_Prerequisites/02_Windows6.1-KB4592510-x64.msu">Windows6.1-KB4592510-x64.msu</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/00_Prerequisites/02_Windows6.1-KB4592510-x86.msu">Windows6.1-KB4592510-x86.msu</a></td></tr>
+</tbody></table>
 
 ### Enabling ESU Updates
 
@@ -156,6 +166,9 @@ Finally, the latest Microsoft Root Certificates need to be installed into the Lo
 Once these updates are installed on top of an up-to-date Windows 7 SP1 installation, the OS has been completely updated with hotfixes and optional features.  All of these updates can be found on this GitHub repository: [Windows 7 Patching](https://github.com/HackAndPwn/Windows-7-Patching).
 
 The goal is to keep this list updated as changes are introduced.  Please reach out to me via [X](https://twitter.com/HackAndPwn) or [GitHub](https://github.com/HackAndPwn) if there is an update that is missing, if there is an update in this list that you feel may not be needed, or if there are any other questions or feedback.
+
+### Update 2024-09-13
+* Added Prerequisite Updates section for clean installs (Thanks @piotr25691!)
 
 ### Update 2024-09-12
 * Replaced August 2024 Monthly Update (KB5041838) with September 2024 Monthly Update (KB5043129).
