@@ -135,7 +135,8 @@ This section describes the latest ESU updates available for Windows 7.  All of t
 <tr><td>KB5041954**</td><td style="text-align:left">August 2024 .NET Framework 4.8 Update</td><td style="text-align:left">Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1.</td><td><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5041954-x64.exe">ndp48-KB5041954-x64.exe</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5041954-x86.exe">ndp48-KB5041954-x86.exe</a></td></tr>
 </tbody></table>
 
-\* Note: a new ESU package has been integrated into this update.  For details please see this post: [Windows 7 ESU Analysis Updates](https://hackandpwn.com/windows-7-esu-analysis-updates/).
+\* Note: a new ESU package has been integrated into this update.  For details please see this post: [Windows 7 ESU Analysis Updates](https://hackandpwn.com/windows-7-esu-analysis-updates/).  
+
 \*\* Note: The .NET 4.8 Update will not install on Windows 7 without a proper ESU license.  However, I am including it on this page so that it is known what is required to be fully updated.
 
 ### Root Certificate Updates
