@@ -137,7 +137,7 @@ This section describes the latest ESU updates available for Windows 7.  All of t
 
 \* Note: a new ESU package has been integrated into this update.  For details please see this post: [Windows 7 ESU Analysis Updates](https://hackandpwn.com/windows-7-esu-analysis-updates/).  
 
-\*\* Note: The .NET 4.8 Update will not install on Windows 7 without a proper ESU license.  However, I am including it on this page so that it is known what is required to be fully updated.
+\*\* Note: The .NET Framework 4.8 Update will not install on Windows 7 without a proper ESU license.  However, I am including it on this page so that it is known what is required to be fully updated.
 
 ### Root Certificate Updates
 
