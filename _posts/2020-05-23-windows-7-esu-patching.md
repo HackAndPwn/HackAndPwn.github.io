@@ -13,7 +13,7 @@ With the May 2020 Windows 7 updates, I went on a mission to determine the minimu
 
 ### Prerequisite Updates For A Clean Install
 
-If attempting to apply ESU patches to a clean install, without going through Windows Update first, then these packages need to be installed and the system rebooted prior to applying any additional updates.
+If attempting to apply ESU patches to a clean install without fully updating through Windows Update first, then these updates need to be installed and the system rebooted prior to applying any additional updates.
 
 <table style="text-align:center"><colgroup><col width="8%" /><col width="17%" /><col width="53%" /><col width="22%" /></colgroup>
 <thead><tr><th style="text-align:center">KB Number</th><th style="text-align:center">Name</th><th style="text-align:center">Description</th><th style="text-align:center">Download</th></tr></thead><tbody>
