@@ -4,6 +4,19 @@ title: Windows 7 ESU Patching Changelog
 original_date: 2020-05-23
 ---
 
+### Update 2024-09-15
+* Swapped SSU Prerequisite Update KB4592510 for KB4490628
+
+### Update 2024-09-13
+* Added Prerequisite Updates section for clean installs (Thanks @piotr25691!)
+* Added footnote about .NET 4.8 update not working without proper ESU license.
+
+### Update 2024-09-12
+* Replaced August 2024 Monthly Update (KB5041838) with September 2024 Monthly Update (KB5043129).
+* Updated Microsoft RSA Root Certificate Authority 2017.crl.
+* Updated Microsoft EV ECC Root Certificate Authority 2017.crl.
+* Updated Microsoft EV RSA Root Certificate Authority 2017.crl.
+
 ### Update 2024-08-15
 * Replaced July 2024 Monthly Update (KB5040497) with August 2024 Monthly Update (KB5041838).
 * Replaced July 2024 .NET Framework 3.5.1 Update (KB5039909) with August 2024 .NET Framework 3.5.1 Update (KB5041942).
