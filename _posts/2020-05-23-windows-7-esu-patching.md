@@ -2,7 +2,7 @@
 layout: post
 title: Windows 7 ESU Patching
 original_date: 2020-05-23
-date: 2024-10-11
+date: 2024-11-18
 ---
 
 With the May 2020 Windows 7 updates, I went on a mission to determine the minimum set of updates needed to enable all features within Windows 7, including optional hotfixes, and to have the most up-to-date installation possible.  After extensive testing, I concluded that 42 updates not offered through Windows Update would need to be installed to reach this objective.  The following sections describe the updates required and provide links to each.
@@ -10,6 +10,8 @@ With the May 2020 Windows 7 updates, I went on a mission to determine the minimu
 > The base test image used for this research was 64-Bit Windows 7 Ultimate SP1.  Microsoft Update was enabled, and all updates offered through Windows Update were installed prior to starting this investigation.
 
 > I highly recommend both the [KUC Update Checker](http://windows-update-checker.com/) and [WSUS Offline Update](https://www.wsusoffline.net/) utilities.  I used both during this investigation in order to get to this minimum required set.  
+
+> Note: October 2024 was the last month Microsoft released patches for x86 versions of Windows 7.  Starting November 2024, only x64 versions of the patches will be updated in this post.
 
 ### Prerequisite Updates For A Clean Install
 
@@ -130,9 +132,9 @@ This section describes the latest ESU updates available for Windows 7.  All of t
 <table style="text-align:center"><colgroup><col width="8%" /><col width="17%" /><col width="53%" /><col width="22%" /></colgroup>
 <thead><tr><th style="text-align:center">KB Number</th><th style="text-align:center">Name</th><th style="text-align:center">Description</th><th style="text-align:center">Download</th></tr></thead><tbody>
 <tr><td>KB5039339</td><td style="text-align:left">June 2024 Servicing Stack Update</td><td style="text-align:left">This update makes quality improvements to the servicing stack, which is the component that installs Windows updates. Servicing stack updates (SSU) makes sure that you have a robust and reliable servicing stack so that your devices can receive and install Microsoft updates.</td><td><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5039339-x64.msu">Windows6.1-KB5039339-x64.msu</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5039339-x86.msu">Windows6.1-KB5039339-x86.msu</a></td></tr>
-<tr><td>KB5044356*</td><td style="text-align:left">October 2024 Windows 7 Cumulative Update</td><td style="text-align:left">Security and Quality Rollup for Windows 7 SP1.</td><td>Windows6.1-KB5044356-x64.msu<br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5044356-x64.zip.001">Part 1</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5044356-x64.zip.002">Part 2</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5044356-x64.zip.003">Part 3</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5044356-x64.zip.004">Part 4</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5044356-x64.zip.005">Part 5</a><br>&nbsp;<br>Windows6.1-KB5044356-x86.msu<br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5044356-x86.zip.001">Part 1</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5044356-x86.zip.002">Part 2</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5044356-x86.zip.003">Part 3</a></td></tr>
+<tr><td>KB5046687*</td><td style="text-align:left">October 2024 Windows 7 Cumulative Update</td><td style="text-align:left">Security and Quality Rollup for Windows 7 SP1.</td><td>Windows6.1-KB5046687-x64.msu<br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5046687-x64.zip.001">Part 1</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5046687-x64.zip.002">Part 2</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5046687-x64.zip.003">Part 3</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5046687-x64.zip.004">Part 4</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5046687-x64.zip.005">Part 5</a><br>&nbsp;<br>Final x86 Windows 7 Patch (KB5044356)<br>Windows6.1-KB5044356-x86.msu<br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5044356-x86.zip.001">Part 1</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5044356-x86.zip.002">Part 2</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5044356-x86.zip.003">Part 3</a></td></tr>
 <tr><td>KB5044011</td><td style="text-align:left">October 2024 .NET Framework 3.5.1 Update</td><td style="text-align:left">Security and Quality Rollup for .NET Framework 3.5.1 for Windows 7 SP1.</td><td><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/03_Windows6.1-KB5044011-x64.msu">Windows6.1-KB5044011-x64.msu</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/03_Windows6.1-KB5044011-x86.msu">Windows6.1-KB5044011-x86.msu</a></td></tr>
-<tr><td>KB5044027**</td><td style="text-align:left">October 2024 .NET Framework 4.8 Update</td><td style="text-align:left">Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1.</td><td><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5044027-x64.exe">ndp48-KB5044027-x64.exe</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5044027-x86.exe">ndp48-KB5044027-x86.exe</a></td></tr>
+<tr><td>KB5046258**</td><td style="text-align:left">October 2024 .NET Framework 4.8 Update</td><td style="text-align:left">Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1.</td><td><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5046258-x64.exe">ndp48-KB5046258-x64.exe</a><br>&nbsp;<br>Final x86 Windows 7 Patch (KB5044027)<br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5044027-x86.exe">ndp48-KB5044027-x86.exe</a></td></tr>
 </tbody></table>
 
 \* Note: a new ESU package has been integrated into this update.  For details please see this post: [Windows 7 ESU Analysis Updates](https://hackandpwn.com/windows-7-esu-analysis-updates/).  
@@ -153,14 +155,14 @@ Finally, the latest Microsoft Root Certificates need to be installed into the Lo
 <tr><td>2020-01-22</td><td>Certificate</td><td style="text-align:left"><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20ECC%20Root%20Certificate%20Authority%202017.crt">Microsoft EV ECC Root Certificate Authority 2017.crt</a></td></tr>
 <tr><td>2020-01-22</td><td>Certificate</td><td style="text-align:left"><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crt">Microsoft RSA Root Certificate Authority 2017.crt</a></td></tr>
 <tr><td>2020-01-22</td><td>Certificate</td><td style="text-align:left"><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20RSA%20Root%20Certificate%20Authority%202017.crt">Microsoft EV RSA Root Certificate Authority 2017.crt</a></td></tr>
-<tr><td>2024-08-03</td><td>Revocation List</td><td style="text-align:left"><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/MicRooCerAut_2010-06-23.crl">MicRooCerAut_2010-06-23.crl</a></td></tr>
-<tr><td>2024-08-11</td><td>Revocation List</td><td style="text-align:left"><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Product%20Root%20Certificate%20Authority%202018.crl">Microsoft ECC Product Root Certificate Authority 2018.crl</a></td></tr>
-<tr><td>2024-08-11</td><td>Revocation List</td><td style="text-align:left"><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20TS%20Root%20Certificate%20Authority%202018.crl">Microsoft ECC TS Root Certificate Authority 2018.crl</a></td></tr>
-<tr><td>2024-08-22</td><td>Revocation List</td><td style="text-align:left"><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crl">Microsoft RSA Root Certificate Authority 2017.crl</a></td></tr>
-<tr><td>2024-08-22</td><td>Revocation List</td><td style="text-align:left"><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20ECC%20Root%20Certificate%20Authority%202017.crl">Microsoft EV ECC Root Certificate Authority 2017.crl</a></td></tr>
-<tr><td>2024-08-23</td><td>Revocation List</td><td style="text-align:left"><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20RSA%20Root%20Certificate%20Authority%202017.crl">Microsoft EV RSA Root Certificate Authority 2017.crl</a></td></tr>
 <tr><td>2024-09-14</td><td>Revocation List</td><td style="text-align:left"><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20Time%20Stamp%20Root%20Certificate%20Authority%202014.crl">Microsoft Time Stamp Root Certificate Authority 2014.crl</a></td></tr>
-<tr><td>2024-10-06</td><td>Revocation List</td><td style="text-align:left"><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Root%20Certificate%20Authority%202017.crl">Microsoft ECC Root Certificate Authority 2017.crl</a></td></tr>
+<tr><td>2024-10-16</td><td>Revocation List</td><td style="text-align:left"><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Root%20Certificate%20Authority%202017.crl">Microsoft ECC Root Certificate Authority 2017.crl</a></td></tr>
+<tr><td>2024-10-16</td><td>Revocation List</td><td style="text-align:left"><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crl">Microsoft RSA Root Certificate Authority 2017.crl</a></td></tr>
+<tr><td>2024-10-18</td><td>Revocation List</td><td style="text-align:left"><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/MicRooCerAut_2010-06-23.crl">MicRooCerAut_2010-06-23.crl</a></td></tr>
+<tr><td>2024-10-26</td><td>Revocation List</td><td style="text-align:left"><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20TS%20Root%20Certificate%20Authority%202018.crl">Microsoft ECC TS Root Certificate Authority 2018.crl</a></td></tr>
+<tr><td>2024-10-26</td><td>Revocation List</td><td style="text-align:left"><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20ECC%20Product%20Root%20Certificate%20Authority%202018.crl">Microsoft ECC Product Root Certificate Authority 2018.crl</a></td></tr>
+<tr><td>2024-11-05</td><td>Revocation List</td><td style="text-align:left"><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20RSA%20Root%20Certificate%20Authority%202017.crl">Microsoft EV RSA Root Certificate Authority 2017.crl</a></td></tr>
+<tr><td>2024-11-05</td><td>Revocation List</td><td style="text-align:left"><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/08_Certs/Microsoft%20EV%20ECC%20Root%20Certificate%20Authority%202017.crl">Microsoft EV ECC Root Certificate Authority 2017.crl</a></td></tr>
 </tbody></table>
 
 ### Conclusion
@@ -169,11 +171,16 @@ Once these updates are installed on top of an up-to-date Windows 7 SP1 installat
 
 The goal is to keep this list updated as changes are introduced.  Please reach out to me via [X](https://twitter.com/HackAndPwn) or [GitHub](https://github.com/HackAndPwn) if there is an update that is missing, if there is an update in this list that you feel may not be needed, or if there are any other questions or feedback.
 
-### Update 2024-10-11
-* Replaced September 2024 Monthly Update (KB5043129) with October 2024 Monthly Update (KB5044356).
-* Replaced August 2024 .NET Framework 3.5.1 Update (KB5041942) with October 2024 .NET Framework 3.5.1 Update (KB5044011).
-* Replaced August 2024 .NET Framework 4.8 Update (KB5041954) with October 2024 .NET Framework 4.8 Update (KB5044027).
-* Updated Microsoft Time Stamp Root Certificate Authority 2014.crl.
+### Update 2024-11-18
+* Added a note about the retirement of Windows 7 x86 patches.
+* Replaced October 2024 Monthly Update (KB5044356) with November 2024 Monthly Update (KB5046687).
+* Replaced October 2024 .NET Framework 4.8 Update (KB5044027) with November 2024 .NET Framework 4.8 Update (KB5046258).
 * Updated Microsoft ECC Root Certificate Authority 2017.crl.
+* Updated MicRooCerAut_2010-06-23.crl.
+* Updated Microsoft ECC Product Root Certificate Authority 2018.crl.
+* Updated Microsoft ECC TS Root Certificate Authority 2018.crl.
+* Updated Microsoft RSA Root Certificate Authority 2017.crl.
+* Updated Microsoft EV ECC Root Certificate Authority 2017.crl.
+* Updated Microsoft EV RSA Root Certificate Authority 2017.crl.
 
 For previous updates to this post, see [Windows 7 ESU Patching Changelog](https://hackandpwn.com/windows-7-esu-patching-changelog/).

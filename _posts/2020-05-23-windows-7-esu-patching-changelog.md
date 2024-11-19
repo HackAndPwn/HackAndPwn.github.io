@@ -4,6 +4,13 @@ title: Windows 7 ESU Patching Changelog
 original_date: 2020-05-23
 ---
 
+### Update 2024-10-11
+* Replaced September 2024 Monthly Update (KB5043129) with October 2024 Monthly Update (KB5044356).
+* Replaced August 2024 .NET Framework 3.5.1 Update (KB5041942) with October 2024 .NET Framework 3.5.1 Update (KB5044011).
+* Replaced August 2024 .NET Framework 4.8 Update (KB5041954) with October 2024 .NET Framework 4.8 Update (KB5044027).
+* Updated Microsoft Time Stamp Root Certificate Authority 2014.crl.
+* Updated Microsoft ECC Root Certificate Authority 2017.crl.
+
 ### Update 2024-09-15
 * Swapped SSU Prerequisite Update KB4592510 for KB4490628
 
