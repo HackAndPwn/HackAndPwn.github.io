@@ -4,6 +4,11 @@ title: Windows 7 ESU Analysis Updates Changelog
 original_date: 2020-09-12
 ---
 
+### Update 2024-11-18
+* Added a note about the retirement of Windows 7 x86 patches.
+* Replaced October 2024 Monthly Update (KB5044356) with November 2024 Monthly Update (KB5046687).
+* Replaced October 2024 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.27366) with November 2024 (6.1.7602.27415).
+
 ### Update 2024-10-11
 * Replaced September 2024 Monthly Update (KB5043129) with October 2024 Monthly Update (KB5044356).
 * Replaced September 2024 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.27320) with October 2024 (6.1.7602.27366).
