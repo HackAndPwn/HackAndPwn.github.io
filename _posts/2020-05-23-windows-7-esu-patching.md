@@ -174,6 +174,6 @@ Once these updates are installed on top of an up-to-date Windows 7 SP1 installat
 The goal is to keep this list updated as changes are introduced.  Please reach out to me via [X](https://twitter.com/HackAndPwn) or [GitHub](https://github.com/HackAndPwn) if there is an update that is missing, if there is an update in this list that you feel may not be needed, or if there are any other questions or feedback.
 
 ### Update 2025-02-17
-* Replaced January 2025 Monthly Update (KB5050049) with January 2025 Monthly Update (KB5052016) (x64 only).
+* Replaced January 2025 Monthly Update (KB5050049) with February 2025 Monthly Update (KB5052016) (x64 only).
 
 For previous updates to this post, see [Windows 7 ESU Patching Changelog](https://hackandpwn.com/windows-7-esu-patching-changelog/).
