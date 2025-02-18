@@ -2,7 +2,7 @@
 layout: post
 title: Windows 7 ESU Patching
 original_date: 2020-05-23
-date: 2025-01-21
+date: 2025-02-17
 ---
 
 With the May 2020 Windows 7 updates, I went on a mission to determine the minimum set of updates needed to enable all features within Windows 7, including optional hotfixes, and to have the most up-to-date installation possible.  After extensive testing, I concluded that 42 updates not offered through Windows Update would need to be installed to reach this objective.  The following sections describe the updates required and provide links to each.
@@ -133,7 +133,7 @@ This section describes the latest ESU updates available for Windows 7.  All of t
 <thead><tr><th style="text-align:center">KB Number</th><th style="text-align:center">Name</th><th style="text-align:center">Description</th><th style="text-align:center">Download</th></tr></thead><tbody>
 <tr><td rowspan="2">KB5050681<br>&nbsp;<br>&nbsp;<br>KB5039339</td><td style="text-align:left">January 2025<br>Servicing Stack Update x64</td><td style="text-align:left">This update makes quality improvements to the servicing stack, which is the component that installs Windows updates. Servicing stack updates (SSU) makes sure that you have a robust and reliable servicing stack so that your devices can receive and install Microsoft updates.</td><td><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5050681-x64.msu">Windows6.1-KB5050681-x64.msu</a></td></tr>
 <tr><td style="text-align:left">June 2024<br>Servicing Stack Update<br><i>(Final x86 Patch)</i></td><td style="text-align:left">This update makes quality improvements to the servicing stack, which is the component that installs Windows updates. Servicing stack updates (SSU) makes sure that you have a robust and reliable servicing stack so that your devices can receive and install Microsoft updates.</td><td><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5039339-x86.msu">Windows6.1-KB5039339-x86.msu</a></td></tr>
-<tr><td rowspan="2">KB5050049*<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>KB5044356*</td><td style="text-align:left">January 2025<br>Windows 7 Cumulative Update x64</td><td style="text-align:left">Security and Quality Rollup for Windows 7 SP1.</td><td>Windows6.1-KB5050049-x64.msu<br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5050049-x64.zip.001">Part 1</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5050049-x64.zip.002">Part 2</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5050049-x64.zip.003">Part 3</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5050049-x64.zip.004">Part 4</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5050049-x64.zip.005">Part 5</a></td></tr>
+<tr><td rowspan="2">KB5052016*<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>KB5044356*</td><td style="text-align:left">February 2025<br>Windows 7 Cumulative Update x64</td><td style="text-align:left">Security and Quality Rollup for Windows 7 SP1.</td><td>Windows6.1-KB5052016-x64.msu<br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5052016-x64.zip.001">Part 1</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5052016-x64.zip.002">Part 2</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5052016-x64.zip.003">Part 3</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5052016-x64.zip.004">Part 4</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5052016-x64.zip.005">Part 5</a></td></tr>
 <tr><td style="text-align:left">October 2024<br>Windows 7 Cumulative Update<br><i>(Final x86 Patch)</i></td><td style="text-align:left">Security and Quality Rollup for Windows 7 SP1.</td><td>Windows6.1-KB5044356-x86.msu<br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5044356-x86.zip.001">Part 1</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5044356-x86.zip.002">Part 2</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/02_Windows6.1-KB5044356-x86.zip.003">Part 3</a></td></tr>
 <tr><td>KB5044011</td><td style="text-align:left">October 2024<br>.NET Framework 3.5.1 Update</td><td style="text-align:left">Security and Quality Rollup for .NET Framework 3.5.1 for Windows 7 SP1.</td><td><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/03_Windows6.1-KB5044011-x64.msu">Windows6.1-KB5044011-x64.msu</a><br><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/03_Windows6.1-KB5044011-x86.msu">Windows6.1-KB5044011-x86.msu</a></td></tr>
 <tr><td rowspan="2">KB5049619**<br>&nbsp;<br>&nbsp;<br>KB5044027**</td><td style="text-align:left">January 2025<br>.NET Framework 4.8 Update x64</td><td style="text-align:left">Security and Quality Rollup for .NET Framework 4.8 for Windows 7 SP1.</td><td><a href="https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/04_ndp48-KB5049619-x64.exe">ndp48-KB5049619-x64.exe</a></td></tr>
@@ -173,16 +173,7 @@ Once these updates are installed on top of an up-to-date Windows 7 SP1 installat
 
 The goal is to keep this list updated as changes are introduced.  Please reach out to me via [X](https://twitter.com/HackAndPwn) or [GitHub](https://github.com/HackAndPwn) if there is an update that is missing, if there is an update in this list that you feel may not be needed, or if there are any other questions or feedback.
 
-### Update 2025-01-21
-* Replaced June 2024 Servicing Stack Update (KB5039339) with January 2025 Servicing Stack Update (KB5050681) (x64 only).
-* Replaced December 2024 Monthly Update (KB5048695) with January 2025 Monthly Update (KB5050049) (x64 only).
-* Replaced November 2024 .NET Framework 4.8 Update (KB5046258) with January 2025 .NET Framework 4.8 Update (KB5049619) (x64 only).
-* Updated Microsoft ECC Root Certificate Authority 2017.crl.
-* Updated MicRooCerAut_2010-06-23.crl.
-* Updated Microsoft ECC Product Root Certificate Authority 2018.crl.
-* Updated Microsoft ECC TS Root Certificate Authority 2018.crl.
-* Updated Microsoft RSA Root Certificate Authority 2017.crl.
-* Updated Microsoft EV ECC Root Certificate Authority 2017.crl.
-* Updated Microsoft EV RSA Root Certificate Authority 2017.crl.
+### Update 2025-02-17
+* Replaced January 2025 Monthly Update (KB5050049) with January 2025 Monthly Update (KB5052016) (x64 only).
 
 For previous updates to this post, see [Windows 7 ESU Patching Changelog](https://hackandpwn.com/windows-7-esu-patching-changelog/).
