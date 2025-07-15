@@ -4,6 +4,14 @@ title: Windows 7 ESU Patching Changelog
 original_date: 2020-05-23
 ---
 
+### Update 2025-06-16
+* Replaced May 2025 Monthly Update (KB5061196) with June 2025 Monthly Update (KB5061078) (x64 only).
+* Updated Microsoft ECC Product Root Certificate Authority 2018.crl.
+* Updated Microsoft ECC TS Root Certificate Authority 2018.crl.
+* Updated Microsoft ECC Root Certificate Authority 2017.crl.
+* Updated Microsoft RSA Root Certificate Authority 2017.crl.
+* Updated MicRooCerAut_2010-06-23.crl.
+
 ### Update 2025-05-20
 * Replaced April 2025 Monthly Update (KB5055561) with May 2025 Monthly Update (KB5061196) (x64 only).
 * Updated Microsoft Time Stamp Root Certificate Authority 2014.crl.

@@ -2,7 +2,7 @@
 layout: post
 title: Windows 7 ESU Analysis Updates
 original_date: 2020-09-12
-date: 2025-06-16
+date: 2025-07-14
 ---
 
 The original Windows 7 ESU Analysis can be found [here](https://hackandpwn.com/windows-7-esu-analysis).  With the September 2020 Cumulative Update, the technique as described no longer works to install this update.  However, only slight modifications need to be made in order for this new update to also install.
@@ -17,9 +17,9 @@ Please reference the original post for the majority of the instructions.  This p
 
 Install KB4528069 as described in [Windows 7 ESU Analysis](https://hackandpwn.com/windows-7-esu-analysis). 
 
-### Installing KB5061078 (June 2025 Cumulative Update)
+### Installing KB5062632 (July 2025 Cumulative Update)
 
-The June 2025 Cumulative Update includes new ESU files that bump versions past those used in KB4528069.  However, the same technique that previously applied still works.
+The July 2025 Cumulative Update includes new ESU files that bump versions past those used in KB4528069.  However, the same technique that previously applied still works.
 
 1. Install the latest Servicing Stack Update [Windows6.1-KB5056456-x64.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5056456-x64.msu) [Windows6.1-KB5039339-x86.msu](https://github.com/HackAndPwn/Windows-7-Patching/raw/master/07_ESU_Updates/01_Windows6.1-KB5039339-x86.msu).  Rebooting the machine may be required.
 2. If using the Manifest/Components registry key technique on a 64-bit system, execute the following commands:
@@ -27,7 +27,7 @@ The June 2025 Cumulative Update includes new ESU files that bump versions past t
 >
 > icacls C:\Windows\WinSxS\Manifests /grant Everyone:(F)
 >
-> copy amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.27769_none_c8b0404836485097.manifest C:\Windows\WinSxS\Manifests
+> copy amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.27820_none_c8d27f44362ff9eb.manifest C:\Windows\WinSxS\Manifests
 >
 > icacls C:\Windows\WinSxS\Manifests /remove Everyone
 >
@@ -37,7 +37,7 @@ The June 2025 Cumulative Update includes new ESU files that bump versions past t
 >
 > reg import SideBySideRegistryKey_x64.reg
 >
-> Windows6.1-KB5061078-x64.msu
+> Windows6.1-KB5062632-x64.msu
 3. If using the Manifest/Components registry key technique on a 32-bit system, execute the following commands:
 > takeown /f C:\Windows\WinSxS\Manifests /a
 >
@@ -60,20 +60,20 @@ The June 2025 Cumulative Update includes new ESU files that bump versions past t
 
 These files can all be found on GitHub [here](https://github.com/HackAndPwn/Windows-7-ESU-Analysis).  See below for specific file links.
 
-> [Updated Manifest File x64 KB5061078](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2025_06/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.27769_none_c8b0404836485097.manifest)
+> [Updated Manifest File x64 KB5062632](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2025_07/amd64_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.27820_none_c8d27f44362ff9eb.manifest)
 >
 > [Updated Manifest File x86 KB5044356](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2024_10/x86_microsoft-windows-s..edsecurityupdatesai_31bf3856ad364e35_6.1.7602.27366_none_6c8e9c4e7ded9ec0.manifest)
 >
-> [Updated Components Registry Key x64 KB5061078](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2025_06/ComponentsRegistryKey_x64.reg)
+> [Updated Components Registry Key x64 KB5062632](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2025_07/ComponentsRegistryKey_x64.reg)
 >
 > [Updated Components Registry Key x86 KB5044356](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2024_10/ComponentsRegistryKey_x86.reg)
 >
-> [Updated SideBySide Registry Key x64 KB5061078](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2025_06/SideBySideRegistryKey_x64.reg)
+> [Updated SideBySide Registry Key x64 KB5062632](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2025_07/SideBySideRegistryKey_x64.reg)
 >
 > [Updated SideBySide Registry Key x86 KB5044356](https://github.com/HackAndPwn/Windows-7-ESU-Analysis/blob/master/2024_10/SideBySideRegistryKey_x86.reg)
 
-### Update 2025-06-16
-* Replaced May 2025 Monthly Update (KB5061196) with June 2025 Monthly Update (KB5061078) (x64 only).
-* Replaced May 2025 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.27730) with June 2025 (6.1.7602.27769) (x64 only).
+### Update 2025-07-14
+* Replaced June 2025 Monthly Update (KB5061078) with July 2025 Monthly Update (KB5062632) (x64 only).
+* Replaced June 2025 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.27730) with July 2025 (6.1.7602.27820) (x64 only).
 
 For previous updates to this post, see [Windows 7 ESU Analysis Updates Changelog](https://hackandpwn.com/windows-7-esu-analysis-updates-changelog/).
