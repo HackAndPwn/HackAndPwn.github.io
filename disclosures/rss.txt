@@ -3256,7 +3256,7 @@
 			<podcast:episode>408</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0408.mp3</guid>
 			<itunes:duration>1:44:26</itunes:duration>
-			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0408.mp3" length="null                " type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0408/sn0408.mp3" length="null                " type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 407: Your Questions, Steve's Answers #169</title>
@@ -3264,7 +3264,7 @@
 			<podcast:episode>407</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0407.mp3</guid>
 			<itunes:duration>1:51:52</itunes:duration>
-			<enclosure url="https://cdn.twit.tv/audio/sn/sn0400/sn0400.mp3" length="null                " type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0407/sn0407.mp3" length="null                " type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 406: Off the Record with OTR</title>
@@ -3272,7 +3272,7 @@
 			<podcast:episode>406</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0406.mp3</guid>
 			<itunes:duration>1:26:11</itunes:duration>
-			<enclosure url="https://cdn.twit.tv/audio/sn/sn0400/sn0400.mp3" length="null                " type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0406/sn0406.mp3" length="null                " type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 405: Your Questions, Steve's Answers #168</title>
@@ -3280,7 +3280,7 @@
 			<podcast:episode>405</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0405.mp3</guid>
 			<itunes:duration>1:44:18</itunes:duration>
-			<enclosure url="https://cdn.twit.tv/audio/sn/sn0400/sn0400.mp3" length="null                " type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0405/sn0405.mp3" length="null                " type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 404: How Facebook Monetizes</title>
@@ -3288,7 +3288,7 @@
 			<podcast:episode>404</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0404.mp3</guid>
 			<itunes:duration>1:36:33</itunes:duration>
-			<enclosure url="https://cdn.twit.tv/audio/sn/sn0400/sn0400.mp3" length="null                " type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0404/sn0404.mp3" length="null                " type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 403: Your Questions, Steve's Answers #167</title>
@@ -3296,7 +3296,7 @@
 			<podcast:episode>403</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0403.mp3</guid>
 			<itunes:duration>1:42:33</itunes:duration>
-			<enclosure url="https://cdn.twit.tv/audio/sn/sn0400/sn0400.mp3" length="null                " type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0403/sn0403.mp3" length="null                " type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 402: BitTorrent Sync</title>
@@ -3304,7 +3304,7 @@
 			<podcast:episode>402</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0402.mp3</guid>
 			<itunes:duration>1:39:38</itunes:duration>
-			<enclosure url="https://cdn.twit.tv/audio/sn/sn0400/sn0400.mp3" length="48042905" type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0402/sn0402.mp3" length="48042905" type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 401: Your Questions, Steve's Answers #166</title>
@@ -3312,7 +3312,7 @@
 			<podcast:episode>401</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0401.mp3</guid>
 			<itunes:duration>1:48:16</itunes:duration>
-			<enclosure url="https://cdn.twit.tv/audio/sn/sn0400/sn0400.mp3" length="52184671" type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0401/sn0401.mp3" length="52184671" type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 400: VPN Solutions</title>
