@@ -3200,7 +3200,7 @@
 			<podcast:episode>415</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0415.mp3</guid>
 			<itunes:duration>1:50:24</itunes:duration>
-			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0415.mp3" length="53206581" type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0415/sn0415.mp3" length="53206581" type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 414: Inflection Points</title>
@@ -3208,7 +3208,7 @@
 			<podcast:episode>414</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0414.mp3</guid>
 			<itunes:duration>1:42:16</itunes:duration>
-			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0414.mp3" length="49304096" type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0414/sn0414.mp3" length="49304096" type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 413: How Much Tinfoil?</title>
@@ -3216,7 +3216,7 @@
 			<podcast:episode>413</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0413.mp3</guid>
 			<itunes:duration>1:55:00</itunes:duration>
-			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0413.mp3" length="55417585" type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0413/sn0413.mp3" length="55417585" type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 412: SSL and Perfect Forward Secrecy</title>
@@ -3224,7 +3224,7 @@
 			<podcast:episode>412</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0412.mp3</guid>
 			<itunes:duration>1:47:21</itunes:duration>
-			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0412.mp3" length="51746859" type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0412/sn0412.mp3" length="51746859" type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 411: Your Questions, Steve's Answers #171</title>
@@ -3232,7 +3232,7 @@
 			<podcast:episode>411</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0411.mp3</guid>
 			<itunes:duration>1:45:20</itunes:duration>
-			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0411.mp3" length="50576740" type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0411/sn0411.mp3" length="50576740" type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 410: Interesting Intel History</title>
@@ -3240,7 +3240,7 @@
 			<podcast:episode>410</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0410.mp3</guid>
 			<itunes:duration>1:52:11</itunes:duration>
-			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0410.mp3" length="54068204" type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0410/sn0410.mp3" length="54068204" type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 409: Your Questions, Steve's Answers #170</title>
@@ -3248,7 +3248,7 @@
 			<podcast:episode>409</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0409.mp3</guid>
 			<itunes:duration>1:43:21</itunes:duration>
-			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0409.mp3" length="49822366" type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0409/sn0409.mp3" length="49822366" type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 408: The State of Surveillance</title>
@@ -3264,7 +3264,7 @@
 			<podcast:episode>407</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0407.mp3</guid>
 			<itunes:duration>1:51:52</itunes:duration>
-			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0407.mp3" length="null                " type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0400/sn0400.mp3" length="null                " type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 406: Off the Record with OTR</title>
@@ -3272,7 +3272,7 @@
 			<podcast:episode>406</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0406.mp3</guid>
 			<itunes:duration>1:26:11</itunes:duration>
-			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0406.mp3" length="null                " type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0400/sn0400.mp3" length="null                " type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 405: Your Questions, Steve's Answers #168</title>
@@ -3280,7 +3280,7 @@
 			<podcast:episode>405</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0405.mp3</guid>
 			<itunes:duration>1:44:18</itunes:duration>
-			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0405.mp3" length="null                " type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0400/sn0400.mp3" length="null                " type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 404: How Facebook Monetizes</title>
@@ -3288,7 +3288,7 @@
 			<podcast:episode>404</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0404.mp3</guid>
 			<itunes:duration>1:36:33</itunes:duration>
-			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0404.mp3" length="null                " type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0400/sn0400.mp3" length="null                " type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 403: Your Questions, Steve's Answers #167</title>
@@ -3296,7 +3296,7 @@
 			<podcast:episode>403</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0403.mp3</guid>
 			<itunes:duration>1:42:33</itunes:duration>
-			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0403.mp3" length="null                " type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0400/sn0400.mp3" length="null                " type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 402: BitTorrent Sync</title>
@@ -3304,7 +3304,7 @@
 			<podcast:episode>402</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0402.mp3</guid>
 			<itunes:duration>1:39:38</itunes:duration>
-			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0402.mp3" length="48042905" type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0400/sn0400.mp3" length="48042905" type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 401: Your Questions, Steve's Answers #166</title>
@@ -3312,7 +3312,7 @@
 			<podcast:episode>401</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0401.mp3</guid>
 			<itunes:duration>1:48:16</itunes:duration>
-			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0401.mp3" length="52184671" type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0400/sn0400.mp3" length="52184671" type="audio/mp3"/>
 		</item>
 		<item>
 			<title>SN 400: VPN Solutions</title>
@@ -3320,7 +3320,7 @@
 			<podcast:episode>400</podcast:episode>
 			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0400.mp3</guid>
 			<itunes:duration>1:29:08</itunes:duration>
-			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0400.mp3" length="43001899" type="audio/mp3"/>
+			<enclosure url="https://cdn.twit.tv/audio/sn/sn0400/sn0400.mp3" length="43001899" type="audio/mp3"/>
 		</item>
 	</channel>
 </rss>
