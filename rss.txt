@@ -1,0 +1,3325 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
+	<channel>
+		<title>Security Now (Archive)</title>
+		<link>https://twit.tv/shows/security-now</link>
+		<language>en-US</language>
+		<description>Cybersecurity guru Steve Gibson joins Leo Laporte every Tuesday. Steve and Leo break down the latest cybercrime and hacking stories, offering a deep understanding of what's happening and how to protect yourself and your business. Security Now is a must listen for security professionals every week. Records live every Tuesday at 4:30pm Eastern / 1:30pm Pacific / 20:30 UTC.</description>
+		<image>
+			<title>Security Now (Archive)</title>
+			<url>https://elroy.twit.tv/sites/default/files/styles/twit_album_art_2048x2048/public/images/shows/security_now/album_art/audio/sn2022_albumart_standard_2400.jpg</url>
+			<link>https://twit.tv/shows/security-now</link>
+		</image>
+		<item>
+			<title>SN 813: A Spy in Our Pocket - Ubiquity Coverup, Facebook Data Dump, Malicious Call of Duty Cheats</title>
+			<pubDate>2021-04-07</pubDate>
+			<podcast:episode>813</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0813/sn0813.mp3</guid>
+			<itunes:duration>2:03:19</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0813/sn0813.mp3" length="59357934" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 812: GIT Me Some PHP - Spectre Returns to Linux, API Security, OpenSSL Flaws, SolarWinds</title>
+			<pubDate>2021-03-31</pubDate>
+			<podcast:episode>812</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0812/sn0812.mp3</guid>
+			<itunes:duration>1:45:18</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0812/sn0812.mp3" length="50671074" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 811: What the FLoC? - Automatic Fix for Exchange Server Flaw, Firefox 87 Features, MyBB Patch</title>
+			<pubDate>2021-03-24</pubDate>
+			<podcast:episode>811</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0811/sn0811.mp3</guid>
+			<itunes:duration>2:06:16</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0811/sn0811.mp3" length="60730515" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 810: ProxyLogon - New Chrome 0-Day, Patch Tuesday Redux, Spectre Comes to Chrome</title>
+			<pubDate>2021-03-17</pubDate>
+			<podcast:episode>810</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0810/sn0810.mp3</guid>
+			<itunes:duration>2:10:25</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0810/sn0810.mp3" length="62726688" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 809: Hafnium - Dependency Confusion, Intel Side Channel Attacks, Crispy Subtitles From Lay's</title>
+			<pubDate>2021-03-10</pubDate>
+			<podcast:episode>809</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0809/sn0809.mp3</guid>
+			<itunes:duration>1:52:41</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0809/sn0809.mp3" length="54215577" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 808: CNAME Collusion - Seven Exchange 0-Days, Firefox Enhanced Tracking Protection, SolarWinds Password</title>
+			<pubDate>2021-03-03</pubDate>
+			<podcast:episode>808</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0808/sn0808.mp3</guid>
+			<itunes:duration>2:06:07</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0808/sn0808.mp3" length="60661343" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 807: Dependency Confusion - SHAREit's Security Update, Solorigate, Brave's Private Window With Tor</title>
+			<pubDate>2021-02-23</pubDate>
+			<podcast:episode>807</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0807/sn0807.mp3</guid>
+			<itunes:duration>2:02:08</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0807/sn0807.mp3" length="58759211" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 806: C.O.M.B. - Florida Water Supply Hack Update, Major Patch Tuesday, Android SHAREit Vulnerability</title>
+			<pubDate>2021-02-17</pubDate>
+			<podcast:episode>806</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0806/sn0806.mp3</guid>
+			<itunes:duration>2:01:22</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0806/sn0806.mp3" length="58383257" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 805: SCADA Scandal - Defender Thinks Chrome is Malware, Plex Media Servers in DDoS Attacks</title>
+			<pubDate>2021-02-10</pubDate>
+			<podcast:episode>805</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0805/sn0805.mp3</guid>
+			<itunes:duration>2:23:07</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0805/sn0805.mp3" length="68821996" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 804: NAT Slipstreaming 2.0 - SUDO Was Pseudo Secure, BigNox Supply-Chain Attack, iMessage in a Sandbox</title>
+			<pubDate>2021-02-03</pubDate>
+			<podcast:episode>804</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0804/sn0804.mp3</guid>
+			<itunes:duration>2:11:32</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0804/sn0804.mp3" length="63257706" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 803: Comparative Smartphone Security - Browser Password Managers, Adobe Flash Repercussions, SolarWinds</title>
+			<pubDate>2021-01-27</pubDate>
+			<podcast:episode>803</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0803/sn0803.mp3</guid>
+			<itunes:duration>2:11:20</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0803/sn0803.mp3" length="63160112" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 802: Where the Plaintext Is - 2021's First Patch Tuesday, Titan Security Key Side-Channel Attack, WhatsApp</title>
+			<pubDate>2021-01-20</pubDate>
+			<podcast:episode>802</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0802/sn0802.mp3</guid>
+			<itunes:duration>1:45:54</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0802/sn0802.mp3" length="50959257" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 801: Out With The Old - SolarWinds Smoking Gun, Signal Influx of WhatsApp Users, Male Chastity Cage</title>
+			<pubDate>2021-01-13</pubDate>
+			<podcast:episode>801</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0801/sn0801.mp3</guid>
+			<itunes:duration>2:00:14</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0801/sn0801.mp3" length="57837402" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 800: SolarBlizzard - SolarWinds' Orion Software, Swatting Goes IoT, PHP Zend Framework Vulnerability</title>
+			<pubDate>2021-01-06</pubDate>
+			<podcast:episode>800</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0800/sn0800.mp3</guid>
+			<itunes:duration>1:50:21</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0800/sn0800.mp3" length="53092729" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 799: Sunburst Supernova - Ransomware Task Force, Chrome 87, Firefox Caches, Preserving Flash Video</title>
+			<pubDate>2020-12-30</pubDate>
+			<podcast:episode>799</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0799/sn0799.mp3</guid>
+			<itunes:duration>1:36:11</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0799/sn0799.mp3" length="46287727" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 798: Best of 2020 - The Year's Best Stories on Security Now</title>
+			<pubDate>2020-12-22</pubDate>
+			<podcast:episode>798</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0798/sn0798.mp3</guid>
+			<itunes:duration>1:13:01</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0798/sn0798.mp3" length="35169386" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 797: SolarWinds - Chrome Throttling Ads, Google Outage, 2020 Pwnie Awards, JavaScript's 25th Birthday</title>
+			<pubDate>2020-12-16</pubDate>
+			<podcast:episode>797</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0797/sn0797.mp3</guid>
+			<itunes:duration>2:11:22</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0797/sn0797.mp3" length="63182055" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 796: Amazon Sidewalk - Google Play Core Library, iOS Zero-Click Radio Proximity Exploit, Apple M1 Chip</title>
+			<pubDate>2020-12-09</pubDate>
+			<podcast:episode>796</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0796/sn0796.mp3</guid>
+			<itunes:duration>2:10:21</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0796/sn0796.mp3" length="62698685" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 795: DNS Consolidation - Generic Smart Doorbells, Tesla Model X Key Fobs, Critical Drupal Flaw, Spotify</title>
+			<pubDate>2020-12-02</pubDate>
+			<podcast:episode>795</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0795/sn0795.mp3</guid>
+			<itunes:duration>2:03:46</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0795/sn0795.mp3" length="59524076" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 794: Cicada - Ongoing WordPress Attack, RCS Gets End-to-End Encryption</title>
+			<pubDate>2020-11-25</pubDate>
+			<podcast:episode>794</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0794/sn0794.mp3</guid>
+			<itunes:duration>1:44:03</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0794/sn0794.mp3" length="50064615" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 793: SAD DNS - Malicious Android Apps, Ransomware-as-a-Service</title>
+			<pubDate>2020-11-18</pubDate>
+			<podcast:episode>793</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0793/sn0793.mp3</guid>
+			<itunes:duration>1:59:10</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0793/sn0793.mp3" length="57320386" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 792: NAT Firewall Bypass - SlipStream NAT Firewall Bypass, MS Police Use Ring Doorbell Cams</title>
+			<pubDate>2020-11-11</pubDate>
+			<podcast:episode>792</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0792/sn0792.mp3</guid>
+			<itunes:duration>1:54:15</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0792/sn0792.mp3" length="54965186" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 791: Google's Root Program - Google One VPN, WordPress Update Fail, Windows 7 0-Day</title>
+			<pubDate>2020-11-04</pubDate>
+			<podcast:episode>791</podcast:episode>
+			<guid isPermaLink="false">https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0791/sn0791.mp3</guid>
+			<itunes:duration>1:45:35</itunes:duration>
+			<enclosure url="https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0791/sn0791.mp3" length="50807120" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 790: Top 25 Vulnerabilities - Chrome 0-Day, Edge for Linux, WordPress Loginizer</title>
+			<pubDate>2020-10-28</pubDate>
+			<podcast:episode>790</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0790/sn0790.mp3</guid>
+			<itunes:duration>1:43:40</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0790/sn0790.mp3" length="49880295" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 789: Anatomy of a Ryuk Attack - Zoom End-to-End Encryption, Windows 10 God Mode, Manifest v3</title>
+			<pubDate>2020-10-21</pubDate>
+			<podcast:episode>789</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0789/sn0789.mp3</guid>
+			<itunes:duration>1:51:28</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0789/sn0789.mp3" length="53624164" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 788: Well Known URI's - Carnival Cruise Hack, ZeroLogon, Five Eyes vs Encryption</title>
+			<pubDate>2020-10-14</pubDate>
+			<podcast:episode>788</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0788/sn0788.mp3</guid>
+			<itunes:duration>2:03:43</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0788/sn0788.mp3" length="59508403" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 787: Why Win7 Lives On - Android Security, Windows 7 Security, Microsoft Defender</title>
+			<pubDate>2020-10-07</pubDate>
+			<podcast:episode>787</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0787/sn0787.mp3</guid>
+			<itunes:duration>1:54:58</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0787/sn0787.mp3" length="55311257" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 786: ZeroLogon++ - Amazon Flying Security Cam, ZeroLogon on GitHub, Ransomware Roundup</title>
+			<pubDate>2020-09-30</pubDate>
+			<podcast:episode>786</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0786/sn0786.mp3</guid>
+			<itunes:duration>2:03:32</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0786/sn0786.mp3" length="59416452" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 785: Formal Verification - iOS 14 Android 11 Security Features, DuckDuckGo Gets Big</title>
+			<pubDate>2020-09-23</pubDate>
+			<podcast:episode>785</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0785/sn0785.mp3</guid>
+			<itunes:duration>1:59:39</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0785/sn0785.mp3" length="57428638" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 784: BlindSide BLURtooth - Chrome vs Abusive Ads, Patch Tuesday Palooza</title>
+			<pubDate>2020-09-16</pubDate>
+			<podcast:episode>784</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0784/sn0784.mp3</guid>
+			<itunes:duration>1:53:35</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0784/sn0784.mp3" length="54640223" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 783: IoT Isolation Strategies - Isolate Your IoT Devices, Threema Goes Open-Source</title>
+			<pubDate>2020-09-09</pubDate>
+			<podcast:episode>783</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0783/sn0783.mp3</guid>
+			<itunes:duration>2:05:19</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0783/sn0783.mp3" length="60121239" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 782: I Know What You Did Last Summer - Russian Tries to Hack Tesla, Web Browser History Research</title>
+			<pubDate>2020-09-02</pubDate>
+			<podcast:episode>782</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0782/sn0782.mp3</guid>
+			<itunes:duration>1:51:00</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0782/sn0782.mp3" length="53405572" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 781: SpiKey - Ransomware Hits Jack Daniel's, Iranian Script-Kiddies, How Ransomware Happens</title>
+			<pubDate>2020-08-26</pubDate>
+			<podcast:episode>781</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0781/sn0781.mp3</guid>
+			<itunes:duration>2:03:22</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0781/sn0781.mp3" length="59335577" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 780: Microsoft's 0-Day Folly - Microsoft Acts Badly, Canon Ransomware, Mozilla Tries to Pivot</title>
+			<pubDate>2020-08-19</pubDate>
+			<podcast:episode>780</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0780/sn0780.mp3</guid>
+			<itunes:duration>2:06:05</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0780/sn0780.mp3" length="60726135" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 779: Geneva - Great Firewall Of China, Black Hat/DEFCON 2020, Have I Been Pwned</title>
+			<pubDate>2020-08-12</pubDate>
+			<podcast:episode>779</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0779/sn0779.mp3</guid>
+			<itunes:duration>2:05:57</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0779/sn0779.mp3" length="60582558" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 778: BootHole - Twitter Hackers Arrested, Garmin Hackers Get Ransom</title>
+			<pubDate>2020-08-05</pubDate>
+			<podcast:episode>778</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0778/sn0778.mp3</guid>
+			<itunes:duration>2:04:12</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0778/sn0778.mp3" length="59734937" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 777: rwxrwxrwx - Garmin Outage, Twitter Hack Update, GnuTLS</title>
+			<pubDate>2020-07-29</pubDate>
+			<podcast:episode>777</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0777/sn0777.mp3</guid>
+			<itunes:duration>1:43:19</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0777/sn0777.mp3" length="49712693" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 776: A Tale of Two Counterfeits - Twitter Hack, Cloudflare Outage, Zoom's Vanity URL Flaw</title>
+			<pubDate>2020-07-22</pubDate>
+			<podcast:episode>776</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0776/sn0776.mp3</guid>
+			<itunes:duration>1:57:34</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0776/sn0776.mp3" length="56555730" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 775: Tsunami - EARN IT is Still Evil, Google Tsunami</title>
+			<pubDate>2020-07-15</pubDate>
+			<podcast:episode>775</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0775/sn0775.mp3</guid>
+			<itunes:duration>1:42:18</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0775/sn0775.mp3" length="49220881" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 774: 123456 - Boston Bans Face Recognition, Bad Passwords</title>
+			<pubDate>2020-07-08</pubDate>
+			<podcast:episode>774</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0774/sn0774.mp3</guid>
+			<itunes:duration>1:56:10</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0774/sn0774.mp3" length="55878344" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 773: Ripple20 Too - Congress Wants to Kill Encryption Face Recognition</title>
+			<pubDate>2020-07-01</pubDate>
+			<podcast:episode>773</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0773/sn0773.mp3</guid>
+			<itunes:duration>1:51:43</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0773/sn0773.mp3" length="53742154" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 772: Ripple20 - Zoom Encryption, Windows 10 Printer Error</title>
+			<pubDate>2020-06-24</pubDate>
+			<podcast:episode>772</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0772/sn0772.mp3</guid>
+			<itunes:duration>2:07:14</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0772/sn0772.mp3" length="61186007" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 771: Lamphone - Windows Update Kills Printers SSDs</title>
+			<pubDate>2020-06-17</pubDate>
+			<podcast:episode>771</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0771/sn0771.mp3</guid>
+			<itunes:duration>1:50:24</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0771/sn0771.mp3" length="53105811" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 770: Zoom's E2EE Debacle - Zoom's End-to-End Encryption Fail</title>
+			<pubDate>2020-06-10</pubDate>
+			<podcast:episode>770</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0770/sn0770.mp3</guid>
+			<itunes:duration>1:48:16</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0770/sn0770.mp3" length="52086618" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 769: Zoom's E2EE Design - Zoom Gets End-to-End Encryption</title>
+			<pubDate>2020-06-03</pubDate>
+			<podcast:episode>769</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0769/sn0769.mp3</guid>
+			<itunes:duration>2:12:03</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0769/sn0769.mp3" length="63500665" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 768: Contact Tracing Apps R.I.P. - Contact Tracing Apps Are Not Going to Work</title>
+			<pubDate>2020-05-27</pubDate>
+			<podcast:episode>768</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0768/sn0768.mp3</guid>
+			<itunes:duration>1:50:34</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0768/sn0768.mp3" length="53188358" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 767: WiFi 6, Apple vs. FBI, Face Masks</title>
+			<pubDate>2020-05-20</pubDate>
+			<podcast:episode>767</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0767/sn0767.mp3</guid>
+			<itunes:duration>2:00:03</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0767/sn0767.mp3" length="57738262" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 766: ThunderSpy - Thunderbolt Security Flaw, Zoom Buys Keybase</title>
+			<pubDate>2020-05-12</pubDate>
+			<podcast:episode>766</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0766/sn0766.mp3</guid>
+			<itunes:duration>1:57:48</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0766/sn0766.mp3" length="56658047" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 765: An Authoritarian Internet?</title>
+			<pubDate>2020-05-06</pubDate>
+			<podcast:episode>765</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0765/sn0765.mp3</guid>
+			<itunes:duration>1:58:10</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0765/sn0765.mp3" length="56835470" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 764: RPKI</title>
+			<pubDate>2020-04-28</pubDate>
+			<podcast:episode>764</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0764/sn0764.mp3</guid>
+			<itunes:duration>1:47:44</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0764/sn0764.mp3" length="51831872" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 763: The COVID Effect</title>
+			<pubDate>2020-04-22</pubDate>
+			<podcast:episode>763</podcast:episode>
+			<guid isPermaLink="false">https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0763/sn0763.mp3</guid>
+			<itunes:duration>1:34:23</itunes:duration>
+			<enclosure url="https://chtbl.com/track/E91833/cdn.twit.tv/audio/sn/sn0763/sn0763.mp3" length="45421423" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 762: Virus Contact Tracking</title>
+			<pubDate>2020-04-15</pubDate>
+			<podcast:episode>762</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0762/sn0762.mp3</guid>
+			<itunes:duration>1:50:49</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0762/sn0762.mp3" length="53306850" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 761: Zoom Go Boom</title>
+			<pubDate>2020-04-08</pubDate>
+			<podcast:episode>761</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0761/sn0761.mp3</guid>
+			<itunes:duration>1:40:55</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0761/sn0761.mp3" length="48554236" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 760: Folding Proteins</title>
+			<pubDate>2020-04-01</pubDate>
+			<podcast:episode>760</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0760/sn0760.mp3</guid>
+			<itunes:duration>1:31:38</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0760/sn0760.mp3" length="44101299" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 759: TRRespass</title>
+			<pubDate>2020-03-24</pubDate>
+			<podcast:episode>759</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0759/sn0759.mp3</guid>
+			<itunes:duration>1:54:01</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0759/sn0759.mp3" length="54841805" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 758: The SMBGhost Fiasco</title>
+			<pubDate>2020-03-18</pubDate>
+			<podcast:episode>758</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0758/sn0758.mp3</guid>
+			<itunes:duration>2:07:09</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0758/sn0758.mp3" length="61151108" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 757: The Fuzzy Bench</title>
+			<pubDate>2020-03-11</pubDate>
+			<podcast:episode>757</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0757/sn0757.mp3</guid>
+			<itunes:duration>2:01:24</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0757/sn0757.mp3" length="58390696" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 756: Kr00k</title>
+			<pubDate>2020-03-04</pubDate>
+			<podcast:episode>756</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0756/sn0756.mp3</guid>
+			<itunes:duration>2:00:27</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0756/sn0756.mp3" length="57934703" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 755: Apple's Cert Surprise</title>
+			<pubDate>2020-02-26</pubDate>
+			<podcast:episode>755</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0755/sn0755.mp3</guid>
+			<itunes:duration>2:13:21</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0755/sn0755.mp3" length="64127813" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 754: The Internet of Troubles</title>
+			<pubDate>2020-02-19</pubDate>
+			<podcast:episode>754</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0754/sn0754.mp3</guid>
+			<itunes:duration>1:43:40</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0754/sn0754.mp3" length="49875823" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 753: Promiscuous Cookies</title>
+			<pubDate>2020-02-12</pubDate>
+			<podcast:episode>753</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0753/sn0753.mp3</guid>
+			<itunes:duration>1:56:31</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0753/sn0753.mp3" length="56045527" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 752: The Little Red Wagon</title>
+			<pubDate>2020-02-05</pubDate>
+			<podcast:episode>752</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0752/sn0752.mp3</guid>
+			<itunes:duration>2:00:48</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0752/sn0752.mp3" length="58099588" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 751: SHAmbles</title>
+			<pubDate>2020-01-29</pubDate>
+			<podcast:episode>751</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0751/sn0751.mp3</guid>
+			<itunes:duration>1:53:29</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0751/sn0751.mp3" length="54592283" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 750: The Crypto CurveBall</title>
+			<pubDate>2020-01-22</pubDate>
+			<podcast:episode>750</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0750/sn0750.mp3</guid>
+			<itunes:duration>1:45:31</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0750/sn0750.mp3" length="50768166" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 749: Windows 7 - R. I. P.</title>
+			<pubDate>2020-01-15</pubDate>
+			<podcast:episode>749</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0749/sn0749.mp3</guid>
+			<itunes:duration>2:11:49</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0749/sn0749.mp3" length="63393668" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 748: Our Malware Lexicon</title>
+			<pubDate>2020-01-08</pubDate>
+			<podcast:episode>748</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0748/sn0748.mp3</guid>
+			<itunes:duration>2:08:30</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0748/sn0748.mp3" length="61839069" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 747: The Year's Best</title>
+			<pubDate>2019-12-31</pubDate>
+			<podcast:episode>747</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0747/sn0747.mp3</guid>
+			<itunes:duration>1:47:42</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0747/sn0747.mp3" length="51809929" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 746: A Decade of Hacks</title>
+			<pubDate>2019-12-24</pubDate>
+			<podcast:episode>746</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0746/sn0746.mp3</guid>
+			<itunes:duration>1:42:42</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0746/sn0746.mp3" length="49414396" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 745: PlunderVolt</title>
+			<pubDate>2019-12-18</pubDate>
+			<podcast:episode>745</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0745/sn0745.mp3</guid>
+			<itunes:duration>2:03:26</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0745/sn0745.mp3" length="59367049" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 744: VPN-geddon Denied</title>
+			<pubDate>2019-12-11</pubDate>
+			<podcast:episode>744</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0744/sn0744.mp3</guid>
+			<itunes:duration>1:50:59</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0744/sn0744.mp3" length="53390860" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 743: Android “StrandHogg”</title>
+			<pubDate>2019-12-04</pubDate>
+			<podcast:episode>743</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0743/sn0743.mp3</guid>
+			<itunes:duration>2:03:36</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0743/sn0743.mp3" length="59447297" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 742: Pushing DoH</title>
+			<pubDate>2019-11-27</pubDate>
+			<podcast:episode>742</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0742/sn0742.mp3</guid>
+			<itunes:duration>2:00:52</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0742/sn0742.mp3" length="58130517" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 741: TPM-FAIL</title>
+			<pubDate>2019-11-20</pubDate>
+			<podcast:episode>741</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0741/sn0741.mp3</guid>
+			<itunes:duration>2:07:42</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0741/sn0741.mp3" length="61415258" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 740: Credential Delegation</title>
+			<pubDate>2019-11-13</pubDate>
+			<podcast:episode>740</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0740/sn0740.mp3</guid>
+			<itunes:duration>2:08:10</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0740/sn0740.mp3" length="61632806" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 739: DOH and Bluekeep</title>
+			<pubDate>2019-11-06</pubDate>
+			<podcast:episode>739</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0739/sn0739.mp3</guid>
+			<itunes:duration>1:58:26</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0739/sn0739.mp3" length="56967336" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 738: A Foregone Conclusion</title>
+			<pubDate>2019-10-30</pubDate>
+			<podcast:episode>738</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0738/sn0738.mp3</guid>
+			<itunes:duration>2:05:32</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0738/sn0738.mp3" length="60375376" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 737: Biometric Mess</title>
+			<pubDate>2019-10-23</pubDate>
+			<podcast:episode>737</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0737/sn0737.mp3</guid>
+			<itunes:duration>2:06:24</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0737/sn0737.mp3" length="60789782" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 736: CheckM8</title>
+			<pubDate>2019-10-16</pubDate>
+			<podcast:episode>736</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0736/sn0736.mp3</guid>
+			<itunes:duration>1:58:17</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0736/sn0736.mp3" length="56890850" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 735: Makes Ya WannaCry</title>
+			<pubDate>2019-10-09</pubDate>
+			<podcast:episode>735</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0735/sn0735.mp3</guid>
+			<itunes:duration>2:03:28</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0735/sn0735.mp3" length="59383767" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 734: The Joy of Sync</title>
+			<pubDate>2019-10-02</pubDate>
+			<podcast:episode>734</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0734/sn0734.mp3</guid>
+			<itunes:duration>2:02:21</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0734/sn0734.mp3" length="58844182" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 733: Top 25 Bug Classes</title>
+			<pubDate>2019-09-25</pubDate>
+			<podcast:episode>733</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0733/sn0733.mp3</guid>
+			<itunes:duration>1:54:19</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0733/sn0733.mp3" length="54979104" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 732: SIM Jacking</title>
+			<pubDate>2019-09-18</pubDate>
+			<podcast:episode>732</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0732/sn0732.mp3</guid>
+			<itunes:duration>1:40:21</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0732/sn0732.mp3" length="48281309" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 731: DeepFakes</title>
+			<pubDate>2019-09-10</pubDate>
+			<podcast:episode>731</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0731/sn0731.mp3</guid>
+			<itunes:duration>1:55:33</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0731/sn0731.mp3" length="55577413" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 730: The Ransomware Epidemic</title>
+			<pubDate>2019-09-04</pubDate>
+			<podcast:episode>730</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0730/sn0730.mp3</guid>
+			<itunes:duration>1:49:54</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/cdn.twit.tv/audio/sn/sn0730/sn0730.mp3" length="52871963" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 729: Next Gen Ad Privacy</title>
+			<pubDate>2019-08-28</pubDate>
+			<podcast:episode>729</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0729/sn0729.mp3</guid>
+			<itunes:duration>2:12:39</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0729/sn0729.mp3" length="63784669" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 728: The KNOB is Broken</title>
+			<pubDate>2019-08-21</pubDate>
+			<podcast:episode>728</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0728/sn0728.mp3</guid>
+			<itunes:duration>2:03:26</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0728/sn0728.mp3" length="59367049" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 727: BlackHat DefCon</title>
+			<pubDate>2019-08-14</pubDate>
+			<podcast:episode>727</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0727/sn0727.mp3</guid>
+			<itunes:duration>2:09:22</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0727/sn0727.mp3" length="62212306" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 726: Steve's File Sync Journey</title>
+			<pubDate>2019-08-07</pubDate>
+			<podcast:episode>726</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0726/sn0726.mp3</guid>
+			<itunes:duration>2:08:51</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0726/sn0726.mp3" length="61960277" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 725: Urgent/11</title>
+			<pubDate>2019-07-31</pubDate>
+			<podcast:episode>725</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0725/sn0725.mp3</guid>
+			<itunes:duration>1:51:59</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0725/sn0725.mp3" length="53870259" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 724: Hide Your RDP Now!</title>
+			<pubDate>2019-07-24</pubDate>
+			<podcast:episode>724</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0724/sn0724.mp3</guid>
+			<itunes:duration>1:52:55</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0724/sn0724.mp3" length="54316221" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 723: Encrypting DNS</title>
+			<pubDate>2019-07-17</pubDate>
+			<podcast:episode>723</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0723/sn0723.mp3</guid>
+			<itunes:duration>2:11:41</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0723/sn0723.mp3" length="63324496" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 722: Gem Hack Ghost Protocol</title>
+			<pubDate>2019-07-10</pubDate>
+			<podcast:episode>722</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0722/sn0722.mp3</guid>
+			<itunes:duration>2:04:14</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0722/sn0722.mp3" length="59745511" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 721: Exposed Cloud Databases</title>
+			<pubDate>2019-07-03</pubDate>
+			<podcast:episode>721</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0721/sn0721.mp3</guid>
+			<itunes:duration>2:04:48</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0721/sn0721.mp3" length="60017184" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 720: Bug Bounty Business</title>
+			<pubDate>2019-06-26</pubDate>
+			<podcast:episode>720</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0720/sn0720.mp3</guid>
+			<itunes:duration>1:56:36</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0720/sn0720.mp3" length="56080845" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 719: Exim Under Siege</title>
+			<pubDate>2019-06-19</pubDate>
+			<podcast:episode>719</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0719/sn0719.mp3</guid>
+			<itunes:duration>2:11:19</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0719/sn0719.mp3" length="63147281" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 718: Update Exim Now!</title>
+			<pubDate>2019-06-12</pubDate>
+			<podcast:episode>718</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0718/sn0718.mp3</guid>
+			<itunes:duration>2:06:41</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0718/sn0718.mp3" length="60925828" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 717: The Nansh0u Campaign</title>
+			<pubDate>2019-06-05</pubDate>
+			<podcast:episode>717</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0717/sn0717.mp3</guid>
+			<itunes:duration>2:02:37</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0717/sn0717.mp3" length="58972913" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 716: RDP - Really Do Patch</title>
+			<pubDate>2019-05-29</pubDate>
+			<podcast:episode>716</podcast:episode>
+			<guid isPermaLink="false">https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0716/sn0716.mp3</guid>
+			<itunes:duration>2:01:04</itunes:duration>
+			<enclosure url="https://media.blubrry.com/35015/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0716/sn0716.mp3" length="58224976" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 715: CPU.fail</title>
+			<pubDate>2019-05-22</pubDate>
+			<podcast:episode>715</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0715/sn0715.mp3</guid>
+			<itunes:duration>2:11:22</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0715/sn0715.mp3" length="63169433" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 714: Android 'Q'</title>
+			<pubDate>2019-05-15</pubDate>
+			<podcast:episode>714</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0714/sn0714.mp3</guid>
+			<itunes:duration>1:49:32</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0714/sn0714.mp3" length="52690987" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 713: Post-Coinhive Cryptojacking</title>
+			<pubDate>2019-05-08</pubDate>
+			<podcast:episode>713</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0713/sn0713.mp3</guid>
+			<itunes:duration>1:56:28</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0713/sn0713.mp3" length="56020450" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 712: Credential Stuffing Attacks</title>
+			<pubDate>2019-05-01</pubDate>
+			<podcast:episode>712</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0712/sn0712.mp3</guid>
+			<itunes:duration>1:57:34</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0712/sn0712.mp3" length="56552512" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 711: DNSpionage</title>
+			<pubDate>2019-04-24</pubDate>
+			<podcast:episode>711</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0711/sn0711.mp3</guid>
+			<itunes:duration>2:21:52</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0711/sn0711.mp3" length="68212110" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 710: DragonBlood</title>
+			<pubDate>2019-04-17</pubDate>
+			<podcast:episode>710</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0710/sn0710.mp3</guid>
+			<itunes:duration>2:12:13</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0710/sn0710.mp3" length="63581749" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 709: URL Ping Tracking</title>
+			<pubDate>2019-04-10</pubDate>
+			<podcast:episode>709</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0709/sn0709.mp3</guid>
+			<itunes:duration>2:15:04</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0709/sn0709.mp3" length="64950984" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 708: Android Security</title>
+			<pubDate>2019-04-03</pubDate>
+			<podcast:episode>708</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0708/sn0708.mp3</guid>
+			<itunes:duration>2:20:16</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0708/sn0708.mp3" length="67444110" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 707: Tesla, Pwned</title>
+			<pubDate>2019-03-27</pubDate>
+			<podcast:episode>707</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0707/sn0707.mp3</guid>
+			<itunes:duration>2:25:49</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0707/sn0707.mp3" length="70107555" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 706: Open Source eVoting</title>
+			<pubDate>2019-03-20</pubDate>
+			<podcast:episode>706</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0706/sn0706.mp3</guid>
+			<itunes:duration>2:11:43</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0706/sn0706.mp3" length="63344349" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 705: SPOILER</title>
+			<pubDate>2019-03-13</pubDate>
+			<podcast:episode>705</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0705/sn0705.mp3</guid>
+			<itunes:duration>2:29:32</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0705/sn0705.mp3" length="71893286" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 704: Careers in Bug Hunting</title>
+			<pubDate>2019-03-05</pubDate>
+			<podcast:episode>704</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0704/sn0704.mp3</guid>
+			<itunes:duration>2:25:41</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0704/sn0704.mp3" length="70043816" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 703: Out in the Wild</title>
+			<pubDate>2019-02-27</pubDate>
+			<podcast:episode>703</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0703/sn0703.mp3</guid>
+			<itunes:duration>1:52:45</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0703/sn0703.mp3" length="54235137" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 702: Authenticity on the Internet</title>
+			<pubDate>2019-02-20</pubDate>
+			<podcast:episode>702</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0702/sn0702.mp3</guid>
+			<itunes:duration>2:12:35</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0702/sn0702.mp3" length="63755829" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 701: Adiantum</title>
+			<pubDate>2019-02-13</pubDate>
+			<podcast:episode>701</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0701/sn0701.mp3</guid>
+			<itunes:duration>2:15:41</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0701/sn0701.mp3" length="65248989" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 700: 700 and Counting!</title>
+			<pubDate>2019-02-06</pubDate>
+			<podcast:episode>700</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0700/sn0700.mp3</guid>
+			<itunes:duration>2:07:10</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0700/sn0700.mp3" length="61159676" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 699: Browser Extension Security</title>
+			<pubDate>2019-01-30</pubDate>
+			<podcast:episode>699</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0699/sn0699.mp3</guid>
+			<itunes:duration>2:15:57</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0699/sn0699.mp3" length="65370824" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 698: Which Mobile VPN Client?</title>
+			<pubDate>2019-01-23</pubDate>
+			<podcast:episode>698</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0698/sn0698.mp3</guid>
+			<itunes:duration>2:11:32</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0698/sn0698.mp3" length="63249681" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 697: Zerodium</title>
+			<pubDate>2019-01-16</pubDate>
+			<podcast:episode>697</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0697/sn0697.mp3</guid>
+			<itunes:duration>2:18:23</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0697/sn0697.mp3" length="66543826" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 696: Here Comes 2019!</title>
+			<pubDate>2019-01-09</pubDate>
+			<podcast:episode>696</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0696/sn0696.mp3</guid>
+			<itunes:duration>1:47:48</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0696/sn0696.mp3" length="51861756" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 695: Our Best of 2018</title>
+			<pubDate>2018-12-25</pubDate>
+			<podcast:episode>695</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0695/sn0695.mp3</guid>
+			<itunes:duration>3:00:57</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0695/sn0695.mp3" length="86969909" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 694: The SQLite RCE Flaw</title>
+			<pubDate>2018-12-19</pubDate>
+			<podcast:episode>694</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0694/sn0694.mp3</guid>
+			<itunes:duration>2:04:54</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0694/sn0694.mp3" length="60066086" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 693: Internal Bug Discovery</title>
+			<pubDate>2018-12-12</pubDate>
+			<podcast:episode>693</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0693/sn0693.mp3</guid>
+			<itunes:duration>2:15:29</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0693/sn0693.mp3" length="65149096" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 692: GPU RAM Image Leakage</title>
+			<pubDate>2018-12-05</pubDate>
+			<podcast:episode>692</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0692/sn0692.mp3</guid>
+			<itunes:duration>2:23:07</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0692/sn0692.mp3" length="68815643" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 691: ECCploit</title>
+			<pubDate>2018-11-28</pubDate>
+			<podcast:episode>691</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0691/sn0691.mp3</guid>
+			<itunes:duration>1:54:40</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0691/sn0691.mp3" length="54560309" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 690: Are Passwords Immortal?</title>
+			<pubDate>2018-11-21</pubDate>
+			<podcast:episode>690</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0690/sn0690.mp3</guid>
+			<itunes:duration>2:28:19</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0690/sn0690.mp3" length="71307307" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 689: Self-Decrypting Drives</title>
+			<pubDate>2018-11-14</pubDate>
+			<podcast:episode>689</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0689/sn0689.mp3</guid>
+			<itunes:duration>2:32:29</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0689/sn0689.mp3" length="73309749" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 688: PortSmash</title>
+			<pubDate>2018-11-06</pubDate>
+			<podcast:episode>688</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0688/sn0688.mp3</guid>
+			<itunes:duration>2:06:00</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0688/sn0688.mp3" length="60602536" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 687: Securing the Vending Machine</title>
+			<pubDate>2018-10-31</pubDate>
+			<podcast:episode>687</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0687/sn0687.mp3</guid>
+			<itunes:duration>2:09:38</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0687/sn0687.mp3" length="62342709" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 686: Libssh's Big Whoopsie!</title>
+			<pubDate>2018-10-24</pubDate>
+			<podcast:episode>686</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0686/sn0686.mp3</guid>
+			<itunes:duration>2:11:28</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0686/sn0686.mp3" length="63219588" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 685: Good Samaritans?</title>
+			<pubDate>2018-10-16</pubDate>
+			<podcast:episode>685</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0685/sn0685.mp3</guid>
+			<itunes:duration>2:16:00</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0685/sn0685.mp3" length="65416590" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 684: The Supply Chain</title>
+			<pubDate>2018-10-10</pubDate>
+			<podcast:episode>684</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0684/sn0684.mp3</guid>
+			<itunes:duration>2:08:52</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0684/sn0684.mp3" length="61923287" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 683: The Facebook Breach</title>
+			<pubDate>2018-10-03</pubDate>
+			<podcast:episode>683</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0683/sn0683.mp3</guid>
+			<itunes:duration>2:04:36</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0683/sn0683.mp3" length="59922099" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 682: SNI Encryption</title>
+			<pubDate>2018-09-26</pubDate>
+			<podcast:episode>682</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0682/sn0682.mp3</guid>
+			<itunes:duration>2:17:38</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0682/sn0682.mp3" length="66177903" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 681: The Browser Extension Ecosystem</title>
+			<pubDate>2018-09-19</pubDate>
+			<podcast:episode>681</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0681/sn0681.mp3</guid>
+			<itunes:duration>2:22:10</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0681/sn0681.mp3" length="68357560" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 680: Exploits Updates</title>
+			<pubDate>2018-09-12</pubDate>
+			<podcast:episode>680</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0680/sn0680.mp3</guid>
+			<itunes:duration>2:17:03</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0680/sn0680.mp3" length="65901841" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 679: SonarSnoop</title>
+			<pubDate>2018-09-05</pubDate>
+			<podcast:episode>679</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0679/sn0679.mp3</guid>
+			<itunes:duration>2:14:35</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0679/sn0679.mp3" length="64712956" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 678: Never a Dull Moment</title>
+			<pubDate>2018-08-29</pubDate>
+			<podcast:episode>678</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0678/sn0678.mp3</guid>
+			<itunes:duration>1:56:12</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0678/sn0678.mp3" length="55892554" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 677: The Foreshadow Flaw</title>
+			<pubDate>2018-08-22</pubDate>
+			<podcast:episode>677</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0677/sn0677.mp3</guid>
+			<itunes:duration>2:19:34</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0677/sn0677.mp3" length="67995189" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 676: The Mega FaxSploit</title>
+			<pubDate>2018-08-14</pubDate>
+			<podcast:episode>676</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0676/sn0676.mp3</guid>
+			<itunes:duration>2:08:05</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0676/sn0676.mp3" length="61610027" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 675: New WiFi Password Attack</title>
+			<pubDate>2018-08-08</pubDate>
+			<podcast:episode>675</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0675/sn0675.mp3</guid>
+			<itunes:duration>2:08:15</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0675/sn0675.mp3" length="61835453" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 674: Attacking Bluetooth Pairing</title>
+			<pubDate>2018-07-31</pubDate>
+			<podcast:episode>674</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0674/sn0674.mp3</guid>
+			<itunes:duration>2:13:51</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0674/sn0674.mp3" length="64503705" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 673: The Data Transfer Project</title>
+			<pubDate>2018-07-25</pubDate>
+			<podcast:episode>673</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0673/sn0673.mp3</guid>
+			<itunes:duration>2:07:29</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0673/sn0673.mp3" length="61442781" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 672: All Up in Their Business</title>
+			<pubDate>2018-07-17</pubDate>
+			<podcast:episode>672</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0672/sn0672.mp3</guid>
+			<itunes:duration>2:03:22</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0672/sn0672.mp3" length="59462699" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 671: STARTTLS Everywhere</title>
+			<pubDate>2018-07-10</pubDate>
+			<podcast:episode>671</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0671/sn0671.mp3</guid>
+			<itunes:duration>2:24:28</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0671/sn0671.mp3" length="69597164" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 670: Wi-Fi Protected Access v3</title>
+			<pubDate>2018-07-04</pubDate>
+			<podcast:episode>670</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0670/sn0670.mp3</guid>
+			<itunes:duration>2:14:15</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0670/sn0670.mp3" length="64606732" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 669: Cellular Location Privacy</title>
+			<pubDate>2018-06-26</pubDate>
+			<podcast:episode>669</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0669/sn0669.mp3</guid>
+			<itunes:duration>2:06:05</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0669/sn0669.mp3" length="60773419" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 668: Lazy FPU State Restore</title>
+			<pubDate>2018-06-20</pubDate>
+			<podcast:episode>668</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0668/sn0668.mp3</guid>
+			<itunes:duration>2:18:08</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0668/sn0668.mp3" length="66555257" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 667: Zippity Do... or Don't</title>
+			<pubDate>2018-06-13</pubDate>
+			<podcast:episode>667</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0667/sn0667.mp3</guid>
+			<itunes:duration>2:05:21</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0667/sn0667.mp3" length="60425050" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 666: Certificate Transparency</title>
+			<pubDate>2018-06-06</pubDate>
+			<podcast:episode>666</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0666/sn0666.mp3</guid>
+			<itunes:duration>2:03:03</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0666/sn0666.mp3" length="59314741" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 665: VPNFilter</title>
+			<pubDate>2018-05-30</pubDate>
+			<podcast:episode>665</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0665/sn0665.mp3</guid>
+			<itunes:duration>1:56:39</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0665/sn0665.mp3" length="56246921" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 664: SpectreNG Revealed</title>
+			<pubDate>2018-05-23</pubDate>
+			<podcast:episode>664</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0664/sn0664.mp3</guid>
+			<itunes:duration>1:48:02</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0664/sn0664.mp3" length="52108707" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 663: Ultra-Clever Attacks</title>
+			<pubDate>2018-05-16</pubDate>
+			<podcast:episode>663</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0663/sn0663.mp3</guid>
+			<itunes:duration>1:41:20</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0663/sn0663.mp3" length="48941412" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 662: Spectre - NextGen</title>
+			<pubDate>2018-05-09</pubDate>
+			<podcast:episode>662</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0662/sn0662.mp3</guid>
+			<itunes:duration>1:54:41</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0662/sn0662.mp3" length="55298781" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 661: Securing Connected Things</title>
+			<pubDate>2018-05-01</pubDate>
+			<podcast:episode>661</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0661/sn0661.mp3</guid>
+			<itunes:duration>2:10:49</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0661/sn0661.mp3" length="63046699" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 660: Azure Sphere</title>
+			<pubDate>2018-04-25</pubDate>
+			<podcast:episode>660</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0660/sn0660.mp3</guid>
+			<itunes:duration>2:09:44</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0660/sn0660.mp3" length="62525504" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 659: Never a Dull Moment</title>
+			<pubDate>2018-04-18</pubDate>
+			<podcast:episode>659</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0659/sn0659.mp3</guid>
+			<itunes:duration>1:45:25</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0659/sn0659.mp3" length="50852949" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 658: Deprecating TLS 1.0 1.1</title>
+			<pubDate>2018-04-10</pubDate>
+			<podcast:episode>658</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0658/sn0658.mp3</guid>
+			<itunes:duration>1:55:54</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0658/sn0658.mp3" length="55888103" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 657: ProtonMail</title>
+			<pubDate>2018-04-04</pubDate>
+			<podcast:episode>657</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0657/sn0657.mp3</guid>
+			<itunes:duration>1:58:58</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0657/sn0657.mp3" length="57390457" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 656: TLS v1.3 Happens</title>
+			<pubDate>2018-03-28</pubDate>
+			<podcast:episode>656</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0656/sn0656.mp3</guid>
+			<itunes:duration>2:02:48</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0656/sn0656.mp3" length="59196459" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 655: Pwn2Own 2018</title>
+			<pubDate>2018-03-20</pubDate>
+			<podcast:episode>655</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0655/sn0655.mp3</guid>
+			<itunes:duration>1:51:24</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0655/sn0655.mp3" length="53774065" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 654: AMD Chipset Disaster</title>
+			<pubDate>2018-03-14</pubDate>
+			<podcast:episode>654</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0654/sn0654.mp3</guid>
+			<itunes:duration>2:06:55</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0654/sn0654.mp3" length="61200782" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 653: MemCrashed</title>
+			<pubDate>2018-03-07</pubDate>
+			<podcast:episode>653</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0653/sn0653.mp3</guid>
+			<itunes:duration>2:03:16</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0653/sn0653.mp3" length="59424456" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 652: WebAssembly</title>
+			<pubDate>2018-02-28</pubDate>
+			<podcast:episode>652</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0652/sn0652.mp3</guid>
+			<itunes:duration>2:20:18</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0652/sn0652.mp3" length="67598692" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 651: Russian Meddling Technology</title>
+			<pubDate>2018-02-20</pubDate>
+			<podcast:episode>651</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0651/sn0651.mp3</guid>
+			<itunes:duration>1:57:51</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0651/sn0651.mp3" length="56824541" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 650: CryptoCurrency Antics</title>
+			<pubDate>2018-02-13</pubDate>
+			<podcast:episode>650</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0650/sn0650.mp3</guid>
+			<itunes:duration>1:47:10</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0650/sn0650.mp3" length="51740903" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 649: Meltdown Spectre Emerge</title>
+			<pubDate>2018-02-07</pubDate>
+			<podcast:episode>649</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0649/sn0649.mp3</guid>
+			<itunes:duration>1:40:47</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0649/sn0649.mp3" length="48632959" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 648: Post Spectre?</title>
+			<pubDate>2018-01-30</pubDate>
+			<podcast:episode>648</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0648/sn0648.mp3</guid>
+			<itunes:duration>1:55:54</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0648/sn0648.mp3" length="55887267" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 647: The Dark Caracal</title>
+			<pubDate>2018-01-24</pubDate>
+			<podcast:episode>647</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0647/sn0647.mp3</guid>
+			<itunes:duration>1:48:32</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0647/sn0647.mp3" length="52351541" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 646: The InSpectre</title>
+			<pubDate>2018-01-17</pubDate>
+			<podcast:episode>646</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0646/sn0646.mp3</guid>
+			<itunes:duration>1:39:33</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0646/sn0646.mp3" length="48039248" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 645: The Speculation Meltdown</title>
+			<pubDate>2018-01-10</pubDate>
+			<podcast:episode>645</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0645/sn0645.mp3</guid>
+			<itunes:duration>2:09:09</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0645/sn0645.mp3" length="62243381" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 644: NSA Fingerprints</title>
+			<pubDate>2018-01-03</pubDate>
+			<podcast:episode>644</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0644/sn0644.mp3</guid>
+			<itunes:duration>2:07:49</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0644/sn0644.mp3" length="61606621" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 643: The Story of Bitcoin</title>
+			<pubDate>2017-12-26</pubDate>
+			<podcast:episode>643</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0643/sn0643.mp3</guid>
+			<itunes:duration>0:57:34</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0643/sn0643.mp3" length="27884838" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 642: BGP</title>
+			<pubDate>2017-12-20</pubDate>
+			<podcast:episode>642</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0642/sn0642.mp3</guid>
+			<itunes:duration>2:11:34</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0642/sn0642.mp3" length="63404681" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 641: The iOS Security Trade-off</title>
+			<pubDate>2017-12-13</pubDate>
+			<podcast:episode>641</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0641/sn0641.mp3</guid>
+			<itunes:duration>2:12:44</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0641/sn0641.mp3" length="63966000" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 640: More News Feedback</title>
+			<pubDate>2017-12-06</pubDate>
+			<podcast:episode>640</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0640/sn0640.mp3</guid>
+			<itunes:duration>1:56:42</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0640/sn0640.mp3" length="56270536" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 639: News Feedback</title>
+			<pubDate>2017-11-29</pubDate>
+			<podcast:episode>639</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0639/sn0639.mp3</guid>
+			<itunes:duration>2:19:17</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0639/sn0639.mp3" length="67112815" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 638: Quad Nine</title>
+			<pubDate>2017-11-22</pubDate>
+			<podcast:episode>638</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0638/sn0638.mp3</guid>
+			<itunes:duration>1:50:10</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0638/sn0638.mp3" length="53133334" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 637: Schneier on Equifax</title>
+			<pubDate>2017-11-14</pubDate>
+			<podcast:episode>637</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0637/sn0637.mp3</guid>
+			<itunes:duration>2:23:44</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0637/sn0637.mp3" length="69253184" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 636: ROCA Pain</title>
+			<pubDate>2017-11-08</pubDate>
+			<podcast:episode>636</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0636/sn0636.mp3</guid>
+			<itunes:duration>1:49:34</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0636/sn0636.mp3" length="52841599" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 635: Reaper Redux</title>
+			<pubDate>2017-11-01</pubDate>
+			<podcast:episode>635</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0635/sn0635.mp3</guid>
+			<itunes:duration>2:20:07</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0635/sn0635.mp3" length="67511757" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 634: IoT Flash Botnets</title>
+			<pubDate>2017-10-25</pubDate>
+			<podcast:episode>634</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0634/sn0634.mp3</guid>
+			<itunes:duration>2:16:38</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0634/sn0634.mp3" length="65834905" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 633: KRACKing WiFi</title>
+			<pubDate>2017-10-18</pubDate>
+			<podcast:episode>633</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0633/sn0633.mp3</guid>
+			<itunes:duration>2:14:37</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0633/sn0633.mp3" length="64872136" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 632: The DNSSEC Challenge</title>
+			<pubDate>2017-10-11</pubDate>
+			<podcast:episode>632</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0632/sn0632.mp3</guid>
+			<itunes:duration>1:58:42</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0632/sn0632.mp3" length="57228916" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 631: Private Contact Discovery</title>
+			<pubDate>2017-10-04</pubDate>
+			<podcast:episode>631</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0631/sn0631.mp3</guid>
+			<itunes:duration>2:14:27</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0631/sn0631.mp3" length="64788126" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 630: The Great DOM Fuzz-Off</title>
+			<pubDate>2017-09-26</pubDate>
+			<podcast:episode>630</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0630/sn0630.mp3</guid>
+			<itunes:duration>2:09:18</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0630/sn0630.mp3" length="62314225" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 629: Apple Bakes Cookies</title>
+			<pubDate>2017-09-19</pubDate>
+			<podcast:episode>629</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0629/sn0629.mp3</guid>
+			<itunes:duration>2:09:33</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0629/sn0629.mp3" length="62435016" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 628: Equifax Fiasco</title>
+			<pubDate>2017-09-13</pubDate>
+			<podcast:episode>628</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0628/sn0628.mp3</guid>
+			<itunes:duration>1:59:13</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0628/sn0628.mp3" length="57477602" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 627: Sharknado</title>
+			<pubDate>2017-09-06</pubDate>
+			<podcast:episode>627</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0627/sn0627.mp3</guid>
+			<itunes:duration>2:09:09</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0627/sn0627.mp3" length="62246307" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 626: Shattering Trust</title>
+			<pubDate>2017-08-29</pubDate>
+			<podcast:episode>626</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0626/sn0626.mp3</guid>
+			<itunes:duration>2:11:09</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0626/sn0626.mp3" length="63205314" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 625: Security Politics</title>
+			<pubDate>2017-08-22</pubDate>
+			<podcast:episode>625</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0625/sn0625.mp3</guid>
+			<itunes:duration>2:18:54</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0625/sn0625.mp3" length="66922016" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 624: Twelve and Counting</title>
+			<pubDate>2017-08-16</pubDate>
+			<podcast:episode>624</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0624/sn0624.mp3</guid>
+			<itunes:duration>2:22:15</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0624/sn0624.mp3" length="68535339" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 623: Inching Forward</title>
+			<pubDate>2017-08-09</pubDate>
+			<podcast:episode>623</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0623/sn0623.mp3</guid>
+			<itunes:duration>2:17:41</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0623/sn0623.mp3" length="66343979" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 622: Hack the Vote</title>
+			<pubDate>2017-08-02</pubDate>
+			<podcast:episode>622</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0622/sn0622.mp3</guid>
+			<itunes:duration>1:53:09</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0622/sn0622.mp3" length="54569024" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 621: Crypto Tension</title>
+			<pubDate>2017-07-26</pubDate>
+			<podcast:episode>621</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0621/sn0621.mp3</guid>
+			<itunes:duration>2:16:27</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0621/sn0621.mp3" length="65747342" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 620: Calm Before the Storm</title>
+			<pubDate>2017-07-19</pubDate>
+			<podcast:episode>620</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0620/sn0620.mp3</guid>
+			<itunes:duration>2:01:46</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0620/sn0620.mp3" length="58704103" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 619: All the Usual Suspects</title>
+			<pubDate>2017-07-12</pubDate>
+			<podcast:episode>619</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0619/sn0619.mp3</guid>
+			<itunes:duration>2:06:39</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0619/sn0619.mp3" length="61047391" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 618: Research</title>
+			<pubDate>2017-06-28</pubDate>
+			<podcast:episode>618</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0618/sn0618.mp3</guid>
+			<itunes:duration>2:01:32</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0618/sn0618.mp3" length="58590209" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 617: When Governments React</title>
+			<pubDate>2017-06-21</pubDate>
+			<podcast:episode>617</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0617/sn0617.mp3</guid>
+			<itunes:duration>2:05:07</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0617/sn0617.mp3" length="60307185" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 616: Things Are Getting Worse</title>
+			<pubDate>2017-06-14</pubDate>
+			<podcast:episode>616</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0616/sn0616.mp3</guid>
+			<itunes:duration>2:12:50</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0616/sn0616.mp3" length="64012185" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 615: Legacy's Long Tail</title>
+			<pubDate>2017-06-07</pubDate>
+			<podcast:episode>615</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0615/sn0615.mp3</guid>
+			<itunes:duration>2:08:47</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0615/sn0615.mp3" length="62073481" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 614: Vulnerabilities Galore!</title>
+			<pubDate>2017-05-31</pubDate>
+			<podcast:episode>614</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0614/sn0614.mp3</guid>
+			<itunes:duration>2:13:46</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0614/sn0614.mp3" length="64459819" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 613: WannaCry Aftermath</title>
+			<pubDate>2017-05-24</pubDate>
+			<podcast:episode>613</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0613/sn0613.mp3</guid>
+			<itunes:duration>2:21:13</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0613/sn0613.mp3" length="68041729" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 612: Makes You WannaCry</title>
+			<pubDate>2017-05-17</pubDate>
+			<podcast:episode>612</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0612/sn0612.mp3</guid>
+			<itunes:duration>2:11:28</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0612/sn0612.mp3" length="63359750" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 611: Go FCC Yourself</title>
+			<pubDate>2017-05-10</pubDate>
+			<podcast:episode>611</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0611/sn0611.mp3</guid>
+			<itunes:duration>2:25:12</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0611/sn0611.mp3" length="69950131" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 610: Intel's Mismanagement Engine</title>
+			<pubDate>2017-05-03</pubDate>
+			<podcast:episode>610</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0610/sn0610.mp3</guid>
+			<itunes:duration>2:28:14</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0610/sn0610.mp3" length="71402539" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 609: The Double Pulsar</title>
+			<pubDate>2017-04-26</pubDate>
+			<podcast:episode>609</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0609/sn0609.mp3</guid>
+			<itunes:duration>1:57:52</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0609/sn0609.mp3" length="56832064" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 608: News Feedback Potpourri</title>
+			<pubDate>2017-04-19</pubDate>
+			<podcast:episode>608</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0608/sn0608.mp3</guid>
+			<itunes:duration>2:21:51</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0608/sn0608.mp3" length="68340570" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 607: Proactive Privacy, Really!</title>
+			<pubDate>2017-04-12</pubDate>
+			<podcast:episode>607</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0607/sn0607.mp3</guid>
+			<itunes:duration>2:29:22</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0607/sn0607.mp3" length="71949856" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 606: Proactive Privacy</title>
+			<pubDate>2017-04-05</pubDate>
+			<podcast:episode>606</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0606/sn0606.mp3</guid>
+			<itunes:duration>2:07:54</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0606/sn0606.mp3" length="61643610" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 605: Google -vs- Symantec</title>
+			<pubDate>2017-03-29</pubDate>
+			<podcast:episode>605</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0605/sn0605.mp3</guid>
+			<itunes:duration>2:32:11</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0605/sn0605.mp3" length="73301536" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 604: Taming Web Ads</title>
+			<pubDate>2017-03-22</pubDate>
+			<podcast:episode>604</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0604/sn0604.mp3</guid>
+			<itunes:duration>2:04:29</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0604/sn0604.mp3" length="60005419" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 603: Vault 7</title>
+			<pubDate>2017-03-15</pubDate>
+			<podcast:episode>603</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0603/sn0603.mp3</guid>
+			<itunes:duration>1:57:45</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0603/sn0603.mp3" length="56773132" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 602: Let's Spoof!</title>
+			<pubDate>2017-03-08</pubDate>
+			<podcast:episode>602</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0602/sn0602.mp3</guid>
+			<itunes:duration>2:27:05</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0602/sn0602.mp3" length="70854385" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 601: The First SHA-1 Collision</title>
+			<pubDate>2017-03-01</pubDate>
+			<podcast:episode>601</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0601/sn0601.mp3</guid>
+			<itunes:duration>1:49:16</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0601/sn0601.mp3" length="52704717" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 600: The MMU Side-Channel Attack</title>
+			<pubDate>2017-02-22</pubDate>
+			<podcast:episode>600</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0600/sn0600.mp3</guid>
+			<itunes:duration>2:15:33</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0600/sn0600.mp3" length="65314963" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 599: TLS Interception INsecurity</title>
+			<pubDate>2017-02-15</pubDate>
+			<podcast:episode>599</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0599/sn0599.mp3</guid>
+			<itunes:duration>1:52:16</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0599/sn0599.mp3" length="54139780" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 598: Two Armed Bandits</title>
+			<pubDate>2017-02-08</pubDate>
+			<podcast:episode>598</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0598/sn0598.mp3</guid>
+			<itunes:duration>2:05:29</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0598/sn0598.mp3" length="60483355" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 597: Traitors In Our Midst</title>
+			<pubDate>2017-02-01</pubDate>
+			<podcast:episode>597</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0597/sn0597.mp3</guid>
+			<itunes:duration>1:55:23</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0597/sn0597.mp3" length="55641298" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 596: Password Complexity</title>
+			<pubDate>2017-01-25</pubDate>
+			<podcast:episode>596</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0596/sn0596.mp3</guid>
+			<itunes:duration>2:12:45</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0596/sn0596.mp3" length="63976240" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 595: What's Up with WhatsApp?</title>
+			<pubDate>2017-01-18</pubDate>
+			<podcast:episode>595</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0595/sn0595.mp3</guid>
+			<itunes:duration>1:56:13</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0595/sn0595.mp3" length="56034807" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 594: A Look Into PHP Malware</title>
+			<pubDate>2017-01-11</pubDate>
+			<podcast:episode>594</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0594/sn0594.mp3</guid>
+			<itunes:duration>2:06:58</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0594/sn0594.mp3" length="61200782" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 593: I'm NOT a Robot! (Really)</title>
+			<pubDate>2017-01-04</pubDate>
+			<podcast:episode>593</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0593/sn0593.mp3</guid>
+			<itunes:duration>1:55:39</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0593/sn0593.mp3" length="55762297" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 592: The Portable Dog Killer</title>
+			<pubDate>2016-12-27</pubDate>
+			<podcast:episode>592</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0592/sn0592.mp3</guid>
+			<itunes:duration>1:31:31</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0592/sn0592.mp3" length="44178559" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 591: Law Meets Internet</title>
+			<pubDate>2016-12-21</pubDate>
+			<podcast:episode>591</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0591/sn0591.mp3</guid>
+			<itunes:duration>2:15:59</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0591/sn0591.mp3" length="65523107" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 590: Your Questions, Steve's Answers 245</title>
+			<pubDate>2016-12-14</pubDate>
+			<podcast:episode>590</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0590/sn0590.mp3</guid>
+			<itunes:duration>2:23:45</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0590/sn0590.mp3" length="69257572" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 589: Your Questions, Steve's Answers 244</title>
+			<pubDate>2016-12-07</pubDate>
+			<podcast:episode>589</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0589/sn0589.mp3</guid>
+			<itunes:duration>2:09:46</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0589/sn0589.mp3" length="62545357" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 588: Your Questions, Steve's Answers 243</title>
+			<pubDate>2016-11-30</pubDate>
+			<podcast:episode>588</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0588/sn0588.mp3</guid>
+			<itunes:duration>2:14:07</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0588/sn0588.mp3" length="64633063" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 587: Mobile IoT Nightmares</title>
+			<pubDate>2016-11-23</pubDate>
+			<podcast:episode>587</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0587/sn0587.mp3</guid>
+			<itunes:duration>2:16:59</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0587/sn0587.mp3" length="66006686" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 586: The BlackNurse Attack</title>
+			<pubDate>2016-11-16</pubDate>
+			<podcast:episode>586</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0586/sn0586.mp3</guid>
+			<itunes:duration>2:27:59</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0586/sn0586.mp3" length="71286555" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 585: The Windows AtomBomb</title>
+			<pubDate>2016-11-09</pubDate>
+			<podcast:episode>585</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0585/sn0585.mp3</guid>
+			<itunes:duration>2:17:11</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0585/sn0585.mp3" length="66101772" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 584: Your Questions, Steve's Answers 242</title>
+			<pubDate>2016-11-02</pubDate>
+			<podcast:episode>584</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0584/sn0584.mp3</guid>
+			<itunes:duration>2:08:09</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0584/sn0584.mp3" length="61762101" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 583: DRAMMER</title>
+			<pubDate>2016-10-26</pubDate>
+			<podcast:episode>583</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0583/sn0583.mp3</guid>
+			<itunes:duration>2:10:41</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0583/sn0583.mp3" length="62978781" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 582: Your Questions, Steve's Answers 241</title>
+			<pubDate>2016-10-19</pubDate>
+			<podcast:episode>582</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0582/sn0582.mp3</guid>
+			<itunes:duration>2:21:28</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0582/sn0582.mp3" length="68161056" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 581: Yahoo and Primal Worries</title>
+			<pubDate>2016-10-12</pubDate>
+			<podcast:episode>581</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0581/sn0581.mp3</guid>
+			<itunes:duration>2:16:00</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0581/sn0581.mp3" length="65530839" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 580: Your Questions, Steve's Answers 240</title>
+			<pubDate>2016-10-04</pubDate>
+			<podcast:episode>580</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0580/sn0580.mp3</guid>
+			<itunes:duration>2:01:42</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0580/sn0580.mp3" length="58671711" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 579: DDoS, Breaches and Other Records To Be Broken</title>
+			<pubDate>2016-09-28</pubDate>
+			<podcast:episode>579</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0579/sn0579.mp3</guid>
+			<itunes:duration>2:08:06</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0579/sn0579.mp3" length="61740368" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 578: GRC's XSS Adventure</title>
+			<pubDate>2016-09-21</pubDate>
+			<podcast:episode>578</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0578/sn0578.mp3</guid>
+			<itunes:duration>2:28:01</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0578/sn0578.mp3" length="71303065" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 577: Your Questions, Steve's Answers 239</title>
+			<pubDate>2016-09-13</pubDate>
+			<podcast:episode>577</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0577/sn0577.mp3</guid>
+			<itunes:duration>2:00:16</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0577/sn0577.mp3" length="57978526" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 576: Flip Feng Shui</title>
+			<pubDate>2016-09-07</pubDate>
+			<podcast:episode>576</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0576/sn0576.mp3</guid>
+			<itunes:duration>2:19:19</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0576/sn0576.mp3" length="67128697" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 575: Pegasus Trident</title>
+			<pubDate>2016-08-31</pubDate>
+			<podcast:episode>575</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0575/sn0575.mp3</guid>
+			<itunes:duration>2:12:45</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0575/sn0575.mp3" length="63975613" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 574: Routers Micro Kernels</title>
+			<pubDate>2016-08-24</pubDate>
+			<podcast:episode>574</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0574/sn0574.mp3</guid>
+			<itunes:duration>1:52:36</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0574/sn0574.mp3" length="54303829" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 573: Memory Micro Kernels</title>
+			<pubDate>2016-08-17</pubDate>
+			<podcast:episode>573</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0573/sn0573.mp3</guid>
+			<itunes:duration>2:19:16</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0573/sn0573.mp3" length="67101739" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 572: Defcon Blackhat, Part 1</title>
+			<pubDate>2016-08-10</pubDate>
+			<podcast:episode>572</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0572/sn0572.mp3</guid>
+			<itunes:duration>2:28:06</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0572/sn0572.mp3" length="71337337" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 571: Phishing Filtering</title>
+			<pubDate>2016-08-03</pubDate>
+			<podcast:episode>571</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0571/sn0571.mp3</guid>
+			<itunes:duration>1:56:30</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0571/sn0571.mp3" length="56171061" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 570: Your Questions, Steve's Answers 238</title>
+			<pubDate>2016-07-27</pubDate>
+			<podcast:episode>570</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0570/sn0570.mp3</guid>
+			<itunes:duration>2:14:43</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0570/sn0570.mp3" length="64921664" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 569: Messenger, CryptoDrop Riffle</title>
+			<pubDate>2016-07-19</pubDate>
+			<podcast:episode>569</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0569/sn0569.mp3</guid>
+			<itunes:duration>2:13:52</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0569/sn0569.mp3" length="64507257" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 568: Your Questions, Steve's Answers 237</title>
+			<pubDate>2016-07-13</pubDate>
+			<podcast:episode>568</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0568/sn0568.mp3</guid>
+			<itunes:duration>2:10:55</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0568/sn0568.mp3" length="63095182" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 567: Hacking Certificates</title>
+			<pubDate>2016-07-06</pubDate>
+			<podcast:episode>567</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0567/sn0567.mp3</guid>
+			<itunes:duration>2:04:35</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0567/sn0567.mp3" length="60053484" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 566: Your Questions, Steve's Answers 236</title>
+			<pubDate>2016-06-29</pubDate>
+			<podcast:episode>566</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0566/sn0566.mp3</guid>
+			<itunes:duration>2:12:49</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0566/sn0566.mp3" length="64009677" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 565: Control-Flow Enforcement Technology (CET)</title>
+			<pubDate>2016-06-22</pubDate>
+			<podcast:episode>565</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0565/sn0565.mp3</guid>
+			<itunes:duration>2:29:02</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0565/sn0565.mp3" length="71788106" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 564: Your Questions, Steve's Answers 235</title>
+			<pubDate>2016-06-15</pubDate>
+			<podcast:episode>564</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0564/sn0564.mp3</guid>
+			<itunes:duration>2:03:00</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0564/sn0564.mp3" length="59296978" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 563: IoT Infancy (Part 2)</title>
+			<pubDate>2016-06-08</pubDate>
+			<podcast:episode>563</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0563/sn0563.mp3</guid>
+			<itunes:duration>1:52:31</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0563/sn0563.mp3" length="54259316" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 562: IoT Infancy</title>
+			<pubDate>2016-05-31</pubDate>
+			<podcast:episode>562</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0562/sn0562.mp3</guid>
+			<itunes:duration>2:19:16</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0562/sn0562.mp3" length="67100903" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 561: Your Questions, Steve's Answers 234</title>
+			<pubDate>2016-05-25</pubDate>
+			<podcast:episode>561</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0561/sn0561.mp3</guid>
+			<itunes:duration>2:07:35</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0561/sn0561.mp3" length="61497115" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 560: Z-Wave Goodbye</title>
+			<pubDate>2016-05-17</pubDate>
+			<podcast:episode>560</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0560/sn0560.mp3</guid>
+			<itunes:duration>1:56:44</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0560/sn0560.mp3" length="56287881" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 559: Dumb SmartThings</title>
+			<pubDate>2016-05-11</pubDate>
+			<podcast:episode>559</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0559/sn0559.mp3</guid>
+			<itunes:duration>2:05:55</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0559/sn0559.mp3" length="60697141" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 558: Bit Con</title>
+			<pubDate>2016-05-04</pubDate>
+			<podcast:episode>558</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0558/sn0558.mp3</guid>
+			<itunes:duration>2:04:43</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0558/sn0558.mp3" length="60114506" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 557: Your Questions, Steve's Answers 232</title>
+			<pubDate>2016-04-26</pubDate>
+			<podcast:episode>557</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0557/sn0557.mp3</guid>
+			<itunes:duration>2:09:15</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0557/sn0557.mp3" length="62295626" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 556: SMTP STS</title>
+			<pubDate>2016-04-19</pubDate>
+			<podcast:episode>556</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0556/sn0556.mp3</guid>
+			<itunes:duration>1:51:07</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0556/sn0556.mp3" length="53590581" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 555: WhatsApp</title>
+			<pubDate>2016-04-13</pubDate>
+			<podcast:episode>555</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0555/sn0555.mp3</guid>
+			<itunes:duration>2:26:52</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0555/sn0555.mp3" length="70748433" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 554: Your Questions, Steve's Answers 231</title>
+			<pubDate>2016-04-06</pubDate>
+			<podcast:episode>554</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0554/sn0554.mp3</guid>
+			<itunes:duration>1:58:51</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0554/sn0554.mp3" length="57304567" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 553: Too Much News</title>
+			<pubDate>2016-03-30</pubDate>
+			<podcast:episode>553</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0553/sn0553.mp3</guid>
+			<itunes:duration>2:10:21</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0553/sn0553.mp3" length="62824554" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 552: D.R.O.W.N.</title>
+			<pubDate>2016-03-23</pubDate>
+			<podcast:episode>552</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0552/sn0552.mp3</guid>
+			<itunes:duration>2:36:06</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0552/sn0552.mp3" length="75178800" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 551: Your Questions, Steve's Answers 230</title>
+			<pubDate>2016-03-16</pubDate>
+			<podcast:episode>551</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0551/sn0551.mp3</guid>
+			<itunes:duration>2:10:34</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0551/sn0551.mp3" length="62927581" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 550: CacheBleed</title>
+			<pubDate>2016-03-09</pubDate>
+			<podcast:episode>550</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0550/sn0550.mp3</guid>
+			<itunes:duration>2:06:26</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0550/sn0550.mp3" length="60943319" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 549: Your Questions, Steve's Answers 229</title>
+			<pubDate>2016-03-02</pubDate>
+			<podcast:episode>549</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0549/sn0549.mp3</guid>
+			<itunes:duration>2:14:37</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0549/sn0549.mp3" length="64870673" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 548: DDoS Attack Mitigation</title>
+			<pubDate>2016-02-24</pubDate>
+			<podcast:episode>548</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0548/sn0548.mp3</guid>
+			<itunes:duration>2:03:54</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0548/sn0548.mp3" length="59728521" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 547: GRC is DOWN</title>
+			<pubDate>2016-02-17</pubDate>
+			<podcast:episode>547</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0547/sn0547.mp3</guid>
+			<itunes:duration>2:13:46</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0547/sn0547.mp3" length="64464416" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 546: Router Q\u0026A Follow-Up</title>
+			<pubDate>2016-02-10</pubDate>
+			<podcast:episode>546</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0546/sn0546.mp3</guid>
+			<itunes:duration>2:11:24</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0546/sn0546.mp3" length="63325060" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 545: Three Dumb Routers</title>
+			<pubDate>2016-02-03</pubDate>
+			<podcast:episode>545</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0545/sn0545.mp3</guid>
+			<itunes:duration>2:05:57</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0545/sn0545.mp3" length="60707381" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 544: Your Questions, Steve's Answers 228</title>
+			<pubDate>2016-01-27</pubDate>
+			<podcast:episode>544</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0544/sn0544.mp3</guid>
+			<itunes:duration>2:06:26</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0544/sn0544.mp3" length="60942901" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 543: LostPass</title>
+			<pubDate>2016-01-20</pubDate>
+			<podcast:episode>543</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0543/sn0543.mp3</guid>
+			<itunes:duration>2:04:45</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0543/sn0543.mp3" length="60137703" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 542: Your Questions, Steve's Answers 227</title>
+			<pubDate>2016-01-13</pubDate>
+			<podcast:episode>542</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0542/sn0542.mp3</guid>
+			<itunes:duration>2:19:20</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0542/sn0542.mp3" length="67133504" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 541: New Year's News</title>
+			<pubDate>2016-01-06</pubDate>
+			<podcast:episode>541</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0541/sn0541.mp3</guid>
+			<itunes:duration>1:52:24</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0541/sn0541.mp3" length="54203101" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 540: Vitamin D</title>
+			<pubDate>2015-12-29</pubDate>
+			<podcast:episode>540</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0540/sn0540.mp3</guid>
+			<itunes:duration>1:13:40</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0540/sn0540.mp3" length="35615620" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 539: Your Questions, Steve's Answers 226</title>
+			<pubDate>2015-12-23</pubDate>
+			<podcast:episode>539</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0539/sn0539.mp3</guid>
+			<itunes:duration>2:16:10</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0539/sn0539.mp3" length="65611714" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 538: Your Question, Steve's Answer 225</title>
+			<pubDate>2015-12-16</pubDate>
+			<podcast:episode>538</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0538/sn0538.mp3</guid>
+			<itunes:duration>2:07:52</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0538/sn0538.mp3" length="61631698" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 537: A Mega News Week</title>
+			<pubDate>2015-12-09</pubDate>
+			<podcast:episode>537</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0537/sn0537.mp3</guid>
+			<itunes:duration>2:05:12</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0537/sn0537.mp3" length="60348772" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 536: Your Questions, Steve's Answers 224</title>
+			<pubDate>2015-12-02</pubDate>
+			<podcast:episode>536</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0536/sn0536.mp3</guid>
+			<itunes:duration>1:50:06</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0536/sn0536.mp3" length="53105331" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 535: Your Questions, Steve's Answers 223</title>
+			<pubDate>2015-11-25</pubDate>
+			<podcast:episode>535</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0535/sn0535.mp3</guid>
+			<itunes:duration>2:02:07</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0535/sn0535.mp3" length="41295872" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 534: Encryption and the Law</title>
+			<pubDate>2015-11-18</pubDate>
+			<podcast:episode>534</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0534/sn0534.mp3</guid>
+			<itunes:duration>1:59:09</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0534/sn0534.mp3" length="57442284" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 533: Your Questions, Steve's Answers 222</title>
+			<pubDate>2015-11-11</pubDate>
+			<podcast:episode>533</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0533/sn0533.mp3</guid>
+			<itunes:duration>2:24:44</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0533/sn0533.mp3" length="69724433" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 532: Verifying iOS App Conduct</title>
+			<pubDate>2015-11-04</pubDate>
+			<podcast:episode>532</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0532/sn0532.mp3</guid>
+			<itunes:duration>2:19:26</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0532/sn0532.mp3" length="67180942" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 531: Your Questions, Steve's Answers 221</title>
+			<pubDate>2015-10-28</pubDate>
+			<podcast:episode>531</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0531/sn0531.mp3</guid>
+			<itunes:duration>1:59:47</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0531/sn0531.mp3" length="57745932" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 530: Doing It Wrong</title>
+			<pubDate>2015-10-21</pubDate>
+			<podcast:episode>530</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0530/sn0530.mp3</guid>
+			<itunes:duration>1:30:00</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0530/sn0530.mp3" length="43457370" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 529: Joe Siegrist of LastPass</title>
+			<pubDate>2015-10-14</pubDate>
+			<podcast:episode>529</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0529/sn0529.mp3</guid>
+			<itunes:duration>2:11:10</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0529/sn0529.mp3" length="63216808" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 528: Breaches Vigilante Worms</title>
+			<pubDate>2015-10-07</pubDate>
+			<podcast:episode>528</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0528/sn0528.mp3</guid>
+			<itunes:duration>1:51:40</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0528/sn0528.mp3" length="53856403" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 527: Your Questions, Steve's Answers 219</title>
+			<pubDate>2015-09-30</pubDate>
+			<podcast:episode>527</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0527/sn0527.mp3</guid>
+			<itunes:duration>2:03:58</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0527/sn0527.mp3" length="59759241" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 526: iOS Content Blockers</title>
+			<pubDate>2015-09-22</pubDate>
+			<podcast:episode>526</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0526/sn0526.mp3</guid>
+			<itunes:duration>2:11:25</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0526/sn0526.mp3" length="63335509" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 525: Disconnect.me</title>
+			<pubDate>2015-09-15</pubDate>
+			<podcast:episode>525</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0525/sn0525.mp3</guid>
+			<itunes:duration>1:39:30</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0525/sn0525.mp3" length="48015424" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 524: Your Questions, Steve's Answers 218</title>
+			<pubDate>2015-09-09</pubDate>
+			<podcast:episode>524</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0524/sn0524.mp3</guid>
+			<itunes:duration>2:09:37</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0524/sn0524.mp3" length="62472423" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 523: uBlock Origin</title>
+			<pubDate>2015-09-02</pubDate>
+			<podcast:episode>523</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0523/sn0523.mp3</guid>
+			<itunes:duration>1:40:36</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0523/sn0523.mp3" length="48539545" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 522: Your Questions, Steve's Answers 217</title>
+			<pubDate>2015-08-26</pubDate>
+			<podcast:episode>522</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0522/sn0522.mp3</guid>
+			<itunes:duration>2:01:57</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0522/sn0522.mp3" length="58790830" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 521: Security Is Difficult</title>
+			<pubDate>2015-08-18</pubDate>
+			<podcast:episode>521</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0521/sn0521.mp3</guid>
+			<itunes:duration>2:26:59</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0521/sn0521.mp3" length="70804021" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 520: The Quest for Surfing Safety</title>
+			<pubDate>2015-08-12</pubDate>
+			<podcast:episode>520</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0520/sn0520.mp3</guid>
+			<itunes:duration>1:45:51</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0520/sn0520.mp3" length="51061301" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 519: The Windows 10 Privacy Tradeoff</title>
+			<pubDate>2015-08-05</pubDate>
+			<podcast:episode>519</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0519/sn0519.mp3</guid>
+			<itunes:duration>2:07:57</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0519/sn0519.mp3" length="61669523" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 518: HORNET</title>
+			<pubDate>2015-07-29</pubDate>
+			<podcast:episode>518</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0518/sn0518.mp3</guid>
+			<itunes:duration>1:58:24</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0518/sn0518.mp3" length="57085765" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 517: Your Questions, Steve's Answers 216</title>
+			<pubDate>2015-07-21</pubDate>
+			<podcast:episode>517</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0517/sn0517.mp3</guid>
+			<itunes:duration>1:55:06</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0517/sn0517.mp3" length="55501700" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 516: Hacking Team vs. SQRL</title>
+			<pubDate>2015-07-15</pubDate>
+			<podcast:episode>516</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0516/sn0516.mp3</guid>
+			<itunes:duration>2:25:06</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0516/sn0516.mp3" length="69902065" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 515: A Crazy News Week!</title>
+			<pubDate>2015-07-07</pubDate>
+			<podcast:episode>515</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0515/sn0515.mp3</guid>
+			<itunes:duration>2:04:44</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0515/sn0515.mp3" length="60127254" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 514: Tor's Astoria Client</title>
+			<pubDate>2015-07-01</pubDate>
+			<podcast:episode>514</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0514/sn0514.mp3</guid>
+			<itunes:duration>2:24:52</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0514/sn0514.mp3" length="139326967" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 513: Your Questions, Steve's Answers 215</title>
+			<pubDate>2015-06-24</pubDate>
+			<podcast:episode>513</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0513/sn0513.mp3</guid>
+			<itunes:duration>2:11:47</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0513/sn0513.mp3" length="126778996" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 512: Mozilla Tracking Protection</title>
+			<pubDate>2015-06-17</pubDate>
+			<podcast:episode>512</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0512/sn0512.mp3</guid>
+			<itunes:duration>2:16:48</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0512/sn0512.mp3" length="131581347" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 511: Your Questions, Steve's Answers 214</title>
+			<pubDate>2015-06-10</pubDate>
+			<podcast:episode>511</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0511/sn0511.mp3</guid>
+			<itunes:duration>2:00:16</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0511/sn0511.mp3" length="115721468" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 510: Your Questions, Steve's Answers 213</title>
+			<pubDate>2015-06-03</pubDate>
+			<podcast:episode>510</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0510/sn0510.mp3</guid>
+			<itunes:duration>2:06:45</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0510/sn0510.mp3" length="61090023" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 509: TLS Logjam</title>
+			<pubDate>2015-05-27</pubDate>
+			<podcast:episode>509</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0509/sn0509.mp3</guid>
+			<itunes:duration>1:40:08</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0509/sn0509.mp3" length="48316145" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 508: Exploiting Keyless Entry</title>
+			<pubDate>2015-05-20</pubDate>
+			<podcast:episode>508</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0508/sn0508.mp3</guid>
+			<itunes:duration>2:11:35</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0508/sn0508.mp3" length="63409905" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 507: Your Questions, Steve's Answers 212</title>
+			<pubDate>2015-05-13</pubDate>
+			<podcast:episode>507</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0507/sn0507.mp3</guid>
+			<itunes:duration>1:54:55</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0507/sn0507.mp3" length="20586496" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 506: Law Enforcement Backdoors</title>
+			<pubDate>2015-05-06</pubDate>
+			<podcast:episode>506</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0506/sn0506.mp3</guid>
+			<itunes:duration>1:52:56</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0506/sn0506.mp3" length="54461190" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 505: Your Questions, Steve's Answers 211</title>
+			<pubDate>2015-04-29</pubDate>
+			<podcast:episode>505</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0505/sn0505.mp3</guid>
+			<itunes:duration>2:35:21</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0505/sn0505.mp3" length="74823535" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 504: Great Firewalls Cannons</title>
+			<pubDate>2015-04-22</pubDate>
+			<podcast:episode>504</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0504/sn0504.mp3</guid>
+			<itunes:duration>1:59:17</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0504/sn0504.mp3" length="57505605" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 503: Your Questions, Steve's Answers 210</title>
+			<pubDate>2015-04-15</pubDate>
+			<podcast:episode>503</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0503/sn0503.mp3</guid>
+			<itunes:duration>2:08:05</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0503/sn0503.mp3" length="61730336" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 502: The TrueCrypt Audit</title>
+			<pubDate>2015-04-08</pubDate>
+			<podcast:episode>502</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0502/sn0502.mp3</guid>
+			<itunes:duration>1:58:13</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0502/sn0502.mp3" length="56997158" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 501: Your Questions, Steve's Answers 209</title>
+			<pubDate>2015-04-01</pubDate>
+			<podcast:episode>501</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0501/sn0501.mp3</guid>
+			<itunes:duration>2:02:28</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0501/sn0501.mp3" length="59034918" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 500: Windows Secure Boot</title>
+			<pubDate>2015-03-25</pubDate>
+			<podcast:episode>500</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0500/sn0500.mp3</guid>
+			<itunes:duration>1:39:41</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0500/sn0500.mp3" length="48104867" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 499: Your Questions, Steve's Answers 208</title>
+			<pubDate>2015-03-18</pubDate>
+			<podcast:episode>499</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0499/sn0499.mp3</guid>
+			<itunes:duration>2:10:43</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0499/sn0499.mp3" length="63000514" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 498: Freak RowHammer</title>
+			<pubDate>2015-03-12</pubDate>
+			<podcast:episode>498</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0498/sn0498.mp3</guid>
+			<itunes:duration>1:47:18</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0498/sn0498.mp3" length="51760129" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 497: Hacking Vehicles</title>
+			<pubDate>2015-03-04</pubDate>
+			<podcast:episode>497</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0497/sn0497.mp3</guid>
+			<itunes:duration>1:45:05</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0497/sn0497.mp3" length="50697259" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 496: Your Questions, Steve's Answers 207</title>
+			<pubDate>2015-02-25</pubDate>
+			<podcast:episode>496</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0496/sn0496.mp3</guid>
+			<itunes:duration>2:11:19</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0496/sn0496.mp3" length="63282637" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 495: HTTP/2</title>
+			<pubDate>2015-02-18</pubDate>
+			<podcast:episode>495</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0495/sn0495.mp3</guid>
+			<itunes:duration>1:55:55</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0495/sn0495.mp3" length="55894790" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 494: Your Questions, Steve's Answers 206</title>
+			<pubDate>2015-02-11</pubDate>
+			<podcast:episode>494</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0494/sn0494.mp3</guid>
+			<itunes:duration>1:55:58</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0494/sn0494.mp3" length="55914434" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 493: TOR</title>
+			<pubDate>2015-02-04</pubDate>
+			<podcast:episode>493</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0493/sn0493.mp3</guid>
+			<itunes:duration>1:20:48</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0493/sn0493.mp3" length="39035362" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 492: Your Questions, Steve's Answers 205</title>
+			<pubDate>2015-01-28</pubDate>
+			<podcast:episode>492</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0492/sn0492.mp3</guid>
+			<itunes:duration>1:33:15</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0492/sn0492.mp3" length="45012805" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 491: Cryptographic Backdoors</title>
+			<pubDate>2015-01-21</pubDate>
+			<podcast:episode>491</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0491/sn0491.mp3</guid>
+			<itunes:duration>1:12:33</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0491/sn0491.mp3" length="35074363" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 490: The Enigma</title>
+			<pubDate>2015-01-14</pubDate>
+			<podcast:episode>490</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0490/sn0490.mp3</guid>
+			<itunes:duration>1:59:10</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0490/sn0490.mp3" length="57456495" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 489: Your Questions, Steve's Answers 204</title>
+			<pubDate>2015-01-07</pubDate>
+			<podcast:episode>489</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0489/sn0489.mp3</guid>
+			<itunes:duration>2:00:15</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0489/sn0489.mp3" length="57972048" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 488: The (In)Security of 2014</title>
+			<pubDate>2014-12-31</pubDate>
+			<podcast:episode>488</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0488/sn0488.mp3</guid>
+			<itunes:duration>1:42:45</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0488/sn0488.mp3" length="49572322" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 487: Steve Introduces SQRL</title>
+			<pubDate>2014-12-23</pubDate>
+			<podcast:episode>487</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0487/sn0487.mp3</guid>
+			<itunes:duration>0:53:40</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0487/sn0487.mp3" length="26015933" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 486: Your Questions, Steve's Answers 203</title>
+			<pubDate>2014-12-17</pubDate>
+			<podcast:episode>486</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0486/sn0486.mp3</guid>
+			<itunes:duration>1:59:13</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0486/sn0486.mp3" length="57475094" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 485: Expensive Lessons</title>
+			<pubDate>2014-12-10</pubDate>
+			<podcast:episode>485</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0485/sn0485.mp3</guid>
+			<itunes:duration>1:37:31</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0485/sn0485.mp3" length="47062059" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 484: Your Questions, Steve's Answers 202</title>
+			<pubDate>2014-12-03</pubDate>
+			<podcast:episode>484</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0484/sn0484.mp3</guid>
+			<itunes:duration>1:34:27</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0484/sn0484.mp3" length="45590843" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 483: Let's Encrypt</title>
+			<pubDate>2014-11-26</pubDate>
+			<podcast:episode>483</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0483/sn0483.mp3</guid>
+			<itunes:duration>1:58:38</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0483/sn0483.mp3" length="57199868" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 482: Your Questions, Steve's Answers 201</title>
+			<pubDate>2014-11-19</pubDate>
+			<podcast:episode>482</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0482/sn0482.mp3</guid>
+			<itunes:duration>2:07:56</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0482/sn0482.mp3" length="61658656" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 481: Certificate Transparency</title>
+			<pubDate>2014-11-12</pubDate>
+			<podcast:episode>481</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0481/sn0481.mp3</guid>
+			<itunes:duration>1:47:01</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0481/sn0481.mp3" length="51623456" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 480: Your Questions, Steve's Answers 200</title>
+			<pubDate>2014-11-05</pubDate>
+			<podcast:episode>480</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0480/sn0480.mp3</guid>
+			<itunes:duration>2:05:20</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0480/sn0480.mp3" length="60415437" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 479: Your Questions, Steve's Answers 199</title>
+			<pubDate>2014-10-29</pubDate>
+			<podcast:episode>479</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0479/sn0479.mp3</guid>
+			<itunes:duration>1:30:07</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0479/sn0479.mp3" length="43510660" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 478: Poodle Bites</title>
+			<pubDate>2014-10-22</pubDate>
+			<podcast:episode>478</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0478/sn0478.mp3</guid>
+			<itunes:duration>1:24:03</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0478/sn0478.mp3" length="40594976" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 477: Payment Tokenization</title>
+			<pubDate>2014-10-15</pubDate>
+			<podcast:episode>477</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0477/sn0477.mp3</guid>
+			<itunes:duration>1:32:55</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0477/sn0477.mp3" length="44851264" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 476: Your Questions, Steve's Answers 198</title>
+			<pubDate>2014-10-07</pubDate>
+			<podcast:episode>476</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0476/sn0476.mp3</guid>
+			<itunes:duration>1:50:40</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0476/sn0476.mp3" length="53371989" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 475: Shocked by the Shell</title>
+			<pubDate>2014-10-01</pubDate>
+			<podcast:episode>475</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0475/sn0475.mp3</guid>
+			<itunes:duration>1:59:31</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0475/sn0475.mp3" length="57620544" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 474: Your Questions, Steve's Answers 197</title>
+			<pubDate>2014-09-24</pubDate>
+			<podcast:episode>474</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0474/sn0474.mp3</guid>
+			<itunes:duration>1:49:18</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0474/sn0474.mp3" length="52717465" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 473: Google vs. SHA-1</title>
+			<pubDate>2014-09-17</pubDate>
+			<podcast:episode>473</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0473/sn0473.mp3</guid>
+			<itunes:duration>1:37:49</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0473/sn0473.mp3" length="47208763" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 472: Your Questions, Steve's Answers 196</title>
+			<pubDate>2014-09-10</pubDate>
+			<podcast:episode>472</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0472/sn0472.mp3</guid>
+			<itunes:duration>1:31:53</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0472/sn0472.mp3" length="44357027" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 471: PGP</title>
+			<pubDate>2014-09-03</pubDate>
+			<podcast:episode>471</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0471/sn0471.mp3</guid>
+			<itunes:duration>1:43:16</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0471/sn0471.mp3" length="49825396" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 470: Your Questions, Steve's Answers 195</title>
+			<pubDate>2014-08-26</pubDate>
+			<podcast:episode>470</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0470/sn0470.mp3</guid>
+			<itunes:duration>1:12:02</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0470/sn0470.mp3" length="34827140" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 469: Big Routing Tables</title>
+			<pubDate>2014-08-20</pubDate>
+			<podcast:episode>469</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0469/sn0469.mp3</guid>
+			<itunes:duration>2:12:32</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0469/sn0469.mp3" length="63831313" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 468: Your Questions, Steve's Answers 194</title>
+			<pubDate>2014-08-13</pubDate>
+			<podcast:episode>468</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0468/sn0468.mp3</guid>
+			<itunes:duration>2:09:07</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0468/sn0468.mp3" length="62189987" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 467: Browser Password Managers</title>
+			<pubDate>2014-08-06</pubDate>
+			<podcast:episode>467</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0467/sn0467.mp3</guid>
+			<itunes:duration>1:41:12</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0467/sn0467.mp3" length="48796485" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 466: Your Questions, Steve's Answers #193</title>
+			<pubDate>2014-07-30</pubDate>
+			<podcast:episode>466</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0466/sn0466.mp3</guid>
+			<itunes:duration>2:01:50</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0466/sn0466.mp3" length="58695221" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 465: iOS Surveillance?</title>
+			<pubDate>2014-07-23</pubDate>
+			<podcast:episode>465</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0465/sn0465.mp3</guid>
+			<itunes:duration>1:59:57</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0465/sn0465.mp3" length="57790549" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 464: Your Questions, Steve's Answers 192</title>
+			<pubDate>2014-07-16</pubDate>
+			<podcast:episode>464</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0464/sn0464.mp3</guid>
+			<itunes:duration>1:46:57</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0464/sn0464.mp3" length="51554180" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 463: Your Questions, Steve's Answers 191</title>
+			<pubDate>2014-07-09</pubDate>
+			<podcast:episode>463</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0463/sn0463.mp3</guid>
+			<itunes:duration>2:03:30</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0463/sn0463.mp3" length="59497912" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 462: Cloud Storage Solutions</title>
+			<pubDate>2014-07-02</pubDate>
+			<podcast:episode>462</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0462/sn0462.mp3</guid>
+			<itunes:duration>1:45:46</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0462/sn0462.mp3" length="50985337" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 461: Your Questions, Steve's Answers 190</title>
+			<pubDate>2014-06-25</pubDate>
+			<podcast:episode>461</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0461/sn0461.mp3</guid>
+			<itunes:duration>1:59:15</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0461/sn0461.mp3" length="57456390" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 460: Authenticated Encryption</title>
+			<pubDate>2014-06-18</pubDate>
+			<podcast:episode>460</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0460/sn0460.mp3</guid>
+			<itunes:duration>2:08:27</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0460/sn0460.mp3" length="61874010" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 459: Your Questions, Steve's Answers 189</title>
+			<pubDate>2014-06-11</pubDate>
+			<podcast:episode>459</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0459/sn0459.mp3</guid>
+			<itunes:duration>2:02:09</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0459/sn0459.mp3" length="58852165" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 458: TrueCrypt</title>
+			<pubDate>2014-06-04</pubDate>
+			<podcast:episode>458</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0458/sn0458.mp3</guid>
+			<itunes:duration>1:38:56</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0458/sn0458.mp3" length="47706656" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 457: Your Questions, Steve's Answers 188</title>
+			<pubDate>2014-05-28</pubDate>
+			<podcast:episode>457</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0457/sn0457.mp3</guid>
+			<itunes:duration>2:16:17</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0457/sn0457.mp3" length="65633762" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 456: Harvesting Entropy</title>
+			<pubDate>2014-05-21</pubDate>
+			<podcast:episode>456</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0456/sn0456.mp3</guid>
+			<itunes:duration>2:14:54</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0456/sn0456.mp3" length="64972132" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 455: Your Questions, Steve's Answers 187</title>
+			<pubDate>2014-05-14</pubDate>
+			<podcast:episode>455</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0455/sn0455.mp3</guid>
+			<itunes:duration>1:36:49</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0455/sn0455.mp3" length="46692479" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 454: Certificate Revocation, Part 2</title>
+			<pubDate>2014-05-07</pubDate>
+			<podcast:episode>454</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0454/sn0454.mp3</guid>
+			<itunes:duration>2:03:11</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0454/sn0454.mp3" length="59345148" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 453: Certificate Revocation</title>
+			<pubDate>2014-04-30</pubDate>
+			<podcast:episode>453</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0453/sn0453.mp3</guid>
+			<itunes:duration>1:56:17</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0453/sn0453.mp3" length="56037419" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 452: Your Questions, Steve's Answers 186</title>
+			<pubDate>2014-04-23</pubDate>
+			<podcast:episode>452</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0452/sn0452.mp3</guid>
+			<itunes:duration>1:52:00</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0452/sn0452.mp3" length="53975417" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 451: TrueCrypt Heartbleed Part 2</title>
+			<pubDate>2014-04-16</pubDate>
+			<podcast:episode>451</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0451/sn0451.mp3</guid>
+			<itunes:duration>1:54:52</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0451/sn0451.mp3" length="55353429" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 450: How the Heartbleeds</title>
+			<pubDate>2014-04-08</pubDate>
+			<podcast:episode>450</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0450/sn0450.mp3</guid>
+			<itunes:duration>1:42:04</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0450/sn0450.mp3" length="49210056" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 449: Your Questions, Steve's Answers 185</title>
+			<pubDate>2014-04-02</pubDate>
+			<podcast:episode>449</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0449/sn0449.mp3</guid>
+			<itunes:duration>2:15:40</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0449/sn0449.mp3" length="65338474" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 448: iOS Security, Pt.3</title>
+			<pubDate>2014-03-26</pubDate>
+			<podcast:episode>448</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0448/sn0448.mp3</guid>
+			<itunes:duration>2:00:01</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0448/sn0448.mp3" length="57828583" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 447: iOS Security, Pt.2</title>
+			<pubDate>2014-03-19</pubDate>
+			<podcast:episode>447</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0447/sn0447.mp3</guid>
+			<itunes:duration>2:05:30</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0447/sn0447.mp3" length="60455456" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 446: iOS Security</title>
+			<pubDate>2014-03-12</pubDate>
+			<podcast:episode>446</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0446/sn0446.mp3</guid>
+			<itunes:duration>1:52:27</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0446/sn0446.mp3" length="54196727" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 445: Your Questions, Steve's Answers 184</title>
+			<pubDate>2014-03-05</pubDate>
+			<podcast:episode>445</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0445/sn0445.mp3</guid>
+			<itunes:duration>1:45:39</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0445/sn0445.mp3" length="50927032" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 444: Goto</title>
+			<pubDate>2014-02-26</pubDate>
+			<podcast:episode>444</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0444/sn0444.mp3</guid>
+			<itunes:duration>2:02:18</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0444/sn0444.mp3" length="58917785" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 443: Sisyphus</title>
+			<pubDate>2014-02-19</pubDate>
+			<podcast:episode>443</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0443/sn0443.mp3</guid>
+			<itunes:duration>1:56:31</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0443/sn0443.mp3" length="56143372" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 442: Q\u0026A 183</title>
+			<pubDate>2014-02-12</pubDate>
+			<podcast:episode>442</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0442/sn0442.mp3</guid>
+			<itunes:duration>1:44:16</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0442/sn0442.mp3" length="50261641" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 441: Password Policies</title>
+			<pubDate>2014-02-05</pubDate>
+			<podcast:episode>441</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0441/sn0441.mp3</guid>
+			<itunes:duration>1:51:40</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0441/sn0441.mp3" length="53814712" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 440: Your Questions, Steve's Answers 182</title>
+			<pubDate>2014-01-29</pubDate>
+			<podcast:episode>440</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0440/sn0440.mp3</guid>
+			<itunes:duration>2:03:53</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0440/sn0440.mp3" length="59683904" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 439: Your Questions, Steve's Answers 181</title>
+			<pubDate>2014-01-22</pubDate>
+			<podcast:episode>439</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0439/sn0439.mp3</guid>
+			<itunes:duration>1:51:50</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0439/sn0439.mp3" length="53900185" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 438: NSA's ANT</title>
+			<pubDate>2014-01-15</pubDate>
+			<podcast:episode>438</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0438/sn0438.mp3</guid>
+			<itunes:duration>2:05:01</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0438/sn0438.mp3" length="60223698" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 437: New Year's News Catchup</title>
+			<pubDate>2014-01-08</pubDate>
+			<podcast:episode>437</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0437/sn0437.mp3</guid>
+			<itunes:duration>1:52:38</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0437/sn0437.mp3" length="54278856" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 436: Time Travelling with Steve</title>
+			<pubDate>2013-12-21</pubDate>
+			<podcast:episode>436</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0436/sn0436.mp3</guid>
+			<itunes:duration>1:05:43</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0436/sn0436.mp3" length="31758588" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 435: Your Questions, Steve's Answers #180</title>
+			<pubDate>2013-12-18</pubDate>
+			<podcast:episode>435</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0435/sn0435.mp3</guid>
+			<itunes:duration>1:48:16</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0435/sn0435.mp3" length="52181954" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 434: Your Questions, Steve's Answers #179</title>
+			<pubDate>2013-12-12</pubDate>
+			<podcast:episode>434</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0434/sn0434.mp3</guid>
+			<itunes:duration>2:03:38</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0434/sn0434.mp3" length="59561233" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 433: Breaking SSL</title>
+			<pubDate>2013-12-04</pubDate>
+			<podcast:episode>433</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0433/sn0433.mp3</guid>
+			<itunes:duration>1:34:25</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0433/sn0433.mp3" length="53308563" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 432: Coin, Patent Trolls, and More</title>
+			<pubDate>2013-11-27</pubDate>
+			<podcast:episode>432</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0432/sn0432.mp3</guid>
+			<itunes:duration>1:34:25</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0432/sn0432.mp3" length="45534732" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 431: What is RADIUS?</title>
+			<pubDate>2013-11-20</pubDate>
+			<podcast:episode>431</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0431/sn0431.mp3</guid>
+			<itunes:duration>1:58:57</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0431/sn0431.mp3" length="57309896" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 430: Your Questions, Steve's Answers #178</title>
+			<pubDate>2013-11-13</pubDate>
+			<podcast:episode>430</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0430/sn0430.mp3</guid>
+			<itunes:duration>1:50:57</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0430/sn0430.mp3" length="53471776" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 429: Monkey Was 26th</title>
+			<pubDate>2013-11-06</pubDate>
+			<podcast:episode>429</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0429/sn0429.mp3</guid>
+			<itunes:duration>1:53:18</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0429/sn0429.mp3" length="54599639" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 428: Your Questions, Steve's Answers #177</title>
+			<pubDate>2013-10-30</pubDate>
+			<podcast:episode>428</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0428/sn0428.mp3</guid>
+			<itunes:duration>1:53:48</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0428/sn0428.mp3" length="54844145" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 427: A Newsy Week</title>
+			<pubDate>2013-10-23</pubDate>
+			<podcast:episode>427</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0427/sn0427.mp3</guid>
+			<itunes:duration>1:47:32</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0427/sn0427.mp3" length="51831705" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 426: SQRL</title>
+			<pubDate>2013-10-16</pubDate>
+			<podcast:episode>426</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0426/sn0426.mp3</guid>
+			<itunes:duration>1:44:20</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0426/sn0426.mp3" length="50295705" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 425: SQRL and Q A #176</title>
+			<pubDate>2013-10-09</pubDate>
+			<podcast:episode>425</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0425/sn0425.mp3</guid>
+			<itunes:duration>1:56:36</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0425/sn0425.mp3" length="56186839" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 424: SQRL</title>
+			<pubDate>2013-10-02</pubDate>
+			<podcast:episode>424</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0424/sn0424.mp3</guid>
+			<itunes:duration>1:49:16</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0424/sn0424.mp3" length="52662190" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 423: Fingerprint Biometrics</title>
+			<pubDate>2013-09-25</pubDate>
+			<podcast:episode>423</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0423/sn0423.mp3</guid>
+			<itunes:duration>1:49:46</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0423/sn0423.mp3" length="52905233" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 422: Your Questions, Steve's Answers #175</title>
+			<pubDate>2013-09-18</pubDate>
+			<podcast:episode>422</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0422/sn0422.mp3</guid>
+			<itunes:duration>1:41:12</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0422/sn0422.mp3" length="48791261" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 421: The Perfect Accusation</title>
+			<pubDate>2013-09-11</pubDate>
+			<podcast:episode>421</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0421/sn0421.mp3</guid>
+			<itunes:duration>1:55:45</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0421/sn0421.mp3" length="55778284" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 420: BitMessage</title>
+			<pubDate>2013-09-04</pubDate>
+			<podcast:episode>420</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0420/sn0420.mp3</guid>
+			<itunes:duration>1:24:28</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0420/sn0420.mp3" length="40758921" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 419: Your Questions, Steve's Answers #174</title>
+			<pubDate>2013-08-28</pubDate>
+			<podcast:episode>419</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0419/sn0419.mp3</guid>
+			<itunes:duration>1:44:17</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0419/sn0419.mp3" length="50272926" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 418: Considering PGP</title>
+			<pubDate>2013-08-22</pubDate>
+			<podcast:episode>418</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0418/sn0418.mp3</guid>
+			<itunes:duration>1:53:47</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0418/sn0418.mp3" length="54831189" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 417: Your Questions, Steve's Answers #173</title>
+			<pubDate>2013-08-14</pubDate>
+			<podcast:episode>417</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0417/sn0417.mp3</guid>
+			<itunes:duration>1:43:10</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0417/sn0417.mp3" length="49740028" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 416: Black Hat, TOR and more</title>
+			<pubDate>2013-08-07</pubDate>
+			<podcast:episode>416</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0416/sn0416.mp3</guid>
+			<itunes:duration>1:49:22</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0416/sn0416.mp3" length="52716106" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 415: Your Questions, Steve's Answers #172</title>
+			<pubDate>2013-07-31</pubDate>
+			<podcast:episode>415</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0415.mp3</guid>
+			<itunes:duration>1:50:24</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0415.mp3" length="53206581" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 414: Inflection Points</title>
+			<pubDate>2013-07-24</pubDate>
+			<podcast:episode>414</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0414.mp3</guid>
+			<itunes:duration>1:42:16</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0414.mp3" length="49304096" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 413: How Much Tinfoil?</title>
+			<pubDate>2013-07-17</pubDate>
+			<podcast:episode>413</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0413.mp3</guid>
+			<itunes:duration>1:55:00</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0413.mp3" length="55417585" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 412: SSL and Perfect Forward Secrecy</title>
+			<pubDate>2013-07-10</pubDate>
+			<podcast:episode>412</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0412.mp3</guid>
+			<itunes:duration>1:47:21</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0412.mp3" length="51746859" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 411: Your Questions, Steve's Answers #171</title>
+			<pubDate>2013-07-03</pubDate>
+			<podcast:episode>411</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0411.mp3</guid>
+			<itunes:duration>1:45:20</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0411.mp3" length="50576740" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 410: Interesting Intel History</title>
+			<pubDate>2013-06-26</pubDate>
+			<podcast:episode>410</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0410.mp3</guid>
+			<itunes:duration>1:52:11</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0410.mp3" length="54068204" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 409: Your Questions, Steve's Answers #170</title>
+			<pubDate>2013-06-19</pubDate>
+			<podcast:episode>409</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0409.mp3</guid>
+			<itunes:duration>1:43:21</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0409.mp3" length="49822366" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 408: The State of Surveillance</title>
+			<pubDate>2013-06-13</pubDate>
+			<podcast:episode>408</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0408.mp3</guid>
+			<itunes:duration>1:44:26</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0408.mp3" length="null                " type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 407: Your Questions, Steve's Answers #169</title>
+			<pubDate>2013-06-06</pubDate>
+			<podcast:episode>407</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0407.mp3</guid>
+			<itunes:duration>1:51:52</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0407.mp3" length="null                " type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 406: Off the Record with OTR</title>
+			<pubDate>2013-05-31</pubDate>
+			<podcast:episode>406</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0406.mp3</guid>
+			<itunes:duration>1:26:11</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0406.mp3" length="null                " type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 405: Your Questions, Steve's Answers #168</title>
+			<pubDate>2013-05-22</pubDate>
+			<podcast:episode>405</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0405.mp3</guid>
+			<itunes:duration>1:44:18</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0405.mp3" length="null                " type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 404: How Facebook Monetizes</title>
+			<pubDate>2013-05-16</pubDate>
+			<podcast:episode>404</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0404.mp3</guid>
+			<itunes:duration>1:36:33</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0404.mp3" length="null                " type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 403: Your Questions, Steve's Answers #167</title>
+			<pubDate>2013-05-08</pubDate>
+			<podcast:episode>403</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0403.mp3</guid>
+			<itunes:duration>1:42:33</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0403.mp3" length="null                " type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 402: BitTorrent Sync</title>
+			<pubDate>2013-05-02</pubDate>
+			<podcast:episode>402</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0402.mp3</guid>
+			<itunes:duration>1:39:38</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0402.mp3" length="48042905" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 401: Your Questions, Steve's Answers #166</title>
+			<pubDate>2013-04-24</pubDate>
+			<podcast:episode>401</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0401.mp3</guid>
+			<itunes:duration>1:48:16</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0401.mp3" length="52184671" type="audio/mp3"/>
+		</item>
+		<item>
+			<title>SN 400: VPN Solutions</title>
+			<pubDate>2013-04-18</pubDate>
+			<podcast:episode>400</podcast:episode>
+			<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0400.mp3</guid>
+			<itunes:duration>1:29:08</itunes:duration>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/sn/sn0400.mp3" length="43001899" type="audio/mp3"/>
+		</item>
+	</channel>
+</rss>
