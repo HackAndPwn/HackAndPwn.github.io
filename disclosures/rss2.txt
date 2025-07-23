@@ -1246,7 +1246,7 @@
 			<title>Zed To Zed 21: 021 The Forever 3/12 Club</title>
 			<pubDate>2016-05-11</pubDate>
 			<podcast:episode>21</podcast:episode>
-			<guid isPermaLink="false">https://hackandpwn.com/disclosures/021_The_Forever_3_12_Club.mp3</guid>
+			<guid isPermaLink="false">https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/refs/heads/master/rsstest/021_The_Forever_3_12_Club.mp3</guid>
 			<itunes:duration>2:12:47</itunes:duration>
 			<enclosure url="https://hackandpwn.com/disclosures/021_The_Forever_3_12_Club.mp3" length="64275176" type="audio/mpeg"/>
 		</item>
