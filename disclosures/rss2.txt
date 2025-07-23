@@ -1384,7 +1384,7 @@
 			<podcast:episode>4</podcast:episode>
 			<guid isPermaLink="false">https://1drv.ms/u/c/ed9b69dc79841bca/EfUGnXVkkqNFhDaL_PWMSLYBHjkZ7RxTC1NEomxC1fayjg?e=tpaujB</guid>
 			<itunes:duration>1:46:38</itunes:duration>
-			<enclosure url="https://1drv.ms/u/c/ed9b69dc79841bca/EfUGnXVkkqNFhDaL_PWMSLYBHjkZ7RxTC1NEomxC1fayjg?e=tpaujB" length="53266192" type="audio/mpeg"/>
+			<enclosure url="https://my.microsoftpersonalcontent.com/personal/ed9b69dc79841bca/_layouts/15/download.aspx?UniqueId=759d06f5-9264-45a3-8436-8bfcf58c48b6&Translate=false&tempauth=v1e.eyJzaXRlaWQiOiI2NDVmOWRlNy1hNDI4LTQ2YTctYTQ1OC04MGFjZWNkNjk4MzkiLCJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvbXkubWljcm9zb2Z0cGVyc29uYWxjb250ZW50LmNvbUA5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJleHAiOiIxNzUzMjQwNTQwIn0.GdoY1l-m22SvHYpDU25VShUvGkrgI8dKAK_aG2Sc29mpaZOgczpvLiBYVk1HjnyOa9zV0e9JBrO4KQNHUt8EsWhWPRYrAbyqigoWc1trwvjTrNxLs2G8hidjR_Rvn1zGnN9-Tz9J8u5mwHrjlVL1I-Tlaxk5rZErlnv-XbkrNnykQg5gJyR3FjEd89_HQ5r5ylLfosVzpP8-BnnrILXR-Sj9pv2DAJZ93BfByVdTF8nCU5PDJRQdoKayArz3exbSujcs3sC-u1dq_bNSbxt_z2PeuvcbfEAhk9r-5hAyu-4agFHOQo_4WTwV__UrHMpvLp477CxvLmhclyiQeleZ_xXJU9FRppLiE8Dt_nJP5h0O_SKFyvx2RMzyrtN47HUCZYdY2dXyXOrLmOYRWXBJTdlS43hjAEwkX-eql-UIj3qm7vbJ6Cy1q0zWdmtvZa5KNC7atLLMqb-TTZjQ5PS7qHmAFNQPXnyLm9CoSE9fz1EZW7v0dya__16iAu70woCY14QLaIk9rpGE72g2jXQyiw.JiRszx4JE9P3jRAu8A7Axu4NYoOzcA0uJVvw0H8ena4&ApiVersion=2.0" length="53266192" type="audio/mpeg"/>
 		</item>
 		<item>
 			<title>Zed To Zed 3: 003 Back and Forward, Rants and Boot Camp Laserlife</title>
