@@ -1384,7 +1384,7 @@
 			<podcast:episode>4</podcast:episode>
 			<guid isPermaLink="false">https://1drv.ms/u/c/ed9b69dc79841bca/EfUGnXVkkqNFhDaL_PWMSLYBHjkZ7RxTC1NEomxC1fayjg?e=tpaujB</guid>
 			<itunes:duration>1:46:38</itunes:duration>
-			<enclosure url="https://hackandpwn.com/disclosures/004_Interview__Sashamorning_pending_360_gamerscore_world_record_holder_Snoopy_goes_to_Boot_Camp.mp3" length="53266192" type="audio/mpeg"/>
+			<enclosure url="https://1drv.ms/u/c/ed9b69dc79841bca/EfUGnXVkkqNFhDaL_PWMSLYBHjkZ7RxTC1NEomxC1fayjg?e=tpaujB" length="53266192" type="audio/mpeg"/>
 		</item>
 		<item>
 			<title>Zed To Zed 3: 003 Back and Forward, Rants and Boot Camp Laserlife</title>
