@@ -504,7 +504,7 @@
 			<podcast:episode>114</podcast:episode>
 			<guid isPermaLink="false">https://hackandpwn.com/disclosures/show_mixdown.mp3</guid>
 			<itunes:duration>2:44:37</itunes:duration>
-			<enclosure url="https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/refs/heads/master/rsstest/show_mixdown.mp3" length="79191010" type="audio/mpeg"/>
+			<enclosure url="https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/refs/heads/master/rsstest/show_mixdown-2.mp3" length="79191010" type="audio/mpeg"/>
 		</item>
 		<item>
 			<title>Zed To Zed 113: 103 - The Island</title>
@@ -720,7 +720,7 @@
 			<podcast:episode>87</podcast:episode>
 			<guid isPermaLink="false">https://hackandpwn.com/disclosures/RZ009_Review_Zed__Planetbase_Lethal_League_and_Black__White_Bushido.mp3</guid>
 			<itunes:duration>0:33:05</itunes:duration>
-			<enclosure url="https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/refs/heads/master/rsstest/RZ009_Review_Zed__Planetbase_Lethal_League_and_Black__White_Bushido.mp3" length="16063219" type="audio/mpeg"/>
+			<enclosure url="https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/refs/heads/master/rsstest/eview_Zed__Planetbase_Lethal_League_and_Black__White_Bushido.mp3" length="16063219" type="audio/mpeg"/>
 		</item>
 		<item>
 			<title>Zed To Zed 86: 077 The A to Z of Random Gamertag Challenges</title>
@@ -856,7 +856,7 @@
 			<podcast:episode>70</podcast:episode>
 			<guid isPermaLink="false">https://hackandpwn.com/disclosures/RZ001_Review_Zed__The_Witness.mp3</guid>
 			<itunes:duration>0:14:56</itunes:duration>
-			<enclosure url="https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/refs/heads/master/rsstest/RZ001_Review_Zed__The_Witness.mp3" length="7352668" type="audio/mpeg"/>
+			<enclosure url="https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/refs/heads/master/rsstest/RZ001_Review_Zed__The_Witness-1.mp3" length="7352668" type="audio/mpeg"/>
 		</item>
 		<item>
 			<title>Zed To Zed 69: 068 Pump ‘n’ Chug ‘n’ Yak Shaving</title>
@@ -992,7 +992,7 @@
 			<podcast:episode>53</podcast:episode>
 			<guid isPermaLink="false">https://hackandpwn.com/disclosures/051_Kevin_the_Carrots_Festive_Horse_Armor_Is_Too_Early_For_Christmas.mp3</guid>
 			<itunes:duration>2:29:01</itunes:duration>
-			<enclosure url="https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/refs/heads/master/rsstest/051_Kevin_the_Carrots_Festive_Horse_Armor_Is_Too_Early_For_Christmas.mp3" length="72078773" type="audio/mpeg"/>
+			<enclosure url="https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/refs/heads/master/rsstest/n_the_Carrots_Festive_Horse_Armor_Is_Too_Early_For_Christmas.mp3" length="72078773" type="audio/mpeg"/>
 		</item>
 		<item>
 			<title>Zed To Zed 52: 050 - A Golden Polygon Goes Backwards</title>
@@ -1353,7 +1353,7 @@
 			<podcast:episode>8</podcast:episode>
 			<guid isPermaLink="false">https://hackandpwn.com/disclosures/008_Maka_and_the_Zeds__Guest_Patrick_Maka_of_Maka_91_Productions.mp3</guid>
 			<itunes:duration>2:24:14</itunes:duration>
-			<enclosure url="https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/refs/heads/master/rsstest/008_Maka_and_the_Zeds__Guest_Patrick_Maka_of_Maka_91_Productions.mp3" length="71316078" type="audio/mpeg"/>
+			<enclosure url="https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/refs/heads/master/rsstest/Maka_and_the_Zeds__Guest_Patrick_Maka_of_Maka_91_Productions.mp3" length="71316078" type="audio/mpeg"/>
 		</item>
 		<item>
 			<title>Zed To Zed 7: 007 Kicking All Of The Starts</title>
