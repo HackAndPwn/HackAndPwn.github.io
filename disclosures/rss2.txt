@@ -1088,7 +1088,7 @@
 			<podcast:episode>41</podcast:episode>
 			<guid isPermaLink="false">https://hackandpwn.com/disclosures/039_-_We_re_Going_Japanese_But_PS_Ne-OPE.mp3</guid>
 			<itunes:duration>2:12:00</itunes:duration>
-			<enclosure url="			<enclosure url="https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/refs/heads/master/rsstest/039_-_We_re_Going_Japanese_But_PS_Ne-OPE.mp3" length="79422345" type="audio/mpeg"/>
+			<enclosure url="			<enclosure url="https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/refs/heads/master/rsstest/039_-_Going_Japenese.mp3" length="79422345" type="audio/mpeg"/>
 " length="63905116" type="audio/mpeg"/>
 		</item>
 		<item>
