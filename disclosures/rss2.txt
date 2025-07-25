@@ -1376,7 +1376,7 @@
 			<podcast:episode>5</podcast:episode>
 			<guid isPermaLink="false">https://hackandpwn.com/disclosures/005_Guest__Jack_Watling_WebChimp_UK_from_True_Achievements_What_Are_Regional_Stacks.mp3</guid>
 			<itunes:duration>2:01:15</itunes:duration>
-			<enclosure url="https://hackandpwn.com/disclosures/005_Guest__Jack_Watling_WebChimp_UK_from_True_Achievements_What_Are_Regional_Stacks.mp3" length="60276455" type="audio/mpeg"/>
+			<enclosure url="https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/refs/heads/master/rsstest/_WebChimp_UK_from_True_Achievements_What_Are_Regional_Stacks.mp3" length="60276455" type="audio/mpeg"/>
 		</item>
 		<item>
 			<title>Zed To Zed 4: 004 Interview: Sashamorning, pending 360 gamerscore world record holder, Snoopy goes to Boot Camp</title>
