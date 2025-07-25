@@ -1400,7 +1400,7 @@
 			<podcast:episode>2</podcast:episode>
 			<guid isPermaLink="false">https://hackandpwn.com/disclosures/02_002_Challenges_Redux_and_End_of_Year_Goals.mp3</guid>
 			<itunes:duration>2:02:56</itunes:duration>
-			<enclosure url="https://hackandpwn.com/disclosures/02_002_Challenges_Redux_and_End_of_Year_Goals.mp3" length="61094000" type="audio/mpeg"/>
+			<enclosure url="https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/c0ee1f0de2571aa1359715651a4109a6ccc599b6/rsstest/02_002_Challenges_Redux_and_End_of_Year_Goals.mp3" length="61094000" type="audio/mpeg"/>
 		</item>
 		<item>
 			<title>Zed To Zed 1: 001 The Challenges of Challenges</title>
@@ -1408,7 +1408,7 @@
 			<podcast:episode>1</podcast:episode>
 			<guid isPermaLink="false">https://hackandpwn.com/disclosures/01_001_The_Challenges_of_Challenges.mp3</guid>
 			<itunes:duration>1:45:59</itunes:duration>
-			<enclosure url="https://hackandpwn.com/disclosures/01_001_The_Challenges_of_Challenges.mp3" length="52927938" type="audio/mpeg"/>
+			<enclosure url="https://github.com/HackAndPwn/Windows-7-ESU-Analysis/raw/c0ee1f0de2571aa1359715651a4109a6ccc599b6/rsstest/01_001_The_Challenges_of_Challenges.mp3" length="52927938" type="audio/mpeg"/>
 		</item>
 	</channel>
 </rss>
