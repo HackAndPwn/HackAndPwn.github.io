@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 <channel><itunes:block>Yes</itunes:block>
 	<title>Darknet Diaries Plus</title>
 	<link>https://darknetdiaries.com/plus</link>
@@ -32,9 +32,6 @@
 	  </category>
 	  <itunes:author>Jack Rhysider</itunes:author>
 	  <itunes:image href="https://f.prxu.org/7057/images/0e168070-4f8e-4d49-b0f2-1bba770646c6/darknet-diaries-plus.jpg"/>
-	  <content:encoded>
-	    <![CDATA[<p>Follow along with the a high stakes jewelry heist in Dubai.</p>]]>
-	  </content:encoded>
 	</item>
 	
 	<item>
