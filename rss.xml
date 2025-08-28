@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:media="http://www.rssboard.org/media-rss" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 <channel><itunes:block>Yes</itunes:block>
 	<title>Darknet Diaries Plus</title>
 	<link>https://darknetdiaries.com/plus</link>
 	<language>en-us</language>
-	<atom:link   href="https://hackandpwn.com/rss.xml" rel="self" type="application/rss+xml" />
+	<atom:link   href="https://plus.darknetdiaries.com/content/eyJ0IjoicCIsImMiOiIxNTkxMiIsInUiOiIyMDI1MDk3IiwiZCI6IjE3MjcyMzM0MDAiLCJrIjo1OTR9fDE0Njc5MjlmZjcyOTg0ZTg4ZjYwNWY0YjcwNzliNWUzMGFlMTU1Y2U0ZmQ0OGJjZTljM2U2ZTZiYmQ2OTM5YjE.rss" rel="self" type="application/rss+xml" />
 	<copyright>Jack Rhysider</copyright>
 	<itunes:author>Jack Rhysider</itunes:author>
 	<itunes:keywords>infosec, security, hacking, privacy, Internet, hackers, breaches, threats, malware, trojan, virus, crypto</itunes:keywords>
@@ -32,7 +32,6 @@
 	  </category>
 	  <itunes:author>Jack Rhysider</itunes:author>
 	  <itunes:image href="https://f.prxu.org/7057/images/0e168070-4f8e-4d49-b0f2-1bba770646c6/darknet-diaries-plus.jpg"/>
-	  <media:content fileSize="25522587" type="audio/mpeg" url="https://plus.darknetdiaries.com/content/eyJ0IjoicyIsImMiOiIxMzE4ODAxOSIsInUiOiIyMDI1MDk3IiwiZCI6IjE3Mzg5NjI0MzciLCJrIjo1OTR9fDkyZTc0OGRkMTU4ZGIwM2NlNGNmYTllNTQ5YmZlZDUxZTdiYzhjNTkwNzkzYzIzZDMyNDNjMGYwNDFiMGE5ZjA.mp3"/>
 	  <content:encoded>
 	    <![CDATA[<p>Follow along with the a high stakes jewelry heist in Dubai.</p>]]>
 	  </content:encoded>
@@ -55,7 +54,6 @@
 	   </category>
 	   <itunes:author>Jack Rhysider</itunes:author>
 	   <itunes:image href="https://f.prxu.org/7057/images/0e168070-4f8e-4d49-b0f2-1bba770646c6/darknet-diaries-plus.jpg"/>
-	   <media:content fileSize="44776847" type="audio/mpeg" url="https://plus.darknetdiaries.com/content/eyJ0IjoicyIsImMiOiIxMDI2NDM0MSIsInUiOiIyMDI1MDk3IiwiZCI6IjE3MjcyMzM0NDMiLCJrIjo1OTR9fGQ5YWFlNGQ3MzVhNmE0ZWE3MzFmODlmZDEzMWIzM2E0MThiNmUxMjc4MDc0YTE0ZGQxNzJlOWFhZDk1YjEzYjU.mp3"/>
 	 </item>
 
 	 <item>
@@ -75,7 +73,6 @@
 	   </category>
 	   <itunes:author>Jack Rhysider</itunes:author>
 	   <itunes:image href="https://f.prxu.org/7057/images/0e168070-4f8e-4d49-b0f2-1bba770646c6/darknet-diaries-plus.jpg"/>
-	   <media:content fileSize="25430770" type="audio/mpeg" url="https://plus.darknetdiaries.com/content/eyJ0IjoicyIsImMiOiIxMDI2NDM0MiIsInUiOiIyMDI1MDk3IiwiZCI6IjE3MjcyMzM0NDMiLCJrIjo1OTR9fDVhMTc1ZDZlNzRmY2JkMTdjYjQ2YjVmMjJkYzU1ODU0MDhhZGQxYTk5MGU0NmU2YTE4NDA2ZTViMDg5NmY1ZGQ.mp3"/>
 	 </item>
 
 	 <item>
@@ -96,7 +93,6 @@
 	   <itunes:author>Jack Rhysider</itunes:author>
 
 	   <itunes:image href="https://f.prxu.org/7057/images/0e168070-4f8e-4d49-b0f2-1bba770646c6/darknet-diaries-plus.jpg"/>
-	   <media:content fileSize="39009846" type="audio/mpeg" url="https://plus.darknetdiaries.com/content/eyJ0IjoicyIsImMiOiIxMDI2NDM0MyIsInUiOiIyMDI1MDk3IiwiZCI6IjE3MjcyMzM0NDMiLCJrIjo1OTR9fDc3MGNjNjQxZTZiYzMyOTMxZWRiNjZjNjZkYzczYTM2OTU2NTU1NjVmYmE4OTVkMDdkZGYzODcwMmE1N2M5YTI.mp3"/>
 	 </item>
 
 	 <item>
@@ -116,7 +112,6 @@
 	   </category>
 	   <itunes:author>Jack Rhysider</itunes:author>
 	   <itunes:image href="https://f.prxu.org/7057/images/0e168070-4f8e-4d49-b0f2-1bba770646c6/darknet-diaries-plus.jpg"/>
-	   <media:content fileSize="22697735" type="audio/mpeg" url="https://plus.darknetdiaries.com/content/eyJ0IjoicyIsImMiOiIxMDI2NDM0NCIsInUiOiIyMDI1MDk3IiwiZCI6IjE3MjcyMzM0NDMiLCJrIjo1OTR9fDBlMDk0Mjk5MGJiMjJjYTUyODhlM2NkNjUzMGIzZGI3MTFhNWNhNGI5MzQ3M2JjZWEzZjdiZDI4OWVmNjg0MWM.mp3"/>
 	 </item>
 
 	 <item>
@@ -136,7 +131,6 @@
       </category>
       <itunes:author>Jack Rhysider</itunes:author>
       <itunes:image href="https://f.prxu.org/7057/images/0e168070-4f8e-4d49-b0f2-1bba770646c6/darknet-diaries-plus.jpg"/>
-      <media:content fileSize="43769566" type="audio/mpeg" url="https://plus.darknetdiaries.com/content/eyJ0IjoicyIsImMiOiIxMDI2NDM0NSIsInUiOiIyMDI1MDk3IiwiZCI6IjE3MjcyMzM0NDMiLCJrIjo1OTR9fDFmZTg3NTU0NzkwYTUyYzNhZmUwZWI3ZmZhMmQ5NjU2OTIyY2M2MzdjZWYyYWMwMThkNjE3MTFmOWM1ZWQzYTE.mp3"/>
     </item>
     
     <item>
@@ -156,7 +150,6 @@
       </category>
       <itunes:author>Jack Rhysider</itunes:author>
       <itunes:image href="https://f.prxu.org/7057/images/0e168070-4f8e-4d49-b0f2-1bba770646c6/darknet-diaries-plus.jpg"/>
-      <media:content fileSize="43135939" type="audio/mpeg" url="https://plus.darknetdiaries.com/content/eyJ0IjoicyIsImMiOiIxMDI2NDM0NiIsInUiOiIyMDI1MDk3IiwiZCI6IjE3MjcyMzM0NDMiLCJrIjo1OTR9fDIzZmZiOTAzMGRlMzhkOWM4ZDZhY2RhYTA2ODNiNWY3Y2I1M2Y5YTBhMmFmMzY4ZTIxMzUzMjc4Y2MxYTAwMmY.mp3"/>
     </item>
 
     <item>
@@ -176,7 +169,6 @@
       </category>
       <itunes:author>Jack Rhysider</itunes:author>
       <itunes:image href="https://f.prxu.org/7057/images/0e168070-4f8e-4d49-b0f2-1bba770646c6/darknet-diaries-plus.jpg"/>
-      <media:content fileSize="28542895" type="audio/mpeg" url="https://plus.darknetdiaries.com/content/eyJ0IjoicyIsImMiOiIxMDI2NDM0NyIsInUiOiIyMDI1MDk3IiwiZCI6IjE3MjcyMzM0NDMiLCJrIjo1OTR9fDUwMzYxMTc3YTg3NGUwMzQ3MjVlODhmMDY1YTc0YzNiNjExNGEwYzg3MDcyMjRjYjE2ZTBjMjNhMGRkYTZmZTI.mp3"/>
     </item>
 
         <item>
@@ -196,7 +188,6 @@
       </category>
       <itunes:author>Jack Rhysider</itunes:author>
       <itunes:image href="https://f.prxu.org/7057/images/0e168070-4f8e-4d49-b0f2-1bba770646c6/darknet-diaries-plus.jpg"/>
-      <media:content fileSize="33464364" type="audio/mpeg" url="https://plus.darknetdiaries.com/content/eyJ0IjoicyIsImMiOiIxMDI2NDM0OCIsInUiOiIyMDI1MDk3IiwiZCI6IjE3MjcyMzM0NDMiLCJrIjo1OTR9fGJjZDBiMTE4OTEwYmY1ZTFiZWZiNDE1OGM5MGRhOTc5NDg3N2VhYzU3NTlhOTMzNDEwYmYzZTI1ZWQzYjc5Yzg.mp3"/>
     </item>
 
         <item>
@@ -216,7 +207,6 @@
       </category>
       <itunes:author>Jack Rhysider</itunes:author>
       <itunes:image href="https://f.prxu.org/7057/images/0e168070-4f8e-4d49-b0f2-1bba770646c6/darknet-diaries-plus.jpg"/>
-      <media:content fileSize="15477908" type="audio/mpeg" url="https://plus.darknetdiaries.com/content/eyJ0IjoicyIsImMiOiIxMDI2NDM0OSIsInUiOiIyMDI1MDk3IiwiZCI6IjE3MjcyMzM0NDMiLCJrIjo1OTR9fDcwZjFiYjEyNDNkNjU0MmMyMDBkMDQ0NWE5YjcyYTM5OWVhYzY2Njc3MDViZThmMTU0Y2FhYjc3OWUxMzU3YWQ.mp3"/>
     </item>
 
         <item>
@@ -236,7 +226,6 @@
       </category>
       <itunes:author>Jack Rhysider</itunes:author>
       <itunes:image href="https://f.prxu.org/7057/images/0e168070-4f8e-4d49-b0f2-1bba770646c6/darknet-diaries-plus.jpg"/>
-      <media:content fileSize="34923877" type="audio/mpeg" url="https://plus.darknetdiaries.com/content/eyJ0IjoicyIsImMiOiIxMDI2NDM1MCIsInUiOiIyMDI1MDk3IiwiZCI6IjE3MjcyMzM0NDQiLCJrIjo1OTR9fGZkODRlNjQzODQ4OTNjZjU4NTA5OGNiNDM4NjdkYzUxYjNiNTQyN2U0MmNkNDAxNjliMjdhMzRjODhjMDA5NGI.mp3"/>
     </item>
 
 	
