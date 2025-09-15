@@ -4,6 +4,12 @@ title: Windows 7 ESU Patching Changelog
 original_date: 2020-05-23
 ---
 
+### Update 2025-07-14
+* Replaced June 2025 Monthly Update (KB5061078) with July 2025 Monthly Update (KB5062632) (x64 only).
+* Replaced April 2025 .NET Framework 4.8 Update (KB5055171) with July 2025 .NET Framework 4.8 Update (KB5062065) (x64 only).
+* Updated Microsoft EV ECC Root Certificate Authority 2017.crl.
+* Updated Microsoft EV RSA Root Certificate Authority 2017.crl.
+
 ### Update 2025-06-16
 * Replaced May 2025 Monthly Update (KB5061196) with June 2025 Monthly Update (KB5061078) (x64 only).
 * Updated Microsoft ECC Product Root Certificate Authority 2018.crl.
