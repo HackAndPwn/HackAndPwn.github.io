@@ -4,15 +4,17 @@ title: Windows 7 ESU Analysis Updates Changelog
 original_date: 2020-09-12
 ---
 
+### Update 2025-08-31
+* Replaced July 2025 Monthly Update (KB5062632) with August 2025 Monthly Update (KB5063947) (x64 only).
+* Replaced July 2025 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.27820) with August 2025 (6.1.7602.27872) (x64 only).
+
 ### Update 2025-07-14
 * Replaced June 2025 Monthly Update (KB5061078) with July 2025 Monthly Update (KB5062632) (x64 only).
 * Replaced June 2025 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.27730) with July 2025 (6.1.7602.27820) (x64 only).
 
-
 ### Update 2025-06-16
 * Replaced May 2025 Monthly Update (KB5061196) with June 2025 Monthly Update (KB5061078) (x64 only).
 * Replaced May 2025 Manifest, Components Registry Key, and SideBySide Registry Key (6.1.7602.27730) with June 2025 (6.1.7602.27769) (x64 only).
-
 
 ### Update 2025-05-20
 * Replaced April 2025 Monthly Update (KB5055561) with May 2025 Monthly Update (KB5061196) (x64 only).
