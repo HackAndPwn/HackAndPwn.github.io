@@ -4,6 +4,12 @@ title: Windows 7 ESU Patching Changelog
 original_date: 2020-05-23
 ---
 
+### Update 2025-11-01
+* Replaced September 2025 Monthly Update (KB5065468) with October 2025 Monthly Update (KB5066872) (x64 only).
+* Replaced October 2024 .NET Framework 3.5.1 Update (KB5044011) with October 2025 .NET Framework 3.5.1 Update (KB5066150) (x64 only).
+* Replaced July 2025 .NET Framework 4.8 Update (KB5065750) with October 2025 .NET Framework 4.8 Update (KB5066141) (x64 only).
+* Updated Microsoft Time Stamp Root Certificate Authority 2014.crl.
+
 ### Update 2025-09-16
 * Replaced August 2025 Monthly Update (KB5063947) with September 2025 Monthly Update (KB5065468) (x64 only).
 * Replaced July 2025 .NET Framework 4.8 Update (KB5062065) with September 2025 .NET Framework 4.8 Update (KB5065750) (x64 only).
