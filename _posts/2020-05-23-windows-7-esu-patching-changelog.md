@@ -4,6 +4,9 @@ title: Windows 7 ESU Patching Changelog
 original_date: 2020-05-23
 ---
 
+### Update 2025-12-15
+* Replaced November 2025 Monthly Update (KB5068904) with December 2025 Monthly Update (KB5071501) (x64 only).
+
 ### Update 2025-11-30
 * Replaced April 2025 Servicing Stack Update (KB5056456) with November 2025 Servicing Stack Update (KB5071810) (x64 only).
 * Replaced October 2025 Monthly Update (KB5066872) with November 2025 Monthly Update (KB5068904) (x64 only).
